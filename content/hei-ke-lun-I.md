@@ -1,6 +1,10 @@
 +++
 title = "黑客论导言到第二章"
 date = 2025-04-28
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 导言
