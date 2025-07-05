@@ -1,6 +1,10 @@
 +++
 title = "论客户端问题"
 date = 2024-06-23
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 腐朽的官方
