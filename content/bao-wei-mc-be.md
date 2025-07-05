@@ -1,6 +1,10 @@
 +++
 title = "BE该何去何从？"
 date = 2024-07-01
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 一个精致的烂尾工程
