@@ -1,6 +1,10 @@
 +++
 title = "archlinux安装教程"
 date = 2023-06-23
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 开始安装
