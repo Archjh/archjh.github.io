@@ -1,6 +1,10 @@
 +++
 title = "论战斗机制"
 date = 2024-03-19
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # (a:1.8.9战斗机制的基本问题
