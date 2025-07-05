@@ -1,6 +1,10 @@
 +++
 title = "反驳微软主义者"
 date = 2024-07-13
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 客户端盗版
