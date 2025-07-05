@@ -1,6 +1,10 @@
 +++
 title = "论开源"
 date = 2023-09-23
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 多玩HMCL盗版论
