@@ -1,6 +1,10 @@
 +++
 title =  "论我的世界外围资本"
 date = 2024-07-13
+
+[taxonomies]
+categories = ["demo"]
+tags = ["code", "example"]
 +++
 
 # 3d软件
