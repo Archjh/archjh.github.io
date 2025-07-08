@@ -1,6 +1,6 @@
 base_url = "https://archjh.github.io"
 compile_sass = true
-title = "after-dark theme"
+title = "Archjh Blog's"
 description = "A robust, elegant dark theme"
 generate_feeds = true
 
@@ -30,7 +30,7 @@ after_dark_menu = [
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
 ]
-after_dark_title = "My Example Site"
+after_dark_title = "Archjh Blog's"
 
 # Nicer codeblocks with copy to clipboard 
 codeblock = true
