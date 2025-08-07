@@ -1,6 +1,6 @@
 +++
-title = "archlinux安装教程"
-date = 2023-06-23
+title = "自由软件意识形态批判"
+date = 2024-08-07
 
 [taxonomies]
 categories = ["demo"]
