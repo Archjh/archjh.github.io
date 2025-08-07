@@ -1,6 +1,6 @@
 +++
 title = "自由软件意识形态批判"
-date = 2024-08-07
+date = 2025-08-07
 
 [taxonomies]
 categories = ["demo"]
