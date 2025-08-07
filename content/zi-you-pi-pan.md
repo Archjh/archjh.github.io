@@ -9,7 +9,7 @@ tags = ["code", "example"]
 
 # 自由软件意识形态批判
 
-![](https://www.gnu.org/graphics/gnu-linux-simple-wallpaper.png)
+<img width="711" height="400" alt="无标题" src="https://github.com/user-attachments/assets/286ace05-1ec6-4420-a537-c518d6772aed" />
 
 ## 导言
 
