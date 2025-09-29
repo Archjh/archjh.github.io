@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Archjh Blog&#x27;s - example</title>
+    <subtitle>A robust, elegant dark theme</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://archjh.github.io/tags/example/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://archjh.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-07T00:00:00+00:00</updated>
+    <id>https://archjh.github.io/tags/example/atom.xml</id>
+    <entry xml:lang="en">
+        <title>自由软件意识形态批判</title>
+        <published>2025-08-07T00:00:00+00:00</published>
+        <updated>2025-08-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/zi-you-pi-pan/"/>
+        <id>https://archjh.github.io/zi-you-pi-pan/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/zi-you-pi-pan/">&lt;h1 id=&quot;zi-you-ruan-jian-yi-shi-xing-tai-pi-pan&quot;&gt;自由软件意识形态批判&lt;&#x2F;h1&gt;
+&lt;img width=&quot;711&quot; height=&quot;400&quot; alt=&quot;无标题&quot; src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;286ace05-1ec6-4420-a537-c518d6772aed&quot; &#x2F;&gt;
+&lt;h2 id=&quot;dao-yan&quot;&gt;导言&lt;&#x2F;h2&gt;
+&lt;p&gt;伟大的GNU社区在经历了以微软、谷歌、亚马逊、苹果、meta乃至Linux社区的重重打压和封锁之后，变得更加顽强不屈，多年来，他们一直坚持抨击一切非自由和反用户的反革命意识形态，坚持个人自由和用户意志自由，刚正不阿。不过，这个古老的社区依旧存在许多局限性，这迫使他们不得不出于自身工具链生态的角度考虑，从而包容不同意识形态，甚至容许非FSF认证发行版扩大权利，这是极其荒谬的，但不可忽视的一点是，他们为无产阶级革命事业做出过自己宝贵的贡献，由于他们一直坚持理想主义，揭露了美帝国主义集团一直以来**“技术中立”&lt;strong&gt;的遮羞布，他们巧妙运用辨证唯物主义哲学批判了&lt;&#x2F;strong&gt;实用主义开源&lt;strong&gt;的反革命立场，并声称自己&lt;&#x2F;strong&gt;坚持去中心化和用户四项基本自由**。&lt;&#x2F;p&gt;
+&lt;p&gt;我们崇敬RMS同志高尚的革新精神，也仰慕和鉴取GNU对数字权利的伟大贡献，但有必要指出，&lt;strong&gt;个人自由取代不了集体利益，革命的黑客代替不了黑客的革命&lt;&#x2F;strong&gt;，一切主张渐进式改革和改良主义的团体最终都是死路一条。我们开宗明义地指出，&lt;strong&gt;开源社区，以及所谓的自由软件运动已经逐渐走向破产，取而代之的是革命黑客党和集体软件运动&lt;&#x2F;strong&gt;，我们仍需要批评RMS同志部分错误的观点：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;他们关注 在真正黑客的一个狭窄方面:安全破坏,其中一些 黑客偶尔会这样做。他们忽略了所有其余的黑客行为,以及 这个词意味着破坏安全,没有更多,也没有更少。因 媒体已经传播了这一定义,无视我们试图 纠正他们。因此,大多数人对什么有一个错误的想法 我们黑客实际上做了什么,我们怎么想。你可以帮助纠正误解,只需做一个 区分安全破坏和黑客——通过使用术语 “破解”安全破局。做它的人是 “饼干”(***)。 其中一些也可能是黑客,就像他们中的一些人一样。 可能是国际象棋选手或高尔夫球手;他们中的大多数不是。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;RMS的观点本质上是投降主义的，RMS将破坏安全视为“业余黑客”无组织纪律的业余爱好者行为，虽然美化了黑客行动，但同时隐喻地承认了改良主义高于暴力革命的庸俗思想，此外，这种美化也存在对黑客攻击行动者的意识形态诋毁，将全体革命黑客视为无政府行动者，拒绝承认大部分黑客组织自发的集体性，同时，他主张只有渐进式改革取代暴力革命的自由软件运动才是具有集体性的组织，而Anonymous这种具有极端性的无政府社区，本质上是无建设性的，并且，他们又不同于独立的业余黑客，他们具有明确的政治目的，因此RMS对这类黑客组织的评价固然以污名化为主。&lt;&#x2F;p&gt;
+&lt;p&gt;GNU哲学本质上是&lt;strong&gt;机械决定论&lt;&#x2F;strong&gt;，忽视了个人自由和集体利益的辩证法，结构性地将自由视为科学，用自由和非自由作为衡量一切知识科学性的标准，我们捍卫集体利益，本质上是取自列宁的&lt;strong&gt;一切问题最利于阶级斗争原则&lt;&#x2F;strong&gt;的唯物辨证法立场，而非压榨个人自由，专有软件造成的最大问题，本质是缺乏群众监督和其无政府的运作模式，RMS在面对他的战友ESR在《大教堂与集市》中提出的“开源集市”模式时对其持保留意见，这是十分错误的，无论一个人的精神财富多么巨大，只要他站在了无产阶级革命的对立面，我们就要毫不留情地对他的错误思想进行纠正。&lt;&#x2F;p&gt;
+&lt;p&gt;Anonymous（即“匿名者&quot;组织）组织在全球范围内的行动得到了世界被剥削者的广泛认可，但其缺乏群众基础和精英主义策略，使其无法成气候，一切无政府性质的行动必然走向失败，同时，每一个主张改良主义的集体也固然会逐渐丧失他们的用户，最终都会以“使命结束”不欢而散，我们革命黑客党人不需要大规模与这些精英黑客合作，而是需要学习英国工党利物浦早期的左翼革命者的&lt;strong&gt;打入主义策略&lt;&#x2F;strong&gt;，积极参与开源社区和自由软件基金会的内部事务与开发建设，吸收支持革命的黑客和贡献者加入我们的队伍。&lt;&#x2F;p&gt;
+&lt;p&gt;综上所述，革命既不能没有革命先锋队的集中化领导防止无组织无纪律以及盲动主义，也不能缺乏群众监督和集体动员，全体黑客需要一个代表他们的理想主义革命黑客党，而不是无组织无纪律的精英主义开源集市，正如恩格斯所说：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;社会化生产和资本主义占有之间的矛盾表现为个别工厂中的生产的组织性和整个社会的生产的无政府状态之间的对立。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这意味着我们革命黑客党人的使命就是消灭专有社会的无政府状态，建立全民所有制自由社会，拒绝任何形式的渐进式改革，毋宁说，我们要做的就是利用黑客攻击推翻专有体制，Arch社区、Delian社区、Linux社区无数次强调所谓的“实用性大于意识形态”，但他们在实际行动上确是政治正确的最大拥护者和最大受益者，Linux社区本质上已经沦为了Linus的私人资本————Linus不但驱逐了11名俄罗斯开发者，还镇压了拒绝接受Rust引入内核的激进派，我们革命黑客党人理应在黑客革命胜利后恢复踢出的俄罗斯开发者的革命名誉，并对Linus等“实用主义开源”分子“论功行赏”。&lt;&#x2F;p&gt;
+&lt;p&gt;丢掉幻想，准备斗争，我们永远都是务实的理想主义战士！&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>黑客论导言到第二章</title>
+        <published>2025-04-28T00:00:00+00:00</published>
+        <updated>2025-04-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/hei-ke-lun-i/"/>
+        <id>https://archjh.github.io/hei-ke-lun-i/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/hei-ke-lun-i/">&lt;h1 id=&quot;dao-yan&quot;&gt;导言&lt;&#x2F;h1&gt;
+&lt;p&gt;我们现在的科技进步速度以及文档资料远远超过了马克思先生所处的19世纪的水平，因而我编写
+这本书籍当然不需要再把先辈们走过的路再走一遍，即我也不需要在写这本书之前完成什么以小
+册子为主的提纲，诸如《1844年经济学哲学手稿》《政治经济学批判》等。是的，这本书籍的规
+模与《资本论》相当，也能说的上是利用马克思主义方法对我的世界战斗机制的全面研究，但它
+仍只是对马克思主义的补充和运用，而非修正。
+谈到对一个意识形态立场的修正，我需要给出准确的判定，修正主义有两个方面，一个是实践中
+对方法的歪曲，一个是提出歪曲意识形态立场理念、原理、实现意义的观点。诚然，我无法总结
+所有修正主义的存在形式，但我能分析的，只有能从这两个角度考察的理论，所有修正主义无一
+例外都是反革命、反工人阶级的，它们的参考价值当然也是微乎其微，但就批判的角度来说，那
+便是天大的重要。因为修正主义有时是拿着对正统意识形态立场的补充和在其他范式中的应用的
+名义的，所以尽管大多数工人阶级仍是正统派，但修正派对工人阶级的左右远远不亚于工贼和投
+机分子。&lt;&#x2F;p&gt;
+&lt;p&gt;科学范式的演进不可能离开哲学，马克思发动哲学革命恰恰是为了推翻现有的科学范式，为人类
+建立新的观念，然而人类的科学范式至今为止仍旧停留在康德的水平，这显然不符合人类目前过
+剩的技术脚步，无论是对近代哲学的盲目追随还是在批判中吸收它，都不能磨灭它的研究价值。
+因此本书第一卷的逻辑结构只是阐述方法，第二卷才能探讨结论的意义，大多数现代哲学派别都
+主张用某种方法研究问题，从而得出某种结论，尽管方法和结论的意识形态立场是完全不同的，
+但它们的理论体系都以研究方法著称而不是以结论所属的意识形态立场著称。
+我们无论从何说起，《保卫我的世界》中谈到的输出构成论都过于草率，这也许与我当时浅薄的
+哲学水平脱不开关系，但我能确定的一点是，尽管我现在一贯坚持的输出构成论仍旧是以以前的
+基本观点为蓝本的，但我并非会同罗莎卢森堡一样去一直做一个错误的理论的辩护士，无论则么
+说，我可以肯定《保卫我的世界》中提出的理论体系，即使是到了现在乃至以后也仍旧不会过时
+，之所以这么说，是因为这本小册子还有它的参考价值所在，而不是因为它是完全正确的——
+ms和mojang垮台之后的时间里，我坚信它仍然有着作为方块人纲领的价值。&lt;&#x2F;p&gt;
+&lt;p&gt;没有任何一门我的世界板块能比战斗机制更加能够去证明以微软为首的统治阶级对minecraft的干
+预存在着种种问题，这并不是说ms对我的世界的统治是天大的倒霉，恰恰是微软把专有的路子走
+得很完美，造成了minecraft已经进入了资本主义运作模式发展的极限，毋宁说，如果说minecraft
+是一个游戏作品，那它无疑是成功的，但如果说它是一个优秀的开源项目，那它可能只是萌芽。
+总而言之，我能做的就是推动minecraft科学范式的演进，从而使得专有软件的一切权威在minecraf
+t玩家心目中消失。现在看来，minecraft只要能推出社区版分支，都是一件天大的好事，但这个社
+区一旦出现，它并不会为玩家服务，而是成为微软保卫只是产权的范例，从而危及到每一个minec
+raft开源项目，开源社区的团结当然是必要的，更有甚者说，minecraft最理想的状态一个超大型的
+、无产阶级专政的开源社区，而不是给每一个开源项目的仓库里增加一条根本没用的权力保障书
+和许可协议。&lt;&#x2F;p&gt;
+&lt;p&gt;我可以很负责任地指出，甚至在minecraft里仍然存有企图利用开源保护知识产权的反动开发团队
+，他们不但是想塞满自己的腰包，更是为了保卫微软专政的反动权威，无产阶级革命不会使他们
+在minecraft成为自由软件以后逃避任何责任，而是会在胜利以后全部摘下他们为自己脸上贴的金
+，并免去他们对源代码的一切使用权力，企图用开源软件的实用性和普适性来遮掩知识产权的丑
+陋并从中获利乃至以此愚弄全体方块人和开发者的诽谤一定是长期存在的，且我们与他们的斗争
+是比同专有统治集团的斗争时间更长的长期斗争，他们长期在minecraft占有的有利地位，不但会
+给玩家带来威胁，甚至还会复辟专有资产阶级的领导权，之所以现在看来它对玩家有利，那也只
+是暂时的，绝不意味着我们要向小资产阶级的实用主义开源投降。&lt;&#x2F;p&gt;
+&lt;p&gt;有许多行为主义者反感输出构成论，说输出构成论忽视了行为规律的真正意义，在他们的认知里
+，pvp模式并不是空穴来风，而是从早期的多人模式和小游戏模式的pvp行为转变过来的，正如沙
+盒游戏是从沙盘游戏演进过来的，但这根本是无稽之谈，战斗机制本身就是minecraft平衡资源和
+玩家的关系的根本所在，而不是取决于minecraft的游戏性质，如果战斗机制是一向潜在的后天功
+能，那我的世界的资源和玩家的关系根本就不可能平衡，我不希望读者读了我的书籍仍然犯着本
+体论的错误，毕竟万事开头难，一本著作开始对一个问题的论述是最详细的，因此，读者对本体
+论有充分的认知是对著作基本的尊重。
+阅读这本书籍所需要的基础，至少需要达到后黑格尔的水平，否则无法理解其中的种种问题，阿
+尔都赛在《保卫马克思》里曾提到想要理解《资本论》中的论点，至少要读懂黑格尔《逻辑学》
+，同理，《黑客论》是一本从本体论的角度出发研究战斗机制基础逻辑的理论，因此读者需要达
+到一定水平才能理解本书的核心主旨。正如资本论所说：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;走你的路，让人们去说罢！&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;shu-chu-gou-cheng-ji-ben-wen-ti&quot;&gt;输出构成基本问题&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;luo-ji-xing-shi&quot;&gt;逻辑形式&lt;&#x2F;h3&gt;
+&lt;p&gt;如果非要从头说起，有效输出构成，即战斗机制的底层逻辑必然取决于事件基础（EventManager），如果没有事件基础对每个符号量的判定，无论是硬符号还是软符号，都无法被实现，事件（Event）决定了这些或者那些量&lt;strong&gt;如何&lt;&#x2F;strong&gt;引发质变反应，很显然，恩格斯早就在自然辩证法里论证了这个逻辑，亦或者说，没有自然辩证法的指导，我们无法研究 Minecraft 战斗机制，恩格斯在《自然辩证法》中明确指出：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在同系列的碳化物、特别是较简单的碳氢化合物中，这一点表现得更为显著。在正烷烃中，最低级的是甲烷，$\mathrm{CH_4}$；在这里，碳原子的四个化学键被四个氢原子所饱和。第二种是乙烷，$\mathrm{C_2H_6}$，两个碳原子互相联结，自由的六个化学键被六个氢原子所饱和。以下依据代数学的公式 $\mathrm{C_\mathit{n}H_{2\mathit{n}＋2}}$ ，便有 $\mathrm{C_3H_8}$ ，$\mathrm{C4H10}$ 等等，所以每增加一个 $\mathrm{CH}&lt;em&gt;2$，便形成一个和以前的物体在质上不同的物体。这一系列中最低的三种是气体，已知的最高的一种十六烷，$\mathrm{C&lt;&#x2F;em&gt;{16}H_34}$，是沸点为摄氏270度的一种固体。关于从烷烃（理论上）得出的伯醇系列（公式是$\mathrm{C_\mathit{n}H_{2\mathit{n}+2}O}$）和一元脂肪酸系列（公式为$\mathrm{C_\mathit{n}H_{2\mathit{n}}O_2}$），情形也完全一样。在量上加上一个C3H6，能够造成什么样的质的区别，可以从如下的经验看出来：我们喝可以饮用的并且不掺杂其他醇类的乙醇$\mathrm{C_2H_6O}$，另一次我们喝同样的乙醇，但掺入了小量的戊醇 $\mathrm{C_5H_{12}O}$（它是大名鼎鼎的杂醇油的主要成分）。第二天早晨我们的脑袋就一定会感到这个东西，而且觉得受到它的伤害；所以甚至可以说：醉酒和由之而来的醉后头痛正是量到质的转化，一方面是乙醇，另一方面是这一点加上去的 $\mathrm{C_3H_6}$ 。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;在 Java 中，常量通常在程序运行过程中不会改变其值，Java 中定义常量的格式是 &lt;code&gt;（修饰符）final 数据类型 常量名 = 变量值;&lt;&#x2F;code&gt;，其中只有修饰符是可选的，其他都是必要项，例如&lt;code&gt;public final int WXX = 1&lt;&#x2F;code&gt;。而变量则在程序运行中可以改变其值，Java中其定义的格式为&lt;code&gt;（修饰符）数据类型 变量名 =（变量值）&lt;&#x2F;code&gt;，如果是全局变量，变量值可以不赋值（&lt;code&gt;int x;&lt;&#x2F;code&gt;），如果是局部变量必须初始化（&lt;code&gt;int x; x = 1;&lt;&#x2F;code&gt;），由此可见，Java及任何编程语言的基础，都是开发人员对因变量和自变量互相调整的结果，因变量的出现是为了避免自变量的矛盾，对自变量的问题进行界定，无论方法如何，自变量作为变化的原因，因变量作为变化的条件，实现是它们之间相互作用的反馈。&lt;&#x2F;p&gt;
+&lt;p&gt;因此事件基础是Java之本，而对事件结果的管理，也说对反馈机制的管理，由于其复杂性造成了不同反馈之间不能仅仅依赖交互，也就是说，如果要在交互的基础上开发新的变更或让程序开发显得更直观，就需要引入新的模块管理系统，否则，交互间的关系就会被复杂的更改破坏。通常，一个程序提供逻辑要能够满足新的开发者的基础需求，即&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. 能够管理和创造事件&lt;&#x2F;li&gt;
+&lt;li&gt;b. 能够使得事件之间不发生矛盾&lt;&#x2F;li&gt;
+&lt;li&gt;c. 能够让开发者在不破坏事件基础的情况下尽可能创造新的功能，&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;便能成为一个完美的程序，但这根本不简单——矛盾对立的统一不仅要解决本体与外部的矛盾，本体自身能够实现本身就是矛盾的结果而不是原因，因此内因是变化的条件，而外因是变化的环境，环境本身也是不同内因互相交互产生的结果，内因终究还是决定外因，这就是矛盾的本质。&lt;&#x2F;p&gt;
+&lt;p&gt;方法论的诞生是&lt;strong&gt;本体论无法承载不同的质之间抽象判别从而产生的结果&lt;&#x2F;strong&gt;，这就要谈到映射（Map），从映射的角度而言，这种传递相比较于交互和管理更加直接，而由于映射的对象是物理的输入，因而对于编程语言的要求更高，但这也造就了它需要编程语言需要大量的依赖库和类库来完成它与物理的接触，这看似很简单，但映射对性能的损耗和管理的准确性至关重要，如果依赖有一点瑕疵，程序不但要面临安全风险，甚至可能面临崩溃或无法运行，编译性语言在这个时候已经无法承载物理与程序之间反馈的复杂性，因此解释性语言就诞生了——它试图通过脚本和解释器对我结合来减小反馈的复杂性和依赖库的局限性，它更好的打破了物理映射带来的困难和冲突，它的库显得更加集中，而不是更加分散。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;di-ceng-luo-ji-guan-xi&quot;&gt;底层逻辑关系&lt;&#x2F;h3&gt;
+&lt;p&gt;有效输出构成（logic src constitute，简称LSC），即硬符号占战斗机制总逻辑的比例，&lt;strong&gt;由于条件限制，它只能占总构成的$1\over 3$&lt;&#x2F;strong&gt;，否则，我的世界将不再是我的世界，为了维系它与抽象输出构成的关系，必然要将资源和逻辑分开管理，它也因此不基于任何物理引擎，物理引擎规定了资源必须先于逻辑之后，但我的世界的逻辑则完全不同，逻辑调动资源，但资源和逻辑可以同时出现，而不是像物理引擎那样按照逻辑的触发逐渐加载。&lt;&#x2F;p&gt;
+&lt;p&gt;行为主义者则完全不同，他们把抽象输出构成作为事件的前提，从而让大多数PVP玩家达成一种先验的观念，也就是说&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. 资源在未加载和配置完成之前，游戏不存在任何逻辑&lt;&#x2F;li&gt;
+&lt;li&gt;b. 逻辑是符号的结果，而不是原因。&lt;&#x2F;li&gt;
+&lt;li&gt;c. 底层逻辑不能脱离物理条件和节制度独立存在。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;这就是说，他们把硬符号看作对游戏逻辑的直接修改或破坏，而不是继承，整体上，他们认同玩家通过经验积累提高技术和游戏体验，另一方面，他们又否认了有效输出构成和抽象输出构成存在不可调和的隔阂。&lt;&#x2F;p&gt;
+&lt;p&gt;行为主义者在叙事上将我的世界PVP模式的诞生看作是从PVP行为演变过来的，但忘记了，&lt;strong&gt;PVP模式本身就是游戏事件和资源沟通的必要结果，它甚至不能作为独立的模式存在&lt;&#x2F;strong&gt;，如果玩家不通过特定手段改变资源构成的结构，那他们就无法进行游戏，同时，行为主义者忽略了游戏战斗机制普遍存在的经济问题，将PVP模式的成败完全归结于经验，这种小农式的思维导致了玩家常常对游戏的不当竞争事件产生怀疑，形成了众说纷纭的阴谋论和怀疑论哲学（例如所谓的 misaim 和 misplaced 焦虑病），如果不打破用行为主义方法研究战斗机制问题，那就算 Minecraft 创新和纠错的频率再高，它也无法造福玩家。&lt;&#x2F;p&gt;
+&lt;p&gt;研究抽象输出构成本身没有意义，或者说，它是完全违背 Minecraft 战斗机制的运作逻辑的，行为主义本身就是一种没有本体论的方法论，行为主义是一种纯粹主义，将 Minecraft 的硬符号和软符号视为没有区别，但这两者是天差地别的，试图打破它们的界限，那我的世界将不复存在，抽象输出构成塑造的软符号除了造成经验焦虑之外，也无法指导实践，行为主义者甚至根本没有意识到我的世界不是基于物理引擎的游戏，而是基于复杂的逻辑构成的软件，脱离本体论就夸夸其谈方法论，本质上是对科学的蔑视——马克思利用辩证唯物主义向世人揭示了资本主义经济学对利润率的粗暴解读，我们要做的便是把专有软件学者对构成本体论的粗暴解读彻底批判，维护辩证唯物主义的精髓。&lt;&#x2F;p&gt;
+&lt;p&gt;如果非要谈目的论，那么行为主义战斗机制学和结构主义战斗机制学在方法论上是完全统一的，是以行为主义为手段达成经验主义的目的，后者则是用结构主义手段达成解构主义的目的，&lt;strong&gt;实现则是他们的终结&lt;&#x2F;strong&gt;，无论双方用何种方式指控对方，在目的实现之前，道路都是迷茫的，专有商业公司并非一开始就战胜了开源，科学最初是开源的，因此开源是从开源走向开源，自由软件主义本身就是科学理论，它不依赖意志的转移和需求的变化，反观行为主义，一直在重蹈覆辙，而这种循环，必然是要被按下暂停键的。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zuo-wei-zhuan-you-ruan-jian-de-wo-de-shi-jie&quot;&gt;作为专有软件的我的世界&lt;&#x2F;h3&gt;
+&lt;p&gt;但从ms和mojang领导视角来说，我的世界本身的效用往往表现为随资源逻辑和底层逻辑交互的变化而下降，但玩家在此过程中只需要透过资源逻辑完成对形式逻辑的理解，而这种主观的理解不足以使玩家掌握行为规律的变动，而微软专有化领导下，无政府服务器和反作弊服务器的对立自然不可调节，于是，它们形成了市场关系，但mojang和ms对它们的干预极低，造成了这种市场竞争让社区内部产生极大困扰，无政府服务器对外的市场关系和对内玩家客户端的技术垄断和对公会组织秘密的封锁仍然无法改变这种意识形态的劣根性，本质上，新pvp主义并不关心玩家自由和行为规律的覆灭，而是更在乎其模式的优越性能否战胜反作弊主义服务器，但这是根本不可能的，一旦利益集团形成，反作弊服务器服主必然倒向贿赂的公会，并且让该公会建立新的潜在秩序，这种秩序使得它们对服务器进行了专有化封锁，服务器团队仅负责营销，而服务器内部则要求玩家必须和公会组织搞好关系，渐渐地，营销团队随着价值规律的周期性灭亡，而人此时人数必然因公会的快速瓦解而逐渐负增长，2b2t就是典型的例子。&lt;&#x2F;p&gt;
+&lt;p&gt;反作弊系统的出现至少隔绝了价值规律和公会恶性竞争的副作用，并通过技术人员对kb机制进行部分开源以及建立反馈渠道，这就增加了信息的通透性，而玩家不与服务器达成任何协议就能免费游玩，自然也消灭了服务器与服务器之间的市场关系，玩家通过社区民主手段对服务器进行监督，也会对黑幕和技术秘密进行曝光，但这至少要遇到以下几个问题：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;服务器本身作为符号载体，不能直接调节符号供给和需求，以至于bug修复、kb更新、环境改良往往只能招来恶果，尤其表现在服务器对相对符号的修复上，每次修复，都是对汇率的重置，而这也意味着每一赛季周期性的结束，新的游玩者面临的是符号汇率流通难度相较于更新前的进一步提高，一方面，更新本身是按照上一代玩家的需求服务器的相对符号改良，以适应上一代玩家自身的软符号。另一方面，更新需要加强反作弊系统，以至于硬符号的流通被阻止，因此，新一代玩家将面临两个问题，一个是他能否击败人软符号平均提升的老玩家，一个是新玩家自身硬符号能否通过不同服务器反作弊系统的检查。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;假使所有服务器团队都是中立的，他们也可能在不了解客户端技术秘密的情况下收集玩家客户端信息，而由于这个游戏根本不开源，所以他们会对异常信息进行分类和统计，对异常级别进行排查和分级，这时，难以实现注入的专有客户端会被直接标记低风险，此类可能更容易被放行，而开源客户端由于其知名度较低或存在绕过查端，则会被重点观察，造成了开源客户端不得已开发绕过功能，进化为黑客端，而专有客户端由于其知名度较高，形成与反作弊系统的配合从而成为&lt;strong&gt;合法垄断资本&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;由此可见，服务器对符号的干预能力十分有限，这是玩家自身的符号水平决定的。根据上述规律，玩家符号汇率的方程就是：&lt;&#x2F;p&gt;
+&lt;p&gt;\frac{相对符号增值-硬符号流出}{单一玩家符号总值} =单一玩家符号汇率&lt;&#x2F;p&gt;
+&lt;p&gt;一方面，服务器对游戏公平性的干预取决于玩家对软符号模糊的需求，另一方面，取决于反作弊系统模糊的统计。而这两个对玩家符号汇率影响的重要因素，直接决定了汇率较低的玩家在作战中没有直接优势，而对服务器内部事务参与率高的玩家，则能提高他们的作战水准，但依旧无法消除行为规律和&lt;strong&gt;广义有效输出构成提高&lt;&#x2F;strong&gt;，而微软的资产阶级专有化领导，则决定了每个玩家的客户端和经验为代表的内因，而服务器的相对符号增值规律，则完全是外因。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;you-xiao-shu-chu-gou-cheng-yu-chou-xiang-shu-chu-gou-cheng&quot;&gt;有效输出构成与抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;作为符号载体的玩家，自身只得通过经验来理解游戏的形式逻辑，而游戏的底层逻辑运作规律，无论玩家是否拥有源代码，都无法完成修改，这也造成了玩家与其底层逻辑被隔绝，这种隔绝不仅停留在表象，而是在更新的慢慢长河中，它作为下降效用的能动存在，而形式逻辑，即抽象输出构成，是资源逻辑与玩家交互的实现，对有效输出构成的内在逻辑则没有影响。&lt;&#x2F;p&gt;
+&lt;p&gt;有效输出构成在游戏复杂的函数逻辑中是绝对的自变量，而抽象输出构成则是因变量，因此本质上，它们的性质不在于玩家通过任何经验能够获得，而是利用延伸的资源分配来实现，毋宁说，玩家的经验本身就是和资源共存的，通常，玩家能够读取的字符串或物品id就是有效输出构成的直接体现，它们通过对部分资源的调用来为玩家呈现动画，玩家对游戏的认知也逐步形成，一般情况下，服务器会对不该存在的变量进行封锁，而玩家能够获得的变量则可被加工为运作逻辑，反作弊系统规范了技术合规性，因而能够读取较少变量的、对变量换算规则控制较少的模式或机制被称为&lt;strong&gt;战斗机制&lt;&#x2F;strong&gt;，而其余的机制则有更高的变量换算和高强度干预，因此pvp模式的诞生本身就是量变导致质变的结果，而不是从玩家行为设计出来的。&lt;&#x2F;p&gt;
+&lt;p&gt;恰恰是因为&lt;strong&gt;战斗机制&lt;&#x2F;strong&gt;这一逻辑的特殊性，造成了它能直接决定Minecraft的最高速度换算，因此它的存在使得玩家更加容易被分流，而其他较慢的换算，则是守恒的，不会存在分流。然而，往往是这样的模式，节客制对抗就更加严重，玩家需要互相争夺可能的主动权，因此他们都需要加大符号产能，因此软符号是从硬符号中流出的，当一端的输出大于另一端的输入时，就会出现：&lt;&#x2F;p&gt;
+&lt;p&gt;输出构成 - 输入构成 = 流出构成&lt;&#x2F;p&gt;
+&lt;p&gt;这样以来，占有流出构成的玩家便取得了主动权，也就是说，他能更快获胜，但一般情况下被占有流出构成会被转化为软符号，而软符号本身不具备同硬符号那样的绝对优势，因此在软符号遭遇同一汇率下高于该软符号水平的软符号，就会遭遇压制，表达为：&lt;&#x2F;p&gt;
+&lt;p&gt;\frac{输入构成}{流出构成 × 相对过剩符号} - 流出构成 = 替换流出&lt;&#x2F;p&gt;
+&lt;p&gt;所谓替换流出，依赖于战斗机制逻辑中的更高替换原则，一旦条件触发，在硬直期内被击中的目标物只能受到比来源更高的伤害，因此，combos取决于玩家在被二次击中之后对方玩家是否符合游戏kb所支持的条件，例如，玩家在使用锋利II木剑和一般击退有极大区别，击退II木剑只会在打出伤害之后延长击退与硬直期，但先决条件必须是击退和伤害高于来源（即第一次击退的构成），否则击退和伤害都不会高于不同木剑。同样，一个锋利II木剑可以提高一次攻击时打出的伤害，但若是要在硬直期内实现伤害增益，先决条件必须是伤害高于来源，否则同样伤害的情况下，硬直期内的输出伤害也不会高于普通木剑。这就是综合不平衡原理的体现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;shi-jian-ji-chu-jue-ding-zhan-dou-ji-zhi-yun-zuo-luo-ji&quot;&gt;事件基础决定战斗机制运作逻辑&lt;&#x2F;h3&gt;
+&lt;p&gt;所谓事件基础，就是不具备自我管理功能，依赖干预的有效输出构成，事件基础是战斗机制底层逻辑的存在条件，而硬符号则是管理模块（Module）与事件系统交互产生的结果。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>反驳微软主义者</title>
+        <published>2024-07-13T00:00:00+00:00</published>
+        <updated>2024-07-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/fan-bo-wei-ruan/"/>
+        <id>https://archjh.github.io/fan-bo-wei-ruan/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/fan-bo-wei-ruan/">&lt;h1 id=&quot;ke-hu-duan-dao-ban&quot;&gt;客户端盗版&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;a-wo-men-shi-fou-you-zi-ge-ze-bei-duo-wan&quot;&gt;(a:我们是否有资格责备多玩？&lt;&#x2F;h3&gt;
+&lt;p&gt;我们已经在文章中阐述了微软本身在Eula协议中已经将mod版本和独立mod进行了明确说明，所有pvp客户端和多玩的性质本身就是一脉相承的，如果我们拿着微软给出的用户许可去批判一切这样的客户端都是有可行性的，不论是开源的legit pvp client还是专有的亦或者说多玩本身都是违背微软的mod许可协议的，因此离线账号根本不是决定一个客户端是否具有版权合法性的前提。我们开宗明义地说，hmcl侵权作品，pvp客户端和多玩甚至才是。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;b-hack-clienthe-legit-client&quot;&gt;(b:hack client和legit client？&lt;&#x2F;h3&gt;
+&lt;p&gt;这两者除了专有的client几乎没有一者是值得抵制的，甚至按照微软空洞和不利于mc发展的反动许可协议里的规定，hackclient比legitclient更加具备合法性，微软从未考虑过任何开源社区亦或者服务器开发团队的利益。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zhan-dou-geng-xin-de-fan-dong-xing&quot;&gt;战斗更新的反动性&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;a-gao-ban-ben-zhan-dou-ji-zhi-shi-hui-he-zhi-ma&quot;&gt;(a:高版本战斗机制是回合制吗？&lt;&#x2F;h3&gt;
+&lt;p&gt;答案是肯定的，退后再输出已经在一定程度上和1.8.9更高替换定则相悖，在高版本里，cps只能被局限于确定冷却时间，这是任何kb机制都不能改变的，无论是用斧头输出还是剑输出，都只是抽象输出构成的锦上添花，而这一切之所以不像回合制只是因为高版本的战斗机制喷溅药水化更接近ttk而不是kb模式。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;b-zhan-dou-ji-zhi-de-wei-lai-shi-shen-me&quot;&gt;(b:战斗机制的未来是什么？&lt;&#x2F;h3&gt;
+&lt;p&gt;我们不必向微软和网易隐瞒我们的意图————打到专有反动统治，保卫开源自由的沙盒游戏我的世界！我坚信，伟大的开源项目minecraft必将战胜一切资产阶级政府和商业公司统治集团。而战斗机制的出路只有一条，那就是恢复低版本模式进行战斗机制革命。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>论我的世界外围资本</title>
+        <published>2024-07-13T00:00:00+00:00</published>
+        <updated>2024-07-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/mc-wai-zi-ben/"/>
+        <id>https://archjh.github.io/mc-wai-zi-ben/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/mc-wai-zi-ben/">&lt;h1 id=&quot;3druan-jian&quot;&gt;3d软件&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;blockbenchhe-blender&quot;&gt;blockbench和blender&lt;&#x2F;h3&gt;
+&lt;p&gt;必须承认，blender无论在哪个方面相比于blockbench都有进步意义————广泛而具有生态多性的插件支持，以及更好的渲染算法和引擎，与此同时blockbench也是少有的受微软官方支持的开源社区————微软为其提供了Java层的源码，让其能够比其他3d软件更加容易的兼容我的世界的地图和人物模型。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.blockbench.net&#x2F;_nuxt&#x2F;img&#x2F;front_page_app.6d99061.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;但显而易见的问题不是这两个开源软件哪个功能更强大，而是blockbench仅仅支持1.9+版本的模型导入，这种别有用心的做法离不开微软集团的操纵，而因为战斗更新造成的一系列连锁反应，我们只能义正言辞的说出我们的主张————打破微软的版本限制，保卫开源社区的独立自主，在这一过渡时期，根本就不能考虑或对比blockbench和blender之间的先进性，而是用否定辩证思维的立场选择站在blender这边。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;87d59bbe-9f71-4299-b199-79bdaa4f2572&quot; alt=&quot;屏幕截图 2024-07-13 173645&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xuan-ran-yin-qing-yuan-li&quot;&gt;渲染引擎原理&lt;&#x2F;h3&gt;
+&lt;p&gt;eevee和cycles最大的区别就是一个是光追算法引擎，一个则是光栅算法引擎，eevee采用和我的世界optifine一样的opengl渲染技术，blockbench采用的渲染引擎算法也是一样。而微软为了在渲染技术上和其他游戏进行竞争，推出了渲染龙和nvidia光追，企图达到技术上的突飞猛进，但换来的只是让旧手机无法享受到高画质的光影，让玩家成为了微软版本更新的试验田和牺牲品。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;robloxneng-qu-dai-wo-de-shi-jie-ma&quot;&gt;roblox能取代我的世界吗？&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;bao-wei-javade-ren-wu&quot;&gt;保卫Java的任务&lt;&#x2F;h3&gt;
+&lt;p&gt;即便我们声称保卫绝对开源自由的blender社区，但对于开源的敌人，我们仍然要旗帜鲜明地反对它————我们批判了blockbenchj社区的种种买办投降行为，但捍卫开源自由的Java纯洁性仍是我们的使命，roblox作为一个基于物理引擎的沙盒游戏，号称拥有高于我的世界的自由度，但事实上，roblox不能取代我的世界————roblox成也物理引擎败也物理引擎，而直接用代码编写的minecraft Java版则可以作为例外，它依托Java底层的灵活性存在，因此我的世界可以自由的让用户审查其代码，而不是用更多的时间操纵物理引擎的控制台。&lt;&#x2F;p&gt;
+&lt;p&gt;第一点，roblox利用了物理引擎面向用户来说的灵活性和游戏本身免费，吸引了一大批玩家来游玩，而这改变不了的是游戏本身仍旧是基于物理引擎的，因此这就证明了我的世界的不可替代性，第二点，roblox引擎是基于c++开发的，而c++在灵活性上又不如Java，因此即便开源，也不能取代我的世界的Java，同时，我的世界也是少有的基于JVM而非物理引擎的3d游戏。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;qu-zhong-xin-hua-he-zhong-xin-hua&quot;&gt;去中心化和中心化&lt;&#x2F;h3&gt;
+&lt;p&gt;首先，我的世界和roblox同样作为沙盒游戏的不同点就是我的世界无论是社区运作模式还是服务器运作模式都具有高度的自治权，而roblox的中心化运作模式导致所有服务器不得不在被roblox官方监督的情况下运作，因此roblox无法去中心化、开源的特点直接导致它只能作为一款普通的沙盒游戏存在，无法拥有自己的第三方客户端、第三方开源插件社区、独立服务器。&lt;&#x2F;p&gt;
+&lt;p&gt;一切资产阶级商业公司，开源的敌人，无论是微软还是网易亦或者roblox，都会被开源的强大力量摧垮————这将见证历史。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BE该何去何从？</title>
+        <published>2024-07-01T00:00:00+00:00</published>
+        <updated>2024-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/bao-wei-mc-be/"/>
+        <id>https://archjh.github.io/bao-wei-mc-be/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/bao-wei-mc-be/">&lt;h1 id=&quot;yi-ge-jing-zhi-de-lan-wei-gong-cheng&quot;&gt;一个精致的烂尾工程&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;cai-zheng-pao-mo-de-bao-lie&quot;&gt;财政泡沫的爆裂&lt;&#x2F;h3&gt;
+&lt;p&gt;总有一些开源软件的受害者会对一切能运行在开源环境的开发环境百般颐指气使、指手画脚，将本就不应该称其为全平台的BE发行版奉为圭臬，然而这些先生可能不知道的是，他们一心一意支持的微软当局早在2017年就开始收缩对这个长期支持发行版的财政开支了。当他们为了说服JE玩家导向他们的阵营的时候，只好拿出微软有多么多么重视这个发行版来宣传他们的理念。&lt;&#x2F;p&gt;
+&lt;p&gt;根本不顾及开源社区利益的微软为了让自己花费血本收购的暴发户企业mojang快速膨胀，制定了宏伟的两年计划：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;zh.minecraft.wiki&#x2F;images&#x2F;thumb&#x2F;Minecraft_Sales_Data.png&#x2F;315px-Minecraft_Sales_Data.png?b08ba&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;此时的minecraft的销量开始了爆发式增长，涨速由原来的每月10%提升了八个百分点，将原本拖泥带水的JE甩了好几条街，minecraft作为一个基于不稳定因素的游戏也彻底摆脱了销量不稳定因素，完成了产业升级，向移动端游戏完成了转型。&lt;&#x2F;p&gt;
+&lt;p&gt;然而好景不长，随着2015年世界金融秩序倒塌、商品价格下跌、美联储首次加息时，曾经不可一世的辛迪加主义生产方式终结了，我的世界也度过了它的生涯中最辉煌的历史时期。微软为了居安思危，对minecraft营销范围做出了调整，对曾经为了吹泡沫进行的财政开支进行了收缩。至此之后，Galaxy Store、Windows Mobile、apple tv、fire tv等版本的支持正式停止了。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhong-xin-hua-zai-hui-diao-be&quot;&gt;中心化在毁掉BE&lt;&#x2F;h3&gt;
+&lt;p&gt;可笑的是，微软为了挽救BE这个烂摊子，将这个产业升级的产物实行了中心化管理。他们推出了DLC，自2012年5月9日~2015年10月23日mojang前前后后推出了16个混搭包，而在对整个我的世界吹起的泡沫膨胀破裂之后，他们便放弃了这个反弹计划。为了更直观地展现微软曾经更新dlc的速度，我们准备了表格：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;主资源包&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名称&lt;&#x2F;th&gt;&lt;th&gt;简介&lt;&#x2F;th&gt;&lt;th&gt;发布&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Default&lt;&#x2F;td&gt;&lt;td&gt;与Java版和基岩版同样的纹理。&lt;&#x2F;td&gt;&lt;td&gt;2012年5月9日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Cartoon&lt;&#x2F;td&gt;&lt;td&gt;卡通且富有活力&lt;&#x2F;td&gt;&lt;td&gt;2014年9月3日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Candy&lt;&#x2F;td&gt;&lt;td&gt;甜蜜与想象&lt;&#x2F;td&gt;&lt;td&gt;2014年9月3日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;City&lt;&#x2F;td&gt;&lt;td&gt;城市与现代化&lt;&#x2F;td&gt;&lt;td&gt;2014年9月3日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Plastic&lt;&#x2F;td&gt;&lt;td&gt;简洁且无色&lt;&#x2F;td&gt;&lt;td&gt;2014年9月3日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Natural&lt;&#x2F;td&gt;&lt;td&gt;自然且真实&lt;&#x2F;td&gt;&lt;td&gt;2014年9月5日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Fantasy&lt;&#x2F;td&gt;&lt;td&gt;中世纪&lt;&#x2F;td&gt;&lt;td&gt;2014年9月5日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Steampunk&lt;&#x2F;td&gt;&lt;td&gt;工业化&lt;&#x2F;td&gt;&lt;td&gt;2014年12月9日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Pattern&lt;&#x2F;td&gt;&lt;td&gt;图案鲜明且色彩丰富&lt;&#x2F;td&gt;&lt;td&gt;2015年3月25日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong&gt;混搭包&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;名称&lt;&#x2F;th&gt;&lt;th&gt;简介&lt;&#x2F;th&gt;&lt;th&gt;发布&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Halo&lt;&#x2F;td&gt;&lt;td&gt;与Halo游戏系列相像&lt;&#x2F;td&gt;&lt;td&gt;2014年5月28日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Mass Effect&lt;&#x2F;td&gt;&lt;td&gt;与Mass Effect游戏系列相像&lt;&#x2F;td&gt;&lt;td&gt;2014年9月3日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Skyrim&lt;&#x2F;td&gt;&lt;td&gt;与游戏Skyrim相像&lt;&#x2F;td&gt;&lt;td&gt;2014年12月9日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Festive&lt;&#x2F;td&gt;&lt;td&gt;与圣诞节相像&lt;&#x2F;td&gt;&lt;td&gt;2014年12月10日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Little Big Planet&lt;&#x2F;td&gt;&lt;td&gt;与LittleBigPlanet游戏系列相像&lt;&#x2F;td&gt;&lt;td&gt;2015年7月1日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Greek Mythology&lt;&#x2F;td&gt;&lt;td&gt;与希腊神话相像&lt;&#x2F;td&gt;&lt;td&gt;2015年7月24日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Haloween&lt;&#x2F;td&gt;&lt;td&gt;与万圣节相像&lt;&#x2F;td&gt;&lt;td&gt;2015年10月23日&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;自此之后，微软推出了dlc商店，将更新计划的主使权还利于社区，但为了创收，微软还是将商店的收益来源明码标价，制定了金币。而随着时间的推移，星球大战、海绵宝宝、迪士尼乐园等优秀dlc也相继出品。在这种中心化商店的运营模式之下，日新月异，被商业化的我的世界社区里微软的营销成功越来越近，离开源越来越远。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;wu-shi-yu-jian-ta&quot;&gt;无视与践踏&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;bao-hu-zhong-xin-hua&quot;&gt;保护中心化？&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;img.picui.cn&#x2F;free&#x2F;2024&#x2F;07&#x2F;01&#x2F;6682759f125bf.png&quot; alt=&quot;460949039204.png&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;基岩版更新1.20.1版本之后，微软就移除了BDS里的PDB文件，自此之后，开源社区的最后一道防线被攻破了。而这很大原因是因为微软为使其addon的运行规则不受破坏，以及对基岩版服务器的运行环境进行的反作弊系统进行保护。由于基岩版本身不开放源代码性质，所以基岩版的反作弊系统这个环节相对于JavaScript版来说非常薄弱。&lt;&#x2F;p&gt;
+&lt;p&gt;而本身无法支撑旧手机使用的渲染龙（即所谓光追技术）则彻底破坏了原本可以支撑旧手机使用的光追系统————原本优化较好的渲染技术无法使用，即便玩家可以通过改包方式加入渲染龙版本的光影，但优化大不如前，自此之后，基岩版的所有开源社区不是陷入困境就是删库解散，玩家也逐渐对be失去了热情————BE破产了。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;levilaminayu-addonde-ben-zhi-qu-bie&quot;&gt;LeviLamina与addon的本质区别&lt;&#x2F;h3&gt;
+&lt;p&gt;LeviLamina作为一个伟大的mod插件管理器，无论是api接口还是执行脚本的运行速度，都是仅仅作为一个游戏内自带的数据包支持工具————addon不可比拟的。它更接近于JavaScript版本minecraft的Forge而不是一个单纯的组件支持脚本。我们可以对比LeviLamina和addon介绍的区别：&lt;&#x2F;p&gt;
+&lt;p&gt;根据LeviLamina官网简介：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;轻量级、模块化和多功能的Minecraft Bedrock Server BDS插件加载器，曾被称为LiteLoaderBDS&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;LeviLamina是一个非官方的插件加载器，旨在为Minecraft Bedrock Server BDS提供必不可少的API支持。它拥有全面的API，一系列的实用接口，一个强大的事件系统，以及对基本接口的全面支持。LeviLamina提供了一个广泛的API，一个强大的事件系统，以及丰富的封装开发基础设施接口，为增强Bedrock Edition BDS的附加游戏功能和功能提供了坚实的基础。通过利用插件，扩展BDS功能的过程变得轻而易举，具有用户友好的开发过程和灵活的方法。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;开发者可以轻松地用C++，JavaScript，Lua，Python，C#等语言编写插件。这种无缝集成赋予了他们轻松扩展和个性化BDS功能的能力，促进了直观的学习体验和无与伦比的灵活性。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;再看看addon的mcw简介：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;附加包允许玩家更改世界的纹理样貌、实体的模型、行为规则等，是实现Minecraft全版本自定义（即数据驱动）的坚实一步。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;行为包是一种用于改变实体的行为、掉落物、生成规则、物品合成配方与村民交易表等的附加包。行为包不仅可以改变现有内容，还可以创建新的实体、方块及物品。为了实现版本控制，基岩版的部分新内容便是以附加包形式实现的，这些附加包在选项内被统一归类为“原版附加包”而无法移除。强制移除它们会导致游戏出现图形或者崩溃问题。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;资源包属于附加包的一部分，和行为包并列，同时区分原版资源包与自定义资源包。原版资源包用于为游戏加入新内容而准备。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;除了玩家社区自定义的玩法外，基岩版市场中的地图也常常会使用附加包。市场中的内容均由Minecraft官方合作伙伴提供，并经内容团队审核。购买地图后，其所需要的所有附加包会在下载时被自动下载并添加到世界中。这些附加包依然可以被用于其他地图，但这始终取决于它的开发者是否允许。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;而无论是微软原生的addon还是网易的addon打包工具改进版，都不能算严格意义上的模组，微软选择了错误的产业升级方向，也自然会使BE走向失败。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;api.star-history.com&#x2F;svg?repos=LiteLDev&#x2F;LeviLamina&amp;amp;type=Date&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;da-dao-e-xing-zhong-liu-be-da-po-feng-suo&quot;&gt;打倒恶性肿瘤BE！打破封锁！&lt;&#x2F;h3&gt;
+&lt;p&gt;微软从头到尾干出的自取其辱之事，我无法一一列举，但至少对于基岩版，我们可以总结：&lt;&#x2F;p&gt;
+&lt;p&gt;（a：发布大量dlc、加入基岩版商店功能，对addon和资源包进行限制，加速BE中心化。&lt;&#x2F;p&gt;
+&lt;p&gt;（b：为了完成对BE的产业升级，在1.18.30版本后微软关闭了曾经对光影系统的支持，转而发展渲染龙技术，在阉割了光影功能之后，旧手机彻底丧失了运行光学处理技术的条件。&lt;&#x2F;p&gt;
+&lt;p&gt;（c：为了保护服务器薄弱的反作弊系统和保护官方商店的创收来源，在1.20.1版本之后删除了BDS力里的PDB文件，导致基于LeviLamina无法使用。&lt;&#x2F;p&gt;
+&lt;p&gt;今天的minecraft玩家已经应验了微软和网易的残暴统治的无数考验，光荣的无鞘之剑行驶在我们的前方，为了它我们要打破一切阻止我们通向理想化mc的锁链！战斗！&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>论客户端问题</title>
+        <published>2024-06-23T00:00:00+00:00</published>
+        <updated>2024-06-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/lun-ke-hu-duan/"/>
+        <id>https://archjh.github.io/lun-ke-hu-duan/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/lun-ke-hu-duan/">&lt;h1 id=&quot;fu-xiu-de-guan-fang&quot;&gt;腐朽的官方&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;frogeloderdui-wang-yi-tong-zhi-he-fa-xing-de-wei-xie&quot;&gt;Frogeloder对网易统治合法性的威胁&lt;&#x2F;h3&gt;
+&lt;p&gt;根据MinecraftForge官网&lt;a href=&quot;https:&#x2F;&#x2F;files.minecraftforge.net&quot;&gt;https:&#x2F;&#x2F;files.minecraftforge.net&lt;&#x2F;a&gt;的定义：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;MinecraftForge 是一个改造 Minecraft 的基础文件以协调 MODs 之间的兼容性的库，方便开发和加载各种《我的世界》 MOD ，以 LGPL 协议开源。&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;自网易在2017年盗用Forgeloder仓库代码以来，中国版minecraft的也就逐渐成为了minecraft JavaScript版mod开发社区第一个能够创造利润的官方社区。自从中国版minecraft诞生的第一天起，这个游戏发行版就没有任何建立在版权问题上的合法性，除此之外，我们还观察到网易所谓正版的真实性依据的不确定性。当我们提出什么是正版这个命题的时候，我们首先想到的可能是版权应用层面的分析方法，事实上，这种正版虽然看似很纯粹，但它给出的解释是没有代表性的，即使正版的可用范围由诠释权限定，但诠释权也只能给出如何正确使用版权的答案，对于具体哪种不正当使用版权的性质，留给分析者的仍是一片空白。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;21671c47-40b8-4290-a26a-7ba6851d08a9&quot; alt=&quot;3594285320roesor&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;所谓类库，由于本身开发用途多样，源代码使用者自然会触及商业用途，因此为了顾及其商业用途的应用范围，自然要使用相关协议。而这篇文章仅仅是对LGPL协议正当使用做出解释，并为Forge进行辩护，因此并不会涉及揭露其具体对Forge源代码的内容。要搞清楚Forge诠释权的定义，我们应当首当其冲的分析LGPL协议的本质：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;a:你必须在你的文档中说明，你的程序中使用了 LGPL 库，并且说明这个库是基于 LGPL 发布的；&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;b:你必须在你的应用程序发布中包含一份 LGPL协议，通常就是那个文本文件；&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;c:你必须开放使用了 LGPL 库代码的所有代码，例如某些封装器。但是，其他使用这些封装器的代码就不需要开放了；&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;d:你必须包含你的应用程序的余下部分的目标文件（通常就是我们所说的 .o 等等），或者是其他等价的文件。源代码并不是必须的&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;显然，我们即便望文生义地看，网易也是一条责任都没有履行————我们无需在版权协议本身问题上对网易的侵权行为进行批驳，在这之前forge早已了做出对网易这类商业公司对其源码使用问题的考虑。而从Frogeloder得到的源文件几乎不能进行任何改动，因此，网易为了保住自己的乌纱帽，便对其源文件进行了流量混淆，也就是所谓的加密，这不仅仅是为了保全其版权的正当性，更是钻了微软官方许可的空子。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wei-ruan-eulaxu-ke-xie-yi-sheng-ming-de-que-xian&quot;&gt;微软EULA许可协议声明的缺陷&lt;&#x2F;h3&gt;
+&lt;p&gt;根据官网Minewcraft官网&lt;a href=&quot;https:&#x2F;&#x2F;www.minecraft.net&#x2F;zh-hans&#x2F;eula&quot;&gt;https:&#x2F;&#x2F;www.minecraft.net&#x2F;zh-hans&#x2F;eula&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;首先这个协议最大的问题不是对于mod创作相关的限制，而是整个协议都没有提及mod归属权滥用的问题：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果您已购买 Minecraft：Java 版，您可以尽情试用或通过改动、添加工具或插件（我们统称为“Mod”）来修改它。所谓“Mod”是指您或其他人的原创作品，不包含我们有版权的代码或内容的实质部分。当您将您的 Mod 与 Minecraft：Java 版 进行组合时，我们将这种组合称为游戏的“Mod 版本”。我们对哪些内容构成 Mod、哪些不构成 Mod 拥有最终决定权。您不得分发我们的游戏或软件的任何 Mod 版本，如果您没有使用 Mod 来恶意破坏，我们将不甚感激。基本上，Mod 可以分发；游戏客户端或服务器软件的 Mod 版本的入侵版本不可以分发。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这是一个对于玩家售后制作mod协议的单向规定，我们暂且不论其合法性的问题，它仅仅提及了对于所谓mod版本不能由玩家自己发布的问题，而对于官方是否具有mod归属权|诠释权|使用权，以及官方是否承认其对mod及其相关组件是否应当保护等问题都没有具体约束。同时，Eula也为网易滥用Forgeloder仓库换来了正当性，既然如此，网易便可以无视用户自制mod的许可协议，跳过&lt;strong&gt;LGPL强制开源协议&lt;&#x2F;strong&gt;直接按照Eula漏洞调动Forge仓库API接口，而接口本身也是LGPL协议的保护范围，因此ForgeAPI更新了什么网易也理应进行报告，这个LGPL协议的保护范围，涉及Forge的所有类库。&lt;&#x2F;p&gt;
+&lt;p&gt;接着看下来所谓微软不准许用户对其产品协议滥用的问题：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;除此之外，我们对您做的事情要求非常宽松，事实上我们鼓励您做一些很酷的事情，只是不要做我们规定不能做的那些事情即可。我们已制定详细的 Minecraft 使用准则，说明您可以或不可以使用我们提供的内容（包括我们游戏的截图和录制的视频）做哪些事情。这些 Minecraft 使用准则是我们给予社区的额外权限，以鼓励创造力和社区互动，但我们保留更改它们或撤回权限的权利，尤其是当我们看到有人利用或滥用这些权限时。Minecraft 使用准则经常更改，并且我们有权在任何时候撤回其中的权限，而不另行通知。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;也就是说，微软只要遇上所谓滥用，或者说某个组件管理器的开源协议对官方利益造成不利，微软便可以趁机修改Eula条款，不得不说这个条款是真的妙。而这个条款，对于毫无合法性的微软官方亦或者对开源社区来说，都是无效的。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;ed4176ff-0b4e-4219-9238-159c80d7d227&quot; alt=&quot;14&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ke-hu-duan-yu-forgeclient&quot;&gt;客户端与forgeclient&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;yi-cheatbreakerhe-yi-zhong-zhuan-you-de-legit-clientgai-he-qu-he-cong&quot;&gt;以cheatbreaker和一众专有的legit client该何去何从？&lt;&#x2F;h3&gt;
+&lt;p&gt;前面的章节中，我们一直都没有阐述关于开源hack组件与legit client的本质区别，如果按照Eula这个治标不治本的所谓准则出发，那么显然对于一些基于Forge开发的hackclient，比如wurst、LiquidBounce，它们便是有一个共同点，那就是所有的开发也都基于Forgeloder，与网易不同的是，它们普遍开源。然而部分hackclient例如Vape client则是一个完全和legit client一样具备基本的实用性mod的客户端。这些部分的hackclient和legitclinet既然都考虑了实用性，自然会去把mod和游戏整合在一起发布，那么自然也就符合了微软Eula准则的所谓mod版本构成条件，显然，是违背微软的准则的侵权行为。&lt;&#x2F;p&gt;
+&lt;p&gt;为什么某些人总是不仅仅限于高喊要反对hmcl反对multimc等一众第三方启动器，并且仅仅把它们视为所谓正版启动器的敌人呢？而不是去批驳那些被微软称之为mod版本的pvp client呢？更可笑的是，这些所谓的正版辩护士仅仅把问题放在离线和正版账号上，而不是将微软自己的准则视为正版的构成条件。请问这些先生读过Eula没有？如果正版不是按照微软那些治标不治本的准则来，那我们是否应该反对pvp，将其视为穷途末路，甚至将一切追求实用性先进理念的客户端全部当作盗版消灭掉呢？反过来说，难道我们还有理由责备hackclient和第三方启动器把这个侵权用的太少了吗？&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;46681166-4a20-4de3-8130-ce204e7cd0ac&quot; alt=&quot;460949039204&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;kai-yuan-clientji-di-san-fang-qi-dong-qi-yu-zhuan-you-pvpclientde-ben-zhi-qu-bie&quot;&gt;开源client及第三方启动器与专有pvpclient的本质区别&lt;&#x2F;h3&gt;
+&lt;p&gt;我们开宗明义地说，但凡是仔细研究过这些开源client的github项目的人，都知道它们与传统的基于安装包更新方式的客户端的本质区别是它们基于api接口更新。而从根本问题上讲它们的api接口虽然在更新方式上讲自然是趋于稳定的，要知道一个api更新可以只调用github静态托管的仓库，并且打包下来能够直接将接收的文件替换为更新内容。最具代表性的启动器就是知名legit client————cheatbreaker&lt;&#x2F;p&gt;
+&lt;p&gt;而这样的客户端由一个显著的缺点————它容易受到一些反对开源的资产阶级政府的审查，基于安装包更新方式的client则完全不同————只要其拥有当地政府的备案和授权，便可以在审查下进行更新。我们只能用澜恒的一句话来总结我们的任务————开源还有很长的路要走；让我们把这条艰难的道路走下去。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;5b6b6f87-15cd-4a13-be34-90d449ebe16b&quot; alt=&quot;13&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>论战斗机制</title>
+        <published>2024-03-19T00:00:00+00:00</published>
+        <updated>2024-03-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/zhan-dou-ji-zhi/"/>
+        <id>https://archjh.github.io/zhan-dou-ji-zhi/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/zhan-dou-ji-zhi/">&lt;h1 id=&quot;a-1-8-9zhan-dou-ji-zhi-de-ji-ben-wen-ti&quot;&gt;(a:1.8.9战斗机制的基本问题&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;you-xiao-ji-tui-he-ju-ti-shu-chu-gou-cheng&quot;&gt;有效击退和具体输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;要考察这个问题，我们需首先明确硬直期和击退的概念，一般情况下，玩家击退一个目标物会让这个目标物处于跳跃状态，这个过程里，即便物体在玩家的有效攻击范围内（有效攻击范围在为3格）进行输出，在这个过程中，目标物从被击退到落地的时间被称为硬直期，而游戏中1秒被判定为20gametick（即游戏刻），硬直期则是10gametick，在玩家击中目标物之后，目标物会被击退一格，因此，如果一个目标物和玩家的距离是0格，在玩家的一般输出伤害下，目标物会在有效攻击范围内只能被击退3次记作Reach=3，并且在硬直期下玩家若是对目标物输出，目标物将会受到比在硬直期之前更高的伤害，因此在这一过程中玩家是否击中目标对攻击伤害至关重要——cps越高意味着玩家会将目标物击退时受到的伤害越高且攻击间隔越小。我们将此输出称之为有效击退。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;10gt*3=Reach&#x2F;s&lt;&#x2F;strong&gt; &lt;strong&gt;Reach&#x2F;s=1.5ms&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;因此，有效击退=1.5ms，也就意味着Reach=30gt=1.5ms&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;comboji-tui-he-chou-xiang-shu-chu-gou-cheng&quot;&gt;combo击退和抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;combo击退与有效击退是截然不同的，我们需要首先知道，无论是adtap还是stap，在效能上都和wtap相同，adtap只是为了减少对刀的命中率，在发挥上是在wtap的基础上锦上添花，而stap只是为了提高combo的灵活性对wtap的改进。combo击退的本质是通过移动来完成攻击，但这个移动的先决条件是保持移动格数在刚好击退的边缘，因此我们如果要计算 1combos所需的时间便可以得出：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;1b=20gt&#x2F;2&lt;&#x2F;strong&gt; &lt;strong&gt;1b=0.5ms=10gt&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;因此，完成一次combo击退的时间=10gametick&lt;&#x2F;p&gt;
+&lt;p&gt;我们开宗明义地指出，玩家击中目标物的先决条件绝不等于具体构成，而是一个相当抽象的输出构成，因此存在着许多变量，诸如cps和是否疾跑或服用迅捷药水等。玩家在使用锋利II木剑和一般击退有极大区别，击退II木剑只会在打出伤害之后延长击退与硬直期，但先决条件必须是击退和伤害高于来源（即第一次击退的构成），否则击退和伤害都不会高于不同木剑。同样，一个锋利II木剑可以提高一次攻击时打出的伤害，但若是要在硬直期内实现伤害增益，先决条件必须是伤害高于来源，否则同样伤害的情况下，硬直期内的输出伤害也不会高于普通木剑。这就是综合不平衡原理的体现。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;10gt+X=Y+dN&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这个方程就很好的体现了变量在来源与击退的综合不平衡原理中起到的作用&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;b-1-8-9ju-ti-shu-chu-gou-cheng-yao-su&quot;&gt;(b:1.8.9具体输出构成要素&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;cps&quot;&gt;cps&lt;&#x2F;h3&gt;
+&lt;p&gt;即使cps代表一定伤害的输出速度，在cps上升的过程中，攻击间隔逐渐下降，游戏通常会在玩家放置方块并按下右键时只能构成一定cps，玩家若是要提高放置速度，就必须采取高于来源的措施，否则放置效率会远低于游戏自带的autoclick输出，这种情况下，放置和破坏两种输出的平衡就替换了不平衡。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bu-shu-dan-yao-yu-pen-jian&quot;&gt;部署弹药与喷溅&lt;&#x2F;h3&gt;
+&lt;p&gt;考察这个问题我们只能把抽象问题简化考虑，部署喷溅药水的先决条件是按下shift键然后进行鼠标单击选择需要部署的物品的操作，由于这些物品会被传送到物品栏，因而物品栏是否为闲置就至关重要，在potpvp模式中，对手通常会使用将食物丢弃的方法阻止玩家迂回，这样可以填充玩家准备部署的物品栏，拖延玩家部署弹药的时间从而构成一种对抗。而喷溅则是更加考验玩家的作战水准，玩家必须确保喷溅药水处于在疾跑时的前向60度角，走动时的45度角，以及站立时的20度角，出现偏差或者在攻击状态下喷溅，且喷溅有效距离必须为1～4格，距离越远效果越小，每隔一格下降25%。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;c-wei-ruan-zhu-yi-zhe-de-bian-hu&quot;&gt;(c:微软主义者的辩护&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;zhan-dou-geng-xin-hou-de-gong-ji-tiao-jian-duo-yang&quot;&gt;战斗更新后的攻击条件多样？&lt;&#x2F;h3&gt;
+&lt;p&gt;微软主义者不屑于隐瞒他们所谓的理论科学性，而是更善于去证实他们对疯狂敲击鼠标左键，使用防砍减小伤害，的低劣性的所谓考察。我们更应该仔细思虑，如果横扫攻击的冷却时间延长，那对手就可以在这之前做好防御准备，即便我们不将此称为回合制，那也应该是将抽象输出构成具体化，越是具体化的输出构成，在量级意义上而言，就更加简化而不是更有科学性，我们需要至少在科学性上否定微软主义者们的观点。&lt;&#x2F;p&gt;
+&lt;p&gt;谈到三个要素就必然提到攻击速度，伤害倍率，冷却时间，这三者的关系仅仅靠的是算法，和战斗更新之前的综合不平衡原理截然不同，它不再强调具体输出构成和抽象输出构成的辩证关系，而是将之加以机械性，如果必须要揭露其数学魔术的面纱，就必须考虑这三个概念的关联性。首先攻击速度决定冷却时间，冷却时间的计算公式是：T=1&#x2F;cps，也就说假设攻击速度为11cps，那么冷却时间就是T≈1.8gt或0.09ms。在旧版本里，如果在10gt的硬直期里打出了超出来源20%伤害的暴击，那么这个超出来源的伤害就是：&lt;strong&gt;X&#x27;=Y&#x27;-N&lt;&#x2F;strong&gt;。而在战斗更新后，伤害倍率被限制在0.2～1区间内，而剑攻击冷却时间为0.625s，冷却时间被彻底喷溅化，这样的改进使战斗机制更加接近部署弹药和填充弹药。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;da-dao-hui-he-zhi-bao-wei-pvp&quot;&gt;打倒回合制！保卫PVP！&lt;&#x2F;h3&gt;
+&lt;p&gt;抽象输出构成和具体输出构成的关系在接近——这意味着微软美帝国主义强盗集团无时无刻地蚕食着伟大开源自由的沙盒游戏我的世界，但胜利必然属于pvp玩家和mod插件开发者们！&lt;&#x2F;p&gt;
+&lt;p&gt;2024&#x2F;03&#x2F;19
+写于陕西西安&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;d-shu-chu-gou-cheng-fang-cheng&quot;&gt;(d:输出构成方程&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;you-xiao-shu-chu-gou-cheng-zeng-yi&quot;&gt;有效输出构成增益&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;1ba0a342-1de0-4046-ade7-895ac6e0a501&quot; alt=&quot;kk&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;自玩家坐标（Coordinates）开始输出，会出现两条向量，一种为有效输出构成，也称具体输出构成。一种则是抽象输出构成，也称combos，正如上文所说，根据更高替换原则，因为玩家向目标物打出伤害时，硬直期玩家受到的伤害比来源高，所以在有效击退范内每当玩家在完全不间断的情况下对距离玩家坐标为1的目标物输出伤害，硬直期便可以连续两次，也就是在20gt之内对目标物输出的伤害增益两次。&lt;&#x2F;p&gt;
+&lt;p&gt;根据方程具体体现我们可以得知一个定则，即无论抽象输出构成为何，具体输出构成对抽象输出构成的影响至少占总和的1&#x2F;3。因此，即便我们不知道要从何对抽象输出构成展开研究，至少也要明白这个决定性因素。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dui-combosde-xiang-liang-ying-xiang&quot;&gt;对combos的向量影响&lt;&#x2F;h3&gt;
+&lt;p&gt;根据此模型出发，我们根本无法掌握客观上具体的抽象输出的向量起点，因此这也成为了一切不定输出构成的先决条件————每当玩家打出伤害一次并前进一格时，就能体现出有效输出构成的影响，即玩家打出输出构成的具体击退，也就是kb。这也成为了每个minecraft pvp服务器自己的kb唯一决定性因素，所以，一个minecraft pvp对原生战斗机制能且只能修改影响输出构成的1&#x2F;3。&lt;&#x2F;p&gt;
+&lt;p&gt;因为这些影响无论如何都不足以改进整个战斗机制，所以整个战斗机制的叙事体系仍旧掌握在微软当局手里，这就是为什么一个服务器做得再好，都绕不开游戏本身战斗机制局限性影响的因素。然而因为微软本就掌握2&#x2F;3的输出战斗机制的绝对决定权，因而战斗更新就对minecraft造成了2&#x2F;3的破坏。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xing-shi-shang-de-chou-xiang-shu-chu-gou-cheng&quot;&gt;形式上的抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;jumprest&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;毫无疑问，跳跃重置对于战斗更新之后的高版本pvp来说是一种缺陷，由于剑这种武器在战斗更新之后出现了抽象输出构成增益，攻击延迟由原来的无间隔变成了0.625~1.6ms，因此玩家可以利用被击中的延迟增加对手kb从而让对手无法在攻击间隔再次击中目标，然而为了提高伤害则不得不用使用斧头这一种办法。记作：&lt;&#x2F;p&gt;
+&lt;p&gt;jr=(20gt+kb&#x2F;s)*kb&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;shifttap&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这种手段使得玩家更容易在Sprint和Sneaking中切换，但在高版本中由于攻击间隔的原因失去了其使用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;staticg.sportskeeda.com&#x2F;editor&#x2F;2022&#x2F;11&#x2F;dc12b-16687505325145-1920.jpg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>论开源</title>
+        <published>2023-09-23T00:00:00+00:00</published>
+        <updated>2023-09-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/duo-wan-hmcl-dao-ban-lun/"/>
+        <id>https://archjh.github.io/duo-wan-hmcl-dao-ban-lun/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/duo-wan-hmcl-dao-ban-lun/">&lt;h1 id=&quot;duo-wan-hmcldao-ban-lun&quot;&gt;多玩HMCL盗版论&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;jeshang-de-hmclshi-ji-xing-zhi&quot;&gt;JE上的HMCL实际性质&lt;&#x2F;h3&gt;
+&lt;p&gt;以当时的澜恒和十字乄为首的反痴分子认为，长期支持于Minecraft JE上的HMCL的开发目的是为了支持别有用心的盗版游戏，开发目的是为了向为玩家提供「非法游戏捷径」。没有在根本上意识到组件开发的软件源与脚本问题关乎着整个游戏的命脉，这些阁下幼稚可笑的荒唐观点居然把世界各地没有当地镜像源的Minecraft launcher奉为圭臬，请问这些先生见过脚本开发和反编译没有？如果没有长期支持的Java类库，mod开发能支持到最新稳定版吗？他们荒诞的逻辑做出的解释是「mod开发依靠知廉耻的购买正版的开发者以广告费盈利，并且以周边的商品作为主要盈利手段」我们需要声明一点，我们需要在保卫澜恒的同时反对他曾经对微软和hmcl错误认知，lunar和opitfine虽然功能强大且具有反对微软对mc戕害性领导的作用，但是一个遗憾的事实是它们不是开源软件。并且支持其他组件社区的任务重大且浩浩荡荡，这不是在开玩笑。如果没有hmcl社区的无私奉献，如果没有这个项目，那么mcbbs还算什么东西，它的实际意义何在呢？而现在又传来了网易要起诉&quot;第三方启动器”的噩耗，但已经被PCL创始人龙腾猫跃辟谣了。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hmclhe-pclyu-multimcde-gen-ben-qu-bie&quot;&gt;HMCL和PCL与MultiMC的根本区别&lt;&#x2F;h3&gt;
+&lt;p&gt;首先PCL本身只支持付费赞助开发才能下载新版本，这与HMCL和MulitMC的100%开源性质不同，况且MultiMC是最后才使用github支持开放源代码的，而PCL至今为止只支持PC端开放源代码，说明其只是一个具有民粹主义性质的专有且在只有一个人开发的垃圾软件罢了，开发目的仅仅迎合中国MC玩家的喜好罢了，对于开发者无任何实际意义。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wu-tiao-jian-bao-wei-wo-de-shi-jie-kai-yuan-she-qu-de-he-fa-quan-yi&quot;&gt;无条件保卫我的世界开源社区的合法权益&lt;&#x2F;h3&gt;
+&lt;p&gt;Fabric、Forge、LiteLoader已经四分五裂了，可笑的一点的大部分玩家根本意识不到这个问题的重要性质，QWERTY竟用提出了一个「查无此言」的结论，并且贼喊捉贼地将这个「代表性观点」公布于众，而05.10.2021这个节骨眼上，Ouilt就从fbric原先属于fbric社区的一个派别分裂为一个独立的开源社区。我无法相信这是人为造成的结果，05.10.2021之后微软就宣布windows11发布，这时mcw已经停止支持了一个月。而后Ouilt又分裂为长期支持派和滚动更新派，QWERTY先生自己也说过微软不是什么好东西，但是怎么解释为什么微软接手mc之后开源社区翻天覆地的变化和mod开发恶性循环呢？这是奈何？这种向微软投降的决心是对mc的彻底背叛，而「保卫我的世界」这一小册子的目的是让玩家和开发者达成共识以此反对微软对mc的不当干涉，这种指导意识形态本身就是正确的。我已经论证了windows11发布和mcw停止协议的时间节点关联性。Ouilt社区的诞生本身就是非常糟糕的结果，这是不应当发生的，mc会沦落到今天这种地步算是见鬼了。你们可以在forge官网上查查多少个mod被迫停止支持了，何况这个曾经四分五裂的fbrie社区还算是混的好的了。&lt;&#x2F;p&gt;
+&lt;p&gt;这种折衷主义哲学的解释已经被无数次论证为错误和缺乏论据的，应当被埋葬。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;fang-kuai-qi-dong-qi-de-shi-bai-yu-huang-yan&quot;&gt;方块启动器的失败与谎言&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;pic3.zhimg.com&#x2F;80&#x2F;v2-fd7db208126a6ae84d4b512c5993b14a_720w.webp&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;图为方块启动器MCPELauncher的官方github项目地址的信息栏&lt;&#x2F;p&gt;
+&lt;p&gt;这个失败的项目因为在早起开源协议管理不完善的情况下被多玩「抄袭」，而多玩从来就没使用过「土拨鼠我的世界盒子」这个「原名」zhuowei zhang自己本人没有权威性也缺乏资产阶级法权的知识产权意识。否则就不会为了一个开源协议问题让双方玩家被愚弄之下吵了这么旧的架。李学凌作为一个资本家现在和迷你世界创始人张泽湘一样也销声匿迹了。多玩辉煌的历史也让这个曾经在网易工作并且提「网易部落」计划的实施者被快速打垮。我们不需要在此做出详细解释，因为这个问题对现在的保卫我的世界意义不大。 方块启动器本身也在最后采用了Apache License开源协议但是仅仅只支持到了mcbe在2020年发布的1.14版本，再加上zhuowei zhang 先生的炒作，即使是到了最后，该开源协议也没有带着MCPELauncher走向平稳发展的道路。这足以论证了这个专有软件对mc带来恶果，这位zhuoweizhang先生先是在把自己仅有的积蓄用以欺骗自己，收买了腾讯新闻和搜狐新闻上的几个小自媒体，到了2020年的BE1.14.版本时，这个折腾了自己所有积蓄的烂尾项目才停用了下来。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jie-lun&quot;&gt;结论&lt;&#x2F;h3&gt;
+&lt;p&gt;(a:HMCL本身不能与多玩并列为盗版，且无法也不能成为PC等计算机系统的客户端。HMCL提供相当充足的软件源，大大增加了脚本编译的效率，缩减了开发项目的信息对照及包管理工作所需要的杂多时间。&lt;&#x2F;p&gt;
+&lt;p&gt;(b:HMCL是最出色的开源启动器，无论在开发还是游玩这个项目都是优越于MultiMC和PCL的，且有先进的GPLv3开源协议支持。&lt;&#x2F;p&gt;
+&lt;p&gt;(c:zhuoweizhang先生是一位滑稽可爱的跳梁小丑，“土拨鼠我的世界盒子”的闹剧只是他依靠他仅有的积蓄收买中国小自媒体的错误决策罢了，MCPElauncher是一个失败的项目。&lt;&#x2F;p&gt;
+&lt;p&gt;(d:澜恒曾经的错误不可被抹去，支持澜恒过去的立场等于将mc推向深渊。&lt;&#x2F;p&gt;
+&lt;p&gt;完成于：2023&#x2F;09&#x2F;23&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;guan-yu-he-ping-jie-jue-pvpwen-ti-de-ti-gang&quot;&gt;关于和平解决pvp问题的提纲&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;1-zhuan-you-he-kai-yuan-zhi-mao-dun-de-bu-ke-diao-he-xing&quot;&gt;1.专有和开源之矛盾的不可调和性&lt;&#x2F;h3&gt;
+&lt;p&gt;我们不得不承认，专有软件和开源软件的结合追求实用，更确切地说，因为开源软件的理念通常是简洁和专有软件的理念是尽可能满足用户的需要的共性，所以它们结合起来则是追求使用。一个专有软件的易用性取决于它是否能满足用户的需求，而开源软件则是以开发者为中心，亦或者说，用户就是开源项目的核心。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-kai-yuan-de-pu-bian-wen-ti&quot;&gt;2.开源的普遍问题&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;JumphaVE&#x2F;jumphave.github.io&#x2F;assets&#x2F;117712621&#x2F;40170e64-ec84-40a2-af4a-2b93388b4993&quot; alt=&quot;340aaf36de5ccf5e590ad057aef48d3ba6bea2c2 jpg_308w_232h_1c__web-search-article-cover&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;开源软件普遍在跨平台的兼容性和支持的广泛性上强于专有软件，因而一个开源软件在宏观上必然能满足用户的需求，专有软件则完全相反，它能保证能满足用户需要的情况下使用户留住，这同时也是一个专有软件的显著问题————留住了用户，但无法保障用户的使用权力，用户通常选择购买了专有软件之后，就必须保障他在这段时间内不能浪费他订阅计划的开销。&lt;&#x2F;p&gt;
+&lt;p&gt;开源软件通常遵循共同的许可协议————毫无疑问，这是一项所有开源项目的公约，它替代了简单的用户许可协议，提倡了社区联合的意义，正是这种许可协议采办机构与开源社区的合作。而专有软件反倒是让用户循规蹈矩，为了考虑计划项目的盈利目的，甚至抛弃了国际公约和易用性，开出了令人作呕并且几天都看不完的条约，这样做的目的是让用户和商业公司达成契约，这个时候，如果用户想要参与项目的开发，就必须做被剥削阶级的奴隶，它将用户本应是主导开发权力彻底剥夺。&lt;&#x2F;p&gt;
+&lt;p&gt;正如前文所述，开源软件普遍以用户为中心，用户主导开发项目，因而程序员就是计划的主人而不是资产阶级的奴隶，开源的意义在很大程度上讲则是将用户区分为参与者和使用者，用户拥有普遍成为开发者或参与者的权力，这个时候用户和开发机构的关系就不再是资本职能和管理职能的关系，而是管理职能和管理职能的关系，即便参与者和纯粹的使用者发生了分歧，这个分歧自然而然地就是非对抗性矛盾，而属于资本和用户的对抗性矛盾则是内部和外围不可调和的分歧，这种分歧造就了开发和使用关系必然不稳定。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-he-wei-fan-dong-de-kai-yuan-zhuan-yong-he-tong-yong&quot;&gt;3.何为反动的开源？————专用和通用&lt;&#x2F;h3&gt;
+&lt;p&gt;宏观上讲一个开源项目必然比一个专有软件的通用性强，这是因为，开源软件能在一定程度上更有效的进行社区之间的广泛合作，它可以跨越国家和地区让用户更有效的进行使用，在一定程度上保证了各个地区基本没有差异，因为开源软件使用的开发环境的受众率不广，所以开源软件的开发环境不被某些资产阶级政府高压控制的社区接受，但宏观上讲开源的通用性必然强于专有。&lt;&#x2F;p&gt;
+&lt;p&gt;专有软件能够更好的满足用户的需求，微观上讲，因为没有参与者，所以它更符合使用者的利益，专门为开发者量身定制，显而易见的问题就是专有软件有多种多样的发行版，不同的项目版本和计划，不同的完整性和功能多样性，同样，专有软件以所谓专业为标准，一些商业公司通常会打着自己擅长的宣传口径来宣扬自己的软件在某一方面的优越性，多样性造就了一个用户的使用的必然方向，而开源软件则在更多的方面追求实用性和通用性，在尽可能避免不必要的添加的同时，做到一个软件的功能多样化，但又不改变他们的共性和核心理念。&lt;&#x2F;p&gt;
+&lt;p&gt;反动的开源软件的维护方大多是为了夺得用户的信任的虚假开源社区，它们通常由商业公司采办，打着100%免费开源的旗号扬弃开源软件的实用性和通用性理念玷污开源。这样的开源软件的功能缺乏完整性，发行版同专有软件一样多种多样，纯粹是包着开源的皮的专有软件————我们将它们称为专用开源软件，同样，专用开源项目和通用开源项目的矛盾也属于不可调和的矛盾，这样的矛盾中，仍然是通用开源软件取得竞争的胜利。因此，这个问题的答案毫无疑问具有历史必然性。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4-bao-wei-kai-yuan-de-ren-wu&quot;&gt;4.保卫开源的任务&lt;&#x2F;h3&gt;
+&lt;p&gt;我们开宗明义地指出，保卫开源绝不只是抵制专有软件，而是应当主张让开源用户尽可能地多去参与开源项目的开发和建设工作，如果一个开源软件的管理职能和使用者发生了严重的分歧，那这种分歧愈演愈烈则会是商业公司和使用者的那种分歧，开源软件维护团队和用户的用户不是对抗性矛盾，虽然这种矛盾可能不可调和，但它绝不会导致开源社区像商业公司那样彻底覆灭或者倒闭，我们最低限度地讲，起码也是在开源软件在遇到危机的时候打入其他开源社区或者分裂，而不是完全解散。&lt;&#x2F;p&gt;
+&lt;p&gt;无条件保卫开源就是不向开源社区提出任何条件，但这种无条件的保卫不意味着无原则无纲领地保卫，开源软件可以分裂或者打入其他开源社区，但绝不会解散或者覆灭，这绝不是空想或信念，而是历史必然性。开源软件在面临分裂和不得不打入其他开源社区地同时，也会面临遭遇商业公司起诉亦或是团队成员加入商业公司，在任何资本主义国家里，反革命资产阶级政府都会对开源软件给与一定程度的打压。必然促使保卫开源不能向社区或者开发者团队提出任何条件，也不在乎镇压开源软件的资本主义国家在什么条件下才应当采取保卫。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;5-bao-wei-wo-de-shi-jie-de-shi-ming&quot;&gt;5.保卫我的世界的使命&lt;&#x2F;h3&gt;
+&lt;p&gt;quilt和neoforge这两个开源社区分别是从fabirc、forge分裂出来的，2020年的quilt分裂和2023年7月12日的neoforge的分裂之性质完全相同，一切原因归结于————微软的放纵和无为中对开源社区又加以干涉。微软对mod组件社区的打压从未停止过，光是在版本支持上就导致了兼容性矛盾，quilt为了向简洁化发展，抛弃了原有fabirc只关心兼容性的理念，而neoforge社区的分裂时间则是随着时间的推移开源社区发展的必然结果，微软从未在乎过开源社区的任何利益。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;JumphaVE&#x2F;jumphave.github.io&#x2F;assets&#x2F;117712621&#x2F;3186800d-f242-4dc0-a964-38a01631827c&quot; alt=&quot;屏幕截图 2024-06-04 002802&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;而optifine则完全不同————它从未开放过一条源代码，可mc玩家为了光影和更良好的性能，必须使用optifine。因此这个社区具有较强的稳定性，它不面临分裂的风险。blender导入我的世界地图模型在一定程度上讲不需要optifine的渲染，它可以使用插件或者自带的EEVEE或者工作台选项进行解析并渲染。这在一定程度上具有对光影插件的替代意义。&lt;&#x2F;p&gt;
+&lt;p&gt;或许世界上找不到那么几个用Java编写并且不使用任何物理引擎开发的游戏，所以我的世界是独一无二举世无双的奇迹，如果硬是要说出每个语言对应的巅峰之作，那我想c语言必然是linux和git，python必然是blender，Java当然就是————我的世界！&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;neoforged.net&#x2F;img&#x2F;content&#x2F;branding&#x2F;banner.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;6-rang-pvpquan-zi-zhao-zhao-kai-yuan-de-fang-xiang-qian-jin&quot;&gt;6.让pvp圈子朝着开源的方向前进&lt;&#x2F;h3&gt;
+&lt;p&gt;我想告诉所有pvp玩家和pvper，我们这个圈子在2016年遭遇了有史以来最严重的打击，一切的原因，必然归结于微软公司的不作为，xbox的反动领导只考虑了这个代表正统我的世界的基岩版的利益，而这个不允许开发者进行任何反编译的商业发行版毫无过人之处，只不过是一个普通的沙盒游戏，称不上是一个开源项目。微软为了利己不择手段，迫使我们所有Java用户都必须有一个开源的信念————使用开源剪辑录屏软件和pvp客户端，放弃可恶的lunar client和vegas以及pr，顽强抵抗，pvp圈子才有出路，只追求使用，则会走向败亡。&lt;&#x2F;p&gt;
+&lt;p&gt;pvp圈子绝没有任何污点————它绝不恶俗，绝不反动也绝不可能没有未来，potpvp圈子自2017年逐渐崛起，它从不畏惧一个战斗更新的打压，而hypixel则相反，遭遇了严重的重创，我希望我们共同努力吧，我相信，这种小游戏和pvp之间的分歧绝不是战斗机制更新造成的断层，更应该是我们保卫开源和自由的我的世界和反对微软的信念！&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;quiltmc.org&#x2F;assets&#x2F;img&#x2F;banner-light.svg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;全世界的pvp玩家和开发者，联合起来！&lt;&#x2F;p&gt;
+&lt;p&gt;完成于：2024&#x2F;02&#x2F;16&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>archlinux安装教程</title>
+        <published>2023-06-23T00:00:00+00:00</published>
+        <updated>2023-06-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://archjh.github.io/archlinux-an-zhuang/"/>
+        <id>https://archjh.github.io/archlinux-an-zhuang/</id>
+        
+        <content type="html" xml:base="https://archjh.github.io/archlinux-an-zhuang/">&lt;h1 id=&quot;kai-shi-an-zhuang&quot;&gt;开始安装&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;连接互联网&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;iwctl
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;首先，如果不知道你的网络设备名称，请列出所有 WiFi 设备：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;[iwd]# device list
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;如果设备或其相应的适配器已关闭，请将其打开。&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;[iwd]# adapter adapter set-property Powered on
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;然后，要开始扫描网络（注意：这个命令不会输出任何内容），执行：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;[iwd]# station device scan
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;再然后，就可以列出所有可用的网络：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;[iwd]# station device get-networks
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;最后，要连接到一个网络：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;[iwd]# station [名称] connect [SSID]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;更新系统时间&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;timedatectl
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;创建硬盘分区&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;fdisk -l(此处为小写字母l)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;我们使用&lt;code&gt;cfdisk&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;分区类型:EFI系统分区
+大小:512M&lt;&#x2F;p&gt;
+&lt;p&gt;分区类型:Linux swap
+大小:根据内存大小&lt;&#x2F;p&gt;
+&lt;p&gt;分区类型:根分区
+大小:剩余空间&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;格式化分区&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;根分区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mkfs.ext4 &#x2F;dev&#x2F;root_partition
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;交换空间分区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mkswap &#x2F;dev&#x2F;swap_partition
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;EFI系统分区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mkfs.fat -F 32 &#x2F;dev&#x2F;efi_system_partition
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;挂载分区&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;根分区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mount &#x2F;dev&#x2F;root_partition（根分区） &#x2F;mnt
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;UEFI系统分区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mkdir -p &#x2F;mnt&#x2F;boot
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mount --mkdir &#x2F;dev&#x2F;（EFI 系统分区） &#x2F;mnt&#x2F;boot&#x2F;efi
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;交换空间：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;swapon &#x2F;dev&#x2F;swap_partition（交换空间分区）
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;安装&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;首先，修改镜像源
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;vim &#x2F;etc&#x2F;pacman.d&#x2F;mirrorlist
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;删除所有镜像，填写163镜像源。&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Server = http:&#x2F;&#x2F;mirrors.163.com&#x2F;archlinux&#x2F;$repo&#x2F;os&#x2F;$arch
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;可以根据自己所在地区的运营商进行ping比对，以上仅供参考。&lt;&#x2F;p&gt;
+&lt;p&gt;安装系统&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;pacstrap &#x2F;mnt base linux linux-firmware base-devel neovim intel-ucode nano
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;配置&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;分区表&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;genfstab -U &#x2F;mnt &amp;gt;&amp;gt; &#x2F;mnt&#x2F;etc&#x2F;fstab
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;chroot
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;进入新系统：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;arch-chroot &#x2F;mnt
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;时区&lt;&#x2F;p&gt;
+&lt;p&gt;设置时区：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;ln -sf &#x2F;usr&#x2F;share&#x2F;zoneinfo&#x2F;Asia&#x2F;Shanghai &#x2F;etc&#x2F;localtime
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;将系统时间写入硬件时钟：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;hwclock --sys
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;安装引导程序&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;pacman -S dosfstools grub efibootmgr
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;再次执行&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mkdir -p &#x2F;mnt&#x2F;boot
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;mount --mkdir &#x2F;dev&#x2F;（EFI 系统分区） &#x2F;mnt&#x2F;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;boot&#x2F;efi
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;grub-install --target=x86_64-efi --efi-directory=&#x2F;mnt&#x2F;boot --bootloader-id=GRUB
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;grub-mkconfig -o &#x2F;boot&#x2F;grub&#x2F;grub.cfg
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;strong&gt;检查grub设置:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;检查&#x2F;etc&#x2F;default&#x2F;grub中的GRUB_TIMEOUT 是否设置成了0，设置为一个正数来调整GRUB条目加载前的等待时间，按秒计时。另外要检查GRUB_TIMEOUT_STYLE是否为hidden，设置为menu确保菜单显示。重新生成主配置文件后，重启检查设置是否生效。&lt;&#x2F;p&gt;
+&lt;p&gt;重启&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;umount -R &#x2F;mnt
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;reboot
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+</feed>
