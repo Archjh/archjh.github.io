@@ -40,3 +40,6 @@ latex = true
 
 # Enable search bar 
 enable_search = true 
+
+[extra]
+latex = true
