@@ -183,21 +183,27 @@ kb重构被积累之后，并不会直接转化为具体战斗中的符号流通
 我们可以从一个简单的模型推理kb重构是如何转化为每个玩家的符号汇率的：
 
 $$
-\mathbf{\text{既定战斗逻辑}}
-=
-\mathbf{\text{预付战斗投入}} = \begin{bmatrix}
-Friction \\
-Horizontal \\
-Vertical
-\end{bmatrix}
-= 
+\begin{aligned}
+\mathbf{\text{既定战斗逻辑}} 
+&= \mathbf{\text{预付战斗投入}} \\
+&= 
 \begin{bmatrix}
-SHB \\
-SVB \\
-VerticalLimit
+\text{Friction} \\
+\text{Horizontal} \\
+\text{Vertical}
 \end{bmatrix}
-=
-\mathbf{\text{战斗机制总构成}}
+\quad
+\text{(受害者受击参数)} \\
+&= 
+\begin{bmatrix}
+\text{SHB} \\
+\text{SVB} \\
+\text{VerticalLimit}
+\end{bmatrix}
+\quad
+\text{(攻击者修正参数)} \\
+&= \mathbf{\text{战斗机制总构成}}
+\end{aligned}
 $$
 
 上述三元组是Kar服务器kb机制的解构，任何新服务器对kb机制的升级也只是遵循`攻击—常量—修正—受击`的过程基础，在此之上加以对象的升级，即将参数细化或增加投掷物和数据包的优化选项，尽管Wihar可以通过`/kbbot`让玩家调整kb，但玩家不能公开自己调整的副本，更不能通过任何渠道改变Wihar运维团队的决策，因此，玩家完全没有决定`攻击—常量`这一过程的任何权利，也没有公开自己`修正—受击`副本的权利。
