@@ -174,7 +174,7 @@ nodebuff的问题源于其内在矛盾，nodebuff模式是pvp小农化的最高�
 从而，我们可以得出一个结论：
 
 $$
-\text{\text扩大kb重构}} = \text{简单kb重构} + \frac{\text{简单kb重构 - 既定战斗逻辑}}{\text{预付战斗投入}} 
+\text{扩大kb重构} = \text{简单kb重构} + \frac{\text{简单kb重构 - 既定战斗逻辑}}{\text{预付战斗投入}} 
 $$
 
 ### kb重构转化为符号经济
