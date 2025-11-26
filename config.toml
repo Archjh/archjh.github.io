@@ -30,7 +30,7 @@ after_dark_menu = [
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
 ]
-after_dark_title = "Archjh Blog's"
+after_dark_title = "iannjh Blog's"
 
 # Nicer codeblocks with copy to clipboard 
 codeblock = true
