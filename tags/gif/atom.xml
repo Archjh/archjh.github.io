@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>iannjh Blog&#x27;s - gif</title>
+    <subtitle>A robust, elegant dark theme</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://iannjh.github.io/tags/gif/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://iannjh.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2017-09-24T00:00:00+00:00</updated>
+    <id>https://iannjh.github.io/tags/gif/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Shortcodes Demos</title>
+        <published>2017-09-24T00:00:00+00:00</published>
+        <updated>2017-09-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://iannjh.github.io/shortcodes-demo/"/>
+        <id>https://iannjh.github.io/shortcodes-demo/</id>
+        
+        <summary type="html">&lt;p&gt;除非另有声明，本博客之原创文章采用&lt;a href=&quot;https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by&#x2F;4.0&#x2F;legalcode.zh-hans&quot;&gt;CC BY 4.0&lt;&#x2F;a&gt;进行许可。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i-blog.csdnimg.cn&#x2F;blog_migrate&#x2F;c0fb74f2193d95f661dc9e41fdda73df.png&quot; alt=&quot;CC BY 4.0&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;本人电子邮件地址：&lt;a href=&quot;mailto:gnuiannjh@disroot.org&quot;&gt;gnuiannjh@disroot.org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;github:&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;archjh&#x2F;&quot;&gt;archjh&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

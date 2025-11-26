@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>iannjh Blog&#x27;s - example</title>
+    <subtitle>A robust, elegant dark theme</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://iannjh.github.io/tags/example/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://iannjh.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-08T00:00:00+00:00</updated>
+    <id>https://iannjh.github.io/tags/example/atom.xml</id>
+    <entry xml:lang="en">
+        <title>《黑客论》第一卷</title>
+        <published>2025-11-08T00:00:00+00:00</published>
+        <updated>2025-11-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://iannjh.github.io/hei-ke-lun-i/"/>
+        <id>https://iannjh.github.io/hei-ke-lun-i/</id>
+        
+        <content type="html" xml:base="https://iannjh.github.io/hei-ke-lun-i/">&lt;h1 id=&quot;dao-yan&quot;&gt;导言&lt;&#x2F;h1&gt;
+&lt;p&gt;我们使用输出构成论对战斗机制进行考察，并非是为了将战斗机制局限于结构决定论的牢笼——恰恰是为了解放被抽象输出构成混沌蒙蔽的玩家，我们坚信，输出构成论是战斗机制经济化研究的成功案例，它肯定了战斗机制的社会性，同时否定了一切宣称战斗机制是经验化、精英化的pvp主义者庸俗的论断，他们不仅仅庸俗化了战斗机制，更是将战斗机制彻底去逻辑化和去代码化，毋宁说，&lt;strong&gt;当一个Minecraft玩家宣称自己是“pvp玩家”的时候，他实际上并非是在宣称自己是战斗机制的操作者，而是承认了pvp主义&lt;&#x2F;strong&gt;，正如pvp模式本身就是一种意识形态一样，pvp玩家自然也就必须是pvp主义者，如果pvp玩家认识不到pvp的战斗机制性，那pvp玩家自身就永远无法翻身把歌唱。&lt;&#x2F;p&gt;
+&lt;p&gt;输出构成论是解放Minecraft玩家和代码的学说，GNU运动是解放Linux内核、与实用主义开源集市和专有软件作斗争的学说，如果一个阵营无法克服自己的内部矛盾，那么它就无法战胜外部更强大的敌人，革命黑客想要胜利，就必须打败无政府实用主义集市和微软的专有垄断统治，正如《1844年经济学哲学手稿》所述，将工人、地租、资本三者完全分离对工人是致命的，将Minecraft玩家与其价值取向分离也同样是致命的，实用主义开源分子幻想的“数字公地”充满了空想主义和技术无政府主义的浪漫，而所谓的数字公地和商业公司不存在任何阶级对立，他们要么竞争扩张，要么被垄断资本收编，我们的目的正是消灭这种你死我活的竞争本身，而非单纯的营造另一种善与恶空中楼阁般的对立。&lt;&#x2F;p&gt;
+&lt;p&gt;我们在觉醒，在前进，逐渐意识到了无政府公会和无政府服务器在逐渐结合，无政府服务器和平台资本的结合种种因素致使的符号经济危机，然而，打破这一困境的方法绝非利用反作弊系统规范玩家，而是利用强大的黑客动员，构建集体主义pvp模式，&lt;strong&gt;赋予玩家修改和访问游戏的源代码，发放副本，贡献集体的权利是符合GNU四项基本自由原则的。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;事实证明了，Fabric&#x2F;yarn、Forge&#x2F;mcp等逆向工程无疑充当了微软的奴仆，而Minetest的底效治理模式注定了这个替代品的失败，这些实用主义集市会逐渐进入历史的垃圾堆，取而代之的是革命黑客通过逆向作弊战争争取的自由软件社区：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;我们正在做我们的前人从来没有做过的极其光荣伟大的事业。 我们的目的一定要达到。 我们的目的一定能够达到。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;shu-chu-gou-cheng-ji-ben-wen-ti&quot;&gt;输出构成基本问题&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;luo-ji-xing-shi&quot;&gt;逻辑形式&lt;&#x2F;h3&gt;
+&lt;p&gt;如果非要从头说起，有效输出构成，即战斗机制的底层逻辑必然取决于事件基础（EventManager），如果没有事件基础对每个符号量的判定，无论是硬符号还是软符号，都无法被实现，事件（Event）决定了这些或者那些量&lt;strong&gt;如何&lt;&#x2F;strong&gt;引发质变反应，很显然，恩格斯早就在自然辩证法里论证了这个逻辑，亦或者说，没有自然辩证法的指导，我们无法研究 Minecraft 战斗机制，恩格斯在《自然辩证法》中明确指出：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在同系列的碳化物、特别是较简单的碳氢化合物中，这一点表现得更为显著。在正烷烃中，最低级的是甲烷，$\mathrm{CH_4}$；在这里，碳原子的四个化学键被四个氢原子所饱和。第二种是乙烷，$\mathrm{C_2H_6}$，两个碳原子互相联结，自由的六个化学键被六个氢原子所饱和。以下依据代数学的公式 $\mathrm{C_\mathit{n}H_{2\mathit{n}＋2}}$ ，便有 $\mathrm{C_3H_8}$ ，$\mathrm{C4H10}$ 等等，所以每增加一个 $\mathrm{CH}&lt;em&gt;2$，便形成一个和以前的物体在质上不同的物体。这一系列中最低的三种是气体，已知的最高的一种十六烷，$\mathrm{C&lt;&#x2F;em&gt;{16}H_34}$，是沸点为摄氏270度的一种固体。关于从烷烃（理论上）得出的伯醇系列（公式是$\mathrm{C_\mathit{n}H_{2\mathit{n}+2}O}$）和一元脂肪酸系列（公式为$\mathrm{C_\mathit{n}H_{2\mathit{n}}O_2}$），情形也完全一样。在量上加上一个C3H6，能够造成什么样的质的区别，可以从如下的经验看出来：我们喝可以饮用的并且不掺杂其他醇类的乙醇$\mathrm{C_2H_6O}$，另一次我们喝同样的乙醇，但掺入了小量的戊醇 $\mathrm{C_5H_{12}O}$（它是大名鼎鼎的杂醇油的主要成分）。第二天早晨我们的脑袋就一定会感到这个东西，而且觉得受到它的伤害；所以甚至可以说：醉酒和由之而来的醉后头痛正是量到质的转化，一方面是乙醇，另一方面是这一点加上去的 $\mathrm{C_3H_6}$ 。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;在 Java 中，常量通常在程序运行过程中不会改变其值，Java 中定义常量的格式是 &lt;code&gt;（修饰符）final 数据类型 常量名 = 变量值;&lt;&#x2F;code&gt;，其中只有修饰符是可选的，其他都是必要项，例如&lt;code&gt;public final int WXX = 1&lt;&#x2F;code&gt;。而变量则在程序运行中可以改变其值，Java中其定义的格式为&lt;code&gt;（修饰符）数据类型 变量名 =（变量值）&lt;&#x2F;code&gt;，如果是全局变量，变量值可以不赋值（&lt;code&gt;int x;&lt;&#x2F;code&gt;），如果是局部变量必须初始化（&lt;code&gt;int x; x = 1;&lt;&#x2F;code&gt;），由此可见，Java及任何编程语言的基础，都是开发人员对因变量和自变量互相调整的结果，因变量的出现是为了避免自变量的矛盾，对自变量的问题进行界定，无论方法如何，自变量作为变化的原因，因变量作为变化的条件，实现是它们之间相互作用的反馈。&lt;&#x2F;p&gt;
+&lt;p&gt;因此事件基础是Java之本，而对事件结果的管理，也说对反馈机制的管理，由于其复杂性造成了不同反馈之间不能仅仅依赖交互，也就是说，如果要在交互的基础上开发新的变更或让程序开发显得更直观，就需要引入新的模块管理系统，否则，交互间的关系就会被复杂的更改破坏。通常，一个程序提供逻辑要能够满足新的开发者的基础需求，即&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. 能够管理和创造事件&lt;&#x2F;li&gt;
+&lt;li&gt;b. 能够使得事件之间不发生矛盾&lt;&#x2F;li&gt;
+&lt;li&gt;c. 能够让开发者在不破坏事件基础的情况下尽可能创造新的功能，&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;便能成为一个完美的程序，但这根本不简单——矛盾对立的统一不仅要解决本体与外部的矛盾，本体自身能够实现本身就是矛盾的结果而不是原因，因此内因是变化的条件，而外因是变化的环境，环境本身也是不同内因互相交互产生的结果，内因终究还是决定外因，这就是矛盾的本质。&lt;&#x2F;p&gt;
+&lt;p&gt;方法论的诞生是&lt;strong&gt;本体论无法承载不同的质之间抽象判别从而产生的结果&lt;&#x2F;strong&gt;，这就要谈到映射（Map），从映射的角度而言，这种传递相比较于交互和管理更加直接，而由于映射的对象是物理的输入，因而对于编程语言的要求更高，但这也造就了它需要编程语言需要大量的依赖库和类库来完成它与物理的接触，这看似很简单，但映射对性能的损耗和管理的准确性至关重要，如果依赖有一点瑕疵，程序不但要面临安全风险，甚至可能面临崩溃或无法运行，编译性语言在这个时候已经无法承载物理与程序之间反馈的复杂性，因此解释性语言就诞生了——它试图通过脚本和解释器对我结合来减小反馈的复杂性和依赖库的局限性，它更好的打破了物理映射带来的困难和冲突，它的库显得更加集中，而不是更加分散。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;di-ceng-luo-ji-guan-xi&quot;&gt;底层逻辑关系&lt;&#x2F;h3&gt;
+&lt;p&gt;有效输出构成（logic src constitute，简称LSC），即战斗机制的底层逻辑，在pvp模式中表现为硬符号的常量，也就是狭义上的有效输出构成符号，但在游戏源代码的语境下就变成了广义有效输出构成，它们的共同性质是都与资源逻辑和形式逻辑的抽象输出构成存在对立，这两者在性质上是完全不相干的。&lt;&#x2F;p&gt;
+&lt;p&gt;行为主义者则完全不同，他们把抽象输出构成作为事件的前提，从而让大多数PVP玩家达成一种先验的观念，也就是说&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;a. 资源在未加载和配置完成之前，游戏不存在任何逻辑&lt;&#x2F;li&gt;
+&lt;li&gt;b. 逻辑是符号的结果，而不是原因。&lt;&#x2F;li&gt;
+&lt;li&gt;c. 底层逻辑不能脱离物理条件和节制度独立存在。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;这就是说，他们把硬符号看作对游戏逻辑的直接修改或破坏，而不是继承，整体上，他们认同玩家通过经验积累提高技术和游戏体验，另一方面，他们又否认了有效输出构成和抽象输出构成存在不可调和的隔阂。&lt;&#x2F;p&gt;
+&lt;p&gt;行为主义者在叙事上将我的世界PVP模式的诞生看作是从PVP行为演变过来的，但忘记了，&lt;strong&gt;PVP模式本身就是游戏事件和资源沟通的必要结果，它甚至不能作为独立的模式存在&lt;&#x2F;strong&gt;，如果玩家不通过特定手段改变资源构成的结构，那他们就无法进行游戏，同时，行为主义者忽略了游戏战斗机制普遍存在的经济问题，将PVP模式的成败完全归结于经验，这种小农式的思维导致了玩家常常对游戏的不当竞争事件产生怀疑，形成了众说纷纭的阴谋论和怀疑论哲学（例如所谓的 misaim 和 misplaced 焦虑病），如果不打破用行为主义方法研究战斗机制问题，那就算 Minecraft 创新和纠错的频率再高，它也无法造福玩家。&lt;&#x2F;p&gt;
+&lt;p&gt;研究抽象输出构成本身没有意义，或者说，它是完全违背 Minecraft 战斗机制的运作逻辑的，行为主义本身就是一种没有本体论的方法论，行为主义是一种纯粹主义，将 Minecraft 的硬符号和软符号视为没有区别，但这两者是天差地别的，试图打破它们的界限，那我的世界将不复存在，抽象输出构成塑造的软符号除了造成经验焦虑之外，也无法指导实践，行为主义者甚至根本没有意识到我的世界不是基于物理引擎的游戏，而是基于复杂的逻辑构成的软件，脱离本体论就夸夸其谈方法论，本质上是对科学的蔑视——马克思利用辩证唯物主义向世人揭示了资本主义经济学对利润率的粗暴解读，我们要做的便是把专有软件学者对构成本体论的粗暴解读彻底批判，维护辩证唯物主义的精髓。&lt;&#x2F;p&gt;
+&lt;p&gt;如果非要谈目的论，那么行为主义战斗机制学和结构主义战斗机制学在方法论上是完全统一的，是以行为主义为手段达成经验主义的目的，后者则是用结构主义手段达成解构主义的目的，&lt;strong&gt;实现则是他们的终结&lt;&#x2F;strong&gt;，无论双方用何种方式指控对方，在目的实现之前，道路都是迷茫的，专有商业公司并非一开始就战胜了开源，科学最初是开源的，因此开源是从开源走向开源，自由软件主义本身就是科学理论，它不依赖意志的转移和需求的变化，反观行为主义，一直在重蹈覆辙，而这种循环，必然是要被按下暂停键的。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zuo-wei-zhuan-you-ruan-jian-de-wo-de-shi-jie&quot;&gt;作为专有软件的我的世界&lt;&#x2F;h3&gt;
+&lt;p&gt;但从ms和mojang领导视角来说，我的世界本身的效用往往表现为随资源逻辑和底层逻辑交互的变化而下降，但玩家在此过程中只需要透过资源逻辑完成对形式逻辑的理解，而这种主观的理解不足以使玩家掌握行为规律的变动，而微软专有化领导下，无政府服务器和反作弊服务器的对立自然不可调节，于是，它们形成了市场关系，但mojang和ms对它们的干预极低，造成了这种市场竞争让社区内部产生极大困扰，无政府服务器对外的市场关系和对内玩家客户端的技术垄断和对公会组织秘密的封锁仍然无法改变这种意识形态的劣根性，本质上，新pvp主义并不关心玩家自由和行为规律的覆灭，而是更在乎其模式的优越性能否战胜反作弊主义服务器，但这是根本不可能的，一旦利益集团形成，反作弊服务器服主必然倒向贿赂的公会，并且让该公会建立新的潜在秩序，这种秩序使得它们对服务器进行了专有化封锁，服务器团队仅负责营销，而服务器内部则要求玩家必须和公会组织搞好关系，渐渐地，营销团队随着价值规律的周期性灭亡，而人此时人数必然因公会的快速瓦解而逐渐负增长，2b2t就是典型的例子。&lt;&#x2F;p&gt;
+&lt;p&gt;反作弊系统的出现至少隔绝了价值规律和公会恶性竞争的副作用，并通过技术人员对kb机制进行部分开源以及建立反馈渠道，这就增加了信息的通透性，而玩家不与服务器达成任何协议就能免费游玩，自然也消灭了服务器与服务器之间的市场关系，玩家通过社区民主手段对服务器进行监督，也会对黑幕和技术秘密进行曝光，但这至少要遇到以下几个问题：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;服务器本身作为符号载体，不能直接调节符号供给和需求，以至于bug修复、kb更新、环境改良往往只能招来恶果，尤其表现在服务器对相对符号的修复上，每次修复，都是对汇率的重置，而这也意味着每一赛季周期性的结束，新的游玩者面临的是符号汇率流通难度相较于更新前的进一步提高，一方面，更新本身是按照上一代玩家的需求服务器的相对符号改良，以适应上一代玩家自身的软符号。另一方面，更新需要加强反作弊系统，以至于硬符号的流通被阻止，因此，新一代玩家将面临两个问题，一个是他能否击败人软符号平均提升的老玩家，一个是新玩家自身硬符号能否通过不同服务器反作弊系统的检查。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;假使所有服务器团队都是中立的，他们也可能在不了解客户端技术秘密的情况下收集玩家客户端信息，而由于这个游戏根本不开源，所以他们会对异常信息进行分类和统计，对异常级别进行排查和分级，这时，难以实现注入的专有客户端会被直接标记低风险，此类可能更容易被放行，而开源客户端由于其知名度较低或存在绕过查端，则会被重点观察，造成了开源客户端不得已开发绕过功能，进化为黑客端，而专有客户端由于其知名度较高，形成与反作弊系统的配合从而成为&lt;strong&gt;合法垄断资本&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;由此可见，服务器对符号的干预能力十分有限，这是玩家自身的符号水平决定的。根据上述规律，一方面，服务器对游戏公平性的干预取决于玩家对软符号模糊的需求，另一方面，取决于反作弊系统模糊的统计。而这两个对玩家符号汇率影响的重要因素，直接决定了汇率较低的玩家在作战中没有直接优势，而对服务器内部事务参与率高的玩家，则能提高他们的作战水准，但依旧无法消除行为规律和&lt;strong&gt;广义有效输出构成提高&lt;&#x2F;strong&gt;，而微软的资产阶级专有化领导，则决定了每个玩家的客户端和经验为代表的内因，而服务器的相对符号增值规律，则完全是外因。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;you-xiao-shu-chu-gou-cheng-yu-chou-xiang-shu-chu-gou-cheng&quot;&gt;有效输出构成与抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;作为符号载体的玩家，自身只得通过经验来理解游戏的形式逻辑，而游戏的底层逻辑运作规律，无论玩家是否拥有源代码，都无法完成修改，这也造成了玩家与其底层逻辑被隔绝，这种隔绝不仅停留在表象，而是在更新的慢慢长河中，它作为下降效用的能动存在，而形式逻辑，即抽象输出构成，是资源逻辑与玩家交互的实现，对有效输出构成的内在逻辑则没有影响。&lt;&#x2F;p&gt;
+&lt;p&gt;有效输出构成在游戏复杂的函数逻辑中是绝对的自变量，而抽象输出构成则是因变量，因此本质上，它们的性质不在于玩家通过任何经验能够获得，而是利用延伸的资源分配来实现，毋宁说，玩家的经验本身就是和资源共存的，通常，玩家能够读取的字符串或物品id就是有效输出构成的直接体现，它们通过对部分资源的调用来为玩家呈现动画，玩家对游戏的认知也逐步形成，一般情况下，服务器会对不该存在的变量进行封锁，而玩家能够获得的变量则可被加工为运作逻辑，反作弊系统规范了技术合规性，因而能够读取较少变量的、对变量换算规则控制较少的模式或机制被称为&lt;strong&gt;战斗机制&lt;&#x2F;strong&gt;，而其余的机制则有更高的变量换算和高强度干预，因此pvp模式的诞生本身就是量变导致质变的结果，而不是从玩家行为设计出来的。&lt;&#x2F;p&gt;
+&lt;p&gt;恰恰是因为&lt;strong&gt;战斗机制&lt;&#x2F;strong&gt;这一逻辑的特殊性，造成了它能直接决定Minecraft的最高速度换算，因此它的存在使得玩家更加容易被分流，而其他较慢的换算，则是守恒的，不会存在分流。然而，往往是这样的模式，节客制对抗就更加严重，玩家需要互相争夺可能的主动权，因此他们都需要加大符号产能，因此软符号是从硬符号中流出的，当一端的输出大于另一端的输入时，就会出现：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\text{输出构成} - \text{输入构成} = \text{流出构成}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def outflow_constitution(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    output_constitution: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    input_constitution: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return output_constitution - input_constitution
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;这样以来，占有流出构成的玩家便取得了主动权，也就是说，他能更快获胜，但一般情况下被占有流出构成会被转化为软符号，而软符号本身不具备同硬符号那样的绝对优势，因此在软符号遭遇同一汇率下高于该软符号水平的软符号，就会遭遇压制，表达为：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\frac{\text{相对符号增值} - \text{硬符号流出}}{\text{单一玩家符号总值}} = \text{单一玩家符号汇率}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def outflow_constitution(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    output_constitution: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    input_constitution: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return output_constitution - input_constitution
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;所谓替换流出，依赖于战斗机制逻辑中的更高替换原则，一旦条件触发，在硬直期内被击中的目标物只能受到比来源更高的伤害，因此，combos取决于玩家在被二次击中之后对方玩家是否符合游戏kb所支持的条件，例如，玩家在使用锋利II木剑和一般击退有极大区别，击退II木剑只会在打出伤害之后延长击退与硬直期，但先决条件必须是击退和伤害高于来源（即第一次击退的构成），否则击退和伤害都不会高于不同木剑。同样，一个锋利II木剑可以提高一次攻击时打出的伤害，但若是要在硬直期内实现伤害增益，先决条件必须是伤害高于来源，否则同样伤害的情况下，硬直期内的输出伤害也不会高于普通木剑。这就是综合不平衡原理的体现。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;shi-jian-ji-chu-jue-ding-zhan-dou-ji-zhi-yun-zuo-luo-ji&quot;&gt;事件基础决定战斗机制运作逻辑&lt;&#x2F;h3&gt;
+&lt;p&gt;所谓事件基础，就是不具备自我管理功能，依赖干预的有效输出构成，事件基础是战斗机制底层逻辑的存在条件，而硬符号则是管理模块（Module）与事件系统交互产生的结果。因此，它必定以Java常量形式存在，通常表达为：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&#x2F;&#x2F; 示例：击退力度常量（简化模型）
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;public final double KNOCKBACK_BASE = 0.4;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;public final double KNOCKBACK_MULTIPLIER_PER_LEVEL = 0.1;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&#x2F;&#x2F; 示例：伤害计算基础
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;public final double DAMAGE_MULTIPLIER_SHARPNESS_II = 1.5;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;这些常量决定了：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;一把“锋利II木剑”的&lt;strong&gt;基础伤害增益&lt;&#x2F;strong&gt;；&lt;&#x2F;li&gt;
+&lt;li&gt;“击退II”是否能在硬直期内触发&lt;strong&gt;更高替换原则&lt;&#x2F;strong&gt;；&lt;&#x2F;li&gt;
+&lt;li&gt;玩家能否在 combo 中实现 &lt;strong&gt;“流出构成 &amp;gt; 输入构成”&lt;&#x2F;strong&gt;。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;倘若combos需要被激活，流出构成就必须高于输入构成，反之，只会存在两种情况，一种是双方kb无限趋向于平均，另一种是对方在硬直期内击退对手。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;nodebuffde-dui-li&quot;&gt;nodebuff的对立&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;jing-ji-zhu-yi-yu-zhan-shu-zhu-yi&quot;&gt;经济主义与战术主义&lt;&#x2F;h3&gt;
+&lt;p&gt;nodebuff的问题源于其内在矛盾，nodebuff模式是pvp小农化的最高形式，注定了其回合机制的简单性，所以为了确保玩家衡量实力的准确性，回合胜负不再是衡量玩家能力的核心标准，而是剩余药水数即potted。在nodebuff模式中，战术主义者通常只占极少数或根本不存在，由于公会不再拥有垄断玩家人身自由的地位，所以只好以俱乐部的形式存在，这种小农模式致使玩家无比重视自己的rank、elo、wins，而服务器则是以反作弊为中心的中央集权制。&lt;&#x2F;p&gt;
+&lt;p&gt;经济主义者以potted为核心，在他们眼中，potted是玩家经济和实力的基石，任何脱离potted的战斗机制命题都是没有意义的，战术主义者则否认了这一点，他们以抽象输出构成为核心，试图构建起一套庞大的符号经济系统，然而，他们的论述通常是以宏大叙事为收尾，potted向下解构可以分为：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;fill：即玩家从背包向快捷栏填充药水的速度。&lt;&#x2F;li&gt;
+&lt;li&gt;agro：即玩家在趁对手消耗迅捷药水时攻击对手的行为。&lt;&#x2F;li&gt;
+&lt;li&gt;qd：即在回合进行中玩家趁对手喷溅药水时击败对手的行为。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;因此，即使是战术主义者，他们在分析抽象输出构成时仍然会像经济主义者一样以potted为中心，只是侧重点不同，经济主义者更倾向于将经济绝对化，玩家的实力被认为是potted直接决定，他们通常反对potted的向下解构。战术主义者对抽象输出构成进行的研究仍具有不彻底性和局限性，而他们的符号也大多是玩家的主观行为符号，并不重视量化计算。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dan-wei-hua-yan-jiu-yuan-li&quot;&gt;单位化研究原理&lt;&#x2F;h3&gt;
+&lt;p&gt;单位化和量化研究nodebuff战斗是对nodebuff进行科学批判的基石，在讨论单位化研究之前，我们区分单位的形式和符号的水平等重要概念，第一种计算单位是kb数值，第二种计算单位是符号水平数值。kb数值具有辩证性，一方面，玩家可以修改它，但玩家对它的修改由于缺乏参考资料和学习自由，因此只能凭借肌肉记忆，另一方面，服务器向玩家提供的参数是有限的，玩家并不能在任何公开空间分发自己的kb，只能作为私人kb在duel他人时使用，因此，针对它的研究范围仍然是抽象输出构成的。&lt;&#x2F;p&gt;
+&lt;p&gt;我们可以将kb数值分为一下变量：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;受害者受击&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Friction：击退前，受害者现有速度的衰减系数。值越大，现有速度影响越小。&lt;&#x2F;li&gt;
+&lt;li&gt;Horizontal：基础水平击退的强度倍数。&lt;&#x2F;li&gt;
+&lt;li&gt;Vertical：基础垂直击退的叠加值。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;攻击者修正&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;SprintHorizontalBoost (SHB)：攻击者修正带来的水平击退加成倍数。&lt;&#x2F;li&gt;
+&lt;li&gt;SprintVerticalBoost (SVB)：攻击者修正带来的垂直击退加成值。&lt;&#x2F;li&gt;
+&lt;li&gt;VerticalLimit：垂直速度上限，防止玩家被击飞。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;一般情况下，我们将kb参数分为&lt;strong&gt;受害者受击参数&lt;&#x2F;strong&gt;和&lt;strong&gt;攻击者修正参数&lt;&#x2F;strong&gt;，前者代表玩家在受到伤害时，参数需要计算的基础速度，只取决与受害者与攻击者的相对位置，后者代表攻击者攻击玩家之后，在水平朝向（Yaw）下，对攻击者绝对位置带来的影响。&lt;&#x2F;p&gt;
+&lt;p&gt;由此可见，kb参数本质上是玩家战斗的数据周转逻辑，表现为&lt;code&gt;攻击—常量—修正&lt;&#x2F;code&gt;，而玩家想要构成combos，就必须做到&lt;code&gt;攻击—常量—修正—攻击…&lt;&#x2F;code&gt;，反之，如果玩家的攻击造成了&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;或&lt;code&gt;攻击—常量—受击&lt;&#x2F;code&gt;，则玩家退出combos循环，因此，玩家受制于要么combos要么战败的逻辑，如果玩家无法控制常量，即有效输出构成，则这种竞争将永存不灭。&lt;&#x2F;p&gt;
+&lt;p&gt;这里要分两部看待，即&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;和&lt;code&gt;攻击—常量—受击&lt;&#x2F;code&gt;，第一种combos断裂形式我们可以称之为hit select，即选择性切断，第二种combos断裂形式我们可以称之为balance，即平衡性切断。当攻击者没有在攻击中疾跑或武器无击退型附魔，但没有形成combos需要条件，则玩家进入平衡性切断，当攻击者满足了疾跑状态和武器附魔两个条件，则玩家进入选择性切断。&lt;&#x2F;p&gt;
+&lt;p&gt;然而，如果玩家无法控制有效输出构成，无论玩家如何修改kb机制本质上都只能起到优化和适应抽象输出构成的作用，而反作弊服务器对常量修改者进行封锁，本质上是为了维系自己对常量的垄断权威，制造方块人界的产业后备军。我们可以得出一个结论：&lt;strong&gt;尽管反作弊服务器通过反作弊系统为玩家提供了一个技术小农化的环境，也改变不了服务器本质上依旧处于无政府状态的事实。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jian-dan-kbzhong-gou-he-kuo-da-kbzhong-gou&quot;&gt;简单kb重构和扩大kb重构&lt;&#x2F;h3&gt;
+&lt;p&gt;在反作弊服务器的萌芽状态，即各种反作弊服务器刚刚从无政府服务器的公会割据中独立出来的时期，反作弊服务器对kb机制的理解和研究是简单化、组件化的，这一时期，模块化的kb机制尚未形成，反作弊服务器面临的问题是市场缺乏专业的技术研究人员，因此，反作弊服务器只能实现对kb通用设置的基本控制，而随着人员量的增加，反作弊有了市场和玩家，他们要做的就是对kb进行优化，从而实现&lt;strong&gt;扩大kb重构&lt;&#x2F;strong&gt;，而维持现有的kb基础，我们称为&lt;strong&gt;简单kb重构&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;p&gt;要让我们对kb重构有一个基本的认知，可以这样举证，起初，Kar服务器只有通用kb设置，这些设置分别负责管理受害者受击和攻击者修正参数，而随着时间的推移，受Kar影响的Wihar扩展了kb参数方案，他们的kb配方主要分为：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;General (通用设置)&lt;&#x2F;li&gt;
+&lt;li&gt;Projectiles (投射物设置)&lt;&#x2F;li&gt;
+&lt;li&gt;Patches（补丁&#x2F;特定规则）&lt;&#x2F;li&gt;
+&lt;li&gt;Packet（数据包设置）&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;由此可见，Wihar的配方发生了飞跃式增量，上述模型证明了&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;的关键在于常量的控制权，然而，Wihar服务器对外开放的自定义kb，仅仅让个别玩家有限控制了受害者受击和攻击者修正，而&lt;code&gt;攻击—常量&lt;&#x2F;code&gt;要分两部分看待：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;攻击&lt;&#x2F;code&gt; = 服务器&lt;strong&gt;预付战斗投入&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;常量&lt;&#x2F;code&gt; = &lt;strong&gt;既定战斗逻辑&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;这两者都是有效输出构成的组成部分，一个反作弊服务器若需要成立，它需要通过一部分&lt;strong&gt;预付战斗投入&lt;&#x2F;strong&gt;来购买&lt;strong&gt;既定战斗逻辑&lt;&#x2F;strong&gt;，即受微软知识产权控制的既定逻辑源码，在反作弊服务器尚不发达的发展阶段，它可能需要将服务端源代码中负责管理服务器kb的类分批次投入修改，通过一期一期的工程逐步替换原版kb，而到了反作弊服务器盛行的发达阶段，它可能需要准备预购反作弊插件和数据包修改器的启动资金，或利用逆向手段获取其他服务器的kb配置，从而一次性微调服务器kb以达到替换原版kb的效果，正如《资本论》II所述：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在资本主义生产不太发达的阶段，那些需要很长劳动期间，因而需要在较长时间内大量投资的企业，特别是只能大规模经营的企业，例如筑路、开凿运河等等，或者完全不按资本主义的方式经营，而由公共团体或国家出资兴办（至于劳动力，在较早的时期，多半实行强制劳动）。或者那种需要较长劳动期间才能生产出来的产品，只有很小一部分是靠资本家自己的财产来生产的。例如，在给私人建造房子时，私人要分期垫款给建筑业主。因此，事实上他是按照房屋的生产过程的进度，一部分一部分地支付房屋的代价。而在发达的资本主义时期，一方面大量资本集中在单个资本家手里，另一方面，除了单个资本家，又有联合的资本家（股份公司），同时信用制度也发展了，资本主义建筑业主只是在例外的情况下才为个别私人定造房屋。他的职业是为市场建筑整排的房屋或市区，就象单个资本家作为承包人从事铁路建筑一样。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;随着反作弊突破难度的增加，那些只能通过逆向手段或低成本反作弊插件获取kb配方的反作弊服务器的生存将面临巨大挑战，最终导致pvp玩家向一部分同时掌握庞大数据包修改器和大量高级专有反作弊插件的服务器集中，而对kb扩展和优化不好的服务器为了防止大规模改动kb造成玩家对kb不适应等问题，拒绝更新服务器优化插件。&lt;&#x2F;p&gt;
+&lt;p&gt;从而，我们可以得出一个结论：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\text{扩大kb重构} = \text{简单kb重构} + \frac{\text{简单kb重构 - 既定战斗逻辑}}{\text{预付战斗投入}}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def expanded_kb_reconstruction(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    simple_kb_reconstruction: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    established_combat_logic: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    prepaid_combat_investment: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    if prepaid_combat_investment == 0:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        return simple_kb_reconstruction
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return simple_kb_reconstruction + (simple_kb_reconstruction - established_combat_logic) &#x2F; prepaid_combat_investment
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;kbzhong-gou-zhuan-hua-wei-fu-hao-jing-ji&quot;&gt;kb重构转化为符号经济&lt;&#x2F;h3&gt;
+&lt;p&gt;kb重构被积累之后，并不会直接转化为具体战斗中的符号流通，而是通过对在线玩家符号汇率的影响，达到干预符号水平的目的。即使一个服务器一直使用原版kb，它也可以通过匹配机制对玩家rank和duel构成影响，这取决于每一赛季的算法调整，但这种影响形式只能建立在一个服务器有足够多的相对过剩玩家之上的，否则，只会造成大幅度玩家流失。
+我们可以从一个简单的模型推理kb重构是如何转化为每个玩家的符号汇率的：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\mathbf{\text{既定战斗逻辑}}
+&amp;amp;= \mathbf{\text{预付战斗投入}} \
+&amp;amp;=
+\begin{bmatrix}
+\text{Friction} \
+\text{Horizontal} \
+\text{Vertical}
+\end{bmatrix}
+\quad
+\text{(受害者受击参数)} \
+&amp;amp;=
+\begin{bmatrix}
+\text{SHB} \
+\text{SVB} \
+\text{VerticalLimit}
+\end{bmatrix}
+\quad
+\text{(攻击者修正参数)} \
+&amp;amp;= \mathbf{\text{战斗机制总构成}}
+\end{aligned}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;BUHC_ITEM_VALUES = {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Golden Apples &amp;quot;: 1.0,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Speed Potions &amp;quot;: 0.8,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Strength Potions &amp;quot;: 0.9,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Healing&#x2F;Regen Potions &amp;quot;: 0.7,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Obsidian &amp;quot;: 0.5,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Diamond&#x2F;Netherite Sword &amp;quot;: 2.0,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Bow &amp;quot;: 1.2,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Full Diamond&#x2F;Iron Armor &amp;quot;: 1.5,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Arrows &amp;quot;: 0.1,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Ender Pearls &amp;quot;: 0.6,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Experience Bottles &amp;quot;: 0.3,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;Other Blocks &amp;quot;: 0.2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def buhc_remaining_value(inventory: Dict[str, int]) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return sum(qty * BUHC_ITEM_VALUES.get(item, 0.2) for item, qty in inventory.items())
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;上述三元组是Kar服务器kb机制的解构，任何新服务器对kb机制的升级也只是遵循&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;的过程基础，在此之上加以对象的升级，即将参数细化或增加投掷物和数据包的优化选项，尽管Wihar可以通过&lt;code&gt;&#x2F;kbbot&lt;&#x2F;code&gt;让玩家调整kb，但玩家不能公开自己调整的副本，更不能通过任何渠道改变Wihar运维团队的决策，因此，玩家完全没有决定&lt;code&gt;攻击—常量&lt;&#x2F;code&gt;这一过程的任何权利，也没有公开自己&lt;code&gt;修正—受击&lt;&#x2F;code&gt;副本的权利。&lt;&#x2F;p&gt;
+&lt;p&gt;原则上讲，反作弊服务器对kb机制的垄断已经达到了极其庞大的程度，但为什么服务器依旧会处于无政府状态呢？原因很简单，&lt;strong&gt;因为kb重构起到的作用只是间接影响个别玩家的符号汇率，而整个符号交换的过程，服务器对此束手无策&lt;&#x2F;strong&gt;，谈到符号交换过程，我们就有必要提到两个概念，一个是&lt;strong&gt;单一符号水平&lt;&#x2F;strong&gt;，代表玩家对最擅长的单一符号主观的掌握，一个是&lt;strong&gt;综合符号水平&lt;&#x2F;strong&gt;，代表玩家对每个主观符号平均化的掌握。&lt;&#x2F;p&gt;
+&lt;p&gt;往往是对个别单一符号掌握深度越高的玩家在战术中有更明显的优势，反之，综合符号水平较高的玩家在战斗中往往处于劣势。这就解释了为什么努力看一个努力学习pvp教学的玩家在服务器里苦练各项水准，但最终都打不过一个凭感觉只练习一种简单的技能但又有非常高的战术水准的玩家，原因不在于他没有刻苦训练，而是将注意力人为地转移到各项指标上，最终致使自己无法战胜同一符号汇率下，单一符号水平高于自己的玩家，因此，pvp教学事实上激化了玩家内耗，通常被个别行为主义分子利用，用于误导某些战斗机制爱好者。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;fan-zuo-bi-fu-wu-qi-guo-min-jing-ji-xue-yuan-li&quot;&gt;反作弊服务器国民经济学原理&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;zhu-guan-fu-hao-shui-ping-bo-dong&quot;&gt;主观符号水平波动&lt;&#x2F;h3&gt;
+&lt;p&gt;随着个别玩家的&lt;strong&gt;综合符号水平&lt;&#x2F;strong&gt;逐渐呈现平均化提高，稳定&lt;strong&gt;单一符号水平&lt;&#x2F;strong&gt;的玩家的优势越来越显著，有些高综合符号水平的玩家试图尝试技术越轨，但最终的结果是绕过字节码被捕捉，遭到反作弊系统的封禁，成为方块人界的产业后备军，当服务器在线玩家减少时，这些产业后备军的封禁时间也随之自然而然的减少，然而这并不能改变反作弊服务器符号经济崩溃的结局。&lt;&#x2F;p&gt;
+&lt;p&gt;单一符号水平的高低，不仅取决于玩家对kb的适应能力，而是符号汇率与符号交换共同作用的结果，由于服务器的匹配机制有可能匹配到单一符号水平与玩家重叠或更高的玩家，所以一个玩家仅仅适应了服务器的kb，他依旧会在战斗中失败，例如，一个对agro更擅长的玩家对局一个对qd更擅长的玩家，其中对agro更擅长的玩家在每一回合或单一回合中使用的agro优势数低于这个对qd更擅长的玩家的qd优势数，那么擅长agro的玩家就自然会战败，同理，如果这个擅长agro的玩家和其他擅长agro的玩家对局，胜出的一方只是对agro更擅长的玩家，然而这种局面不仅会导致玩家失败，更会导致失败的玩家丧失一定的符号汇率。&lt;&#x2F;p&gt;
+&lt;p&gt;每种主观符号都有其价值量，而价值量的高低取决于其在战斗中达到的伤害&#x2F;恢复值的不同，战斗机制乃至整个游戏是由运行时（Runtime）构成的，即代表它在一定时间内只能触发一定事件，因此玩家对综合符号水平的平均化掌握并不能代表玩家就能在一定时间内发挥每个所掌握符号的优势，换句话说，只有对单一技能高度熟练而其他技能则表现出落后的玩家才能在战斗中取得优势，而这一过程又不依赖价值取向，而是符号水平的主观性造成的。&lt;&#x2F;p&gt;
+&lt;p&gt;我们可以对符号价值量进行一个简单的评估：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;单一符号&lt;&#x2F;th&gt;&lt;th&gt;伤害&#x2F;恢复（~20gt）&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;qd&lt;&#x2F;td&gt;&lt;td&gt;7d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;agro&lt;&#x2F;td&gt;&lt;td&gt;5d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;hit select&lt;&#x2F;td&gt;&lt;td&gt;3d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;fill&lt;&#x2F;td&gt;&lt;td&gt;4d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;nokb&lt;&#x2F;td&gt;&lt;td&gt;2d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;jump reset&lt;&#x2F;td&gt;&lt;td&gt;2.5d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;wtap&lt;&#x2F;td&gt;&lt;td&gt;5.5d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;adtap&lt;&#x2F;td&gt;&lt;td&gt;8d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;sag&lt;&#x2F;td&gt;&lt;td&gt;2.5d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;tep&lt;&#x2F;td&gt;&lt;td&gt;4.5d&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;由于我们只考察了每个符号在特定时间内产生的伤害，所以上述符号伤害&#x2F;恢复值的差异不能作为直接衡量符号交换过程的依据，一个完整的符号研究需要评估每个符号的效用，而反作弊服务器之所以重构kb机制就是为了让每个符号的效用差趋近为0，因此在反作弊服务器的运作逻辑下，我们完全可以把每个符号的效用视为同等。相反，一个kb较差的服务器，才可能出现主观符号效用差异化的问题，这类服务器的玩家自然也是极少的。&lt;&#x2F;p&gt;
+&lt;p&gt;符号汇率的波动是长期的，且不具备像符号交换那样的时效性，一个玩家只有极少的几率会在服务器没有重构kb的情况下出现符号汇率波动，因为他需要一个和他的单一符号水平重叠的玩家对局，且这个玩家的符号汇率和他存在差距。所以如果没有意外，每一赛季玩家的符号汇率只会重置一次，并且不同玩家对符号汇率的适应能力也存在不同。自此之后，高综合符号水平玩家有重新转型为高单一符号水平玩家的可能，但符号汇率低下的玩家，除了利用作弊手段提高有效输出构成从而为单一符号水平创造积累条件，就没有其他手段能够在服务器生存了，故此只能选择游玩其他服务器从而稳定符号汇率。我们可以得出一个符号汇率计算公式：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\text{符号汇率} = \frac{\sum_{i=1}^{n} (\text{单一符号水平}_i \times \text{符号价值量}_i) - \text{硬符号流出}}{\mathbf{\text{战斗机制总构成}} \times (\text{综合符号水平} + \text{相对过剩符号})}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;SYMBOL_DAMAGE_TABLE = {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;qd &amp;quot;: 7.0, &amp;quot;agro &amp;quot;: 5.0, &amp;quot;hit_select &amp;quot;: 3.0, &amp;quot;fill &amp;quot;: 4.0,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;nokb &amp;quot;: 2.0, &amp;quot;jump_reset &amp;quot;: 2.5, &amp;quot;wtap &amp;quot;: 5.5, &amp;quot;adtap &amp;quot;: 8.0,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &amp;quot;sag &amp;quot;: 2.5, &amp;quot;tep &amp;quot;: 4.5
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def comprehensive_symbol_exchange_rate(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    single_symbol_levels: Dict[str, float],
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    hard_symbol_outflow: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    total_combat_mechanism_constitution: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    comprehensive_symbol_level: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    relative_surplus_symbols: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    weighted_sum = sum(level * SYMBOL_DAMAGE_TABLE.get(sym, 0) for sym, level in single_symbol_levels.items())
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    numerator = weighted_sum - hard_symbol_outflow
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    denominator = total_combat_mechanism_constitution * (comprehensive_symbol_level + relative_surplus_symbols)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return numerator &#x2F; denominator if denominator != 0 else 0.0
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;dui-ju-zhong-de-fu-hao-shui-ping&quot;&gt;对局中的符号水平&lt;&#x2F;h3&gt;
+&lt;p&gt;玩家符号水平的存在，本质上独立于&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;这一符号生产过程，与符号交换过程存在根本对立，表现为在时间上完全处于静态，但由于玩家主观活动和符号汇率波动不得不流通，区别于符号汇率的必然性，符号水平的更多立足于每一局战斗中玩家使用的符号，例如玩家在A局中使用了5次adtap，在B局中使用了3次adtap，对于单一回合来说，adtap无论在数量上还是概念上都处于静态，只有我们将A局打出的adtap和B局打出的adtap进行比对，才能发现差距，这表明了符号水平是直接以玩家作为参考系的。&lt;&#x2F;p&gt;
+&lt;p&gt;然而，完全将玩家的符号水平差异归结为价值取向存在一定问题，玩家存在肌肉记忆，所以玩家在A局中使用的adtap遭到了对方输出的过剩单一符号水平的挫败，则在B局中就会出现综合符号水平增值，因而他在战斗中使用的adtap会更少，打出的伤害也会越低，因此，玩家会随着匹配机制或duel决策的变动促使每一回合的符号水平受到不同程度的影响，所以，一个经常和特定高综合符号水平玩家游玩pvp的玩家的符号水平会在短期内快速提升。&lt;&#x2F;p&gt;
+&lt;p&gt;符号水平的波动存在于特定情况，更多是对象化的而非过程化的，因此我们研究符号水平，只能利用统计学手段，不同服务器下每个符号的价值量也是不同的，因此我们可以姑且将kb优化好的服务器作为范例，而将kb优化不好的服务器作为玩家在遭到封禁之后不得不选择的特例。假设一个kb优化非常之好的反作弊服务器符号价值量平均程度接近0，而伤害&#x2F;恢复值可以忽略不计：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;综合≈&lt;&#x2F;th&gt;&lt;th&gt;qd&lt;&#x2F;th&gt;&lt;th&gt;agro&lt;&#x2F;th&gt;&lt;th&gt;hit select&lt;&#x2F;th&gt;&lt;th&gt;nokb&lt;&#x2F;th&gt;&lt;th&gt;sag&lt;&#x2F;th&gt;&lt;th&gt;adtap&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;2.16&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;由此可见，这个玩家的单一符号水平是4，而综合符号水平是2.16，综合符号水平超出了单一符号水平的50%，我们可以将这种情况称为&lt;strong&gt;综合符号相对过剩&lt;&#x2F;strong&gt;，这类玩家在战斗中通常取得劣势，反之，如果一个玩家的单一符号水平低于50%，则这个玩家在战斗中通常取得优势。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;shi-jian-chi-du-yu-jia-zhi-liang&quot;&gt;时间尺度与价值量&lt;&#x2F;h3&gt;
+&lt;p&gt;对于从时间和历史的角度研究Minecraft pvp而言，一场战斗的时长会直接决定玩家的&lt;strong&gt;符号水平产能&lt;&#x2F;strong&gt;，但符号水平产能与符号汇率之间并不存在直接关系，区别在于，前者是在每一局战斗中随时长变化的符号总量，后者是根据玩家对kb的直接适应能力产生的整体性变量。不同的时间尺度下，玩家的水平产能产生不同，例如，A局的战斗持续时常是2分钟，B局的战斗持续时常是4分钟，则可推算B局的水平产能是A局的2倍，但符号在单位时间内的价值量不会改变，然而，前提条件是在一场战斗中玩家要与对手持续作战，否则就必须排除逃逸时间和休息时间。&lt;&#x2F;p&gt;
+&lt;p&gt;然而上述的一切研究都被排除在战斗的总过程以外，玩家对游戏的经济贡献主要体现在对rank、披风、视觉的消费，以及对赛事和活动的捐款，当一个服务器拥有庞大的相对过剩玩家的规模时，它可以把rank化分成三六九等，从MVP到SVIP再到VIP，按照玩家入会时间和捐赠数量进行划分。但是，&lt;strong&gt;这些名义上的经济贡献并不能实现服务器的利润最大化，服务器利润最大化的主要途径依旧是通过与反作弊系统、用户门户、主流合法客户端达成协议并进行谈判实现的&lt;&#x2F;strong&gt;。例如，一个服务器需要扩大利润，它可能被namemc等门户网站看重，然后被合法客户端收买并推送，紧接着，它会受到反作弊系统开发者的捐助并提供高级技术。&lt;&#x2F;p&gt;
+&lt;p&gt;早期Minecraft社区的反作弊系统存在部分自由的生态，这个时候，存在一部分进步的、道德化批判无政府公会割据的反作弊激进分子，随着时间的推移，这些负责供应自由反作弊的开发者遭到了市场的排斥，遭到了被主流商业公司开除的精英开发者的取代，在利益的驱使下，反作弊服务器的异化才正是开始，受到前商业公司开发者支持的Minecraft pvp服务器既不被服务器雇佣也不完全开源自己的项目，而是选择为他们看重的服务器提供捐助，而服务器通过技术合约得到了与反作弊开发者合作的机会，从而服务器实现了对开发者间接的雇佣，Hypixel的Watchdog反作弊系统就是这种发展模式下典型的例子。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhan-dou-bi-yao-chi-xu-shi-jian-yu-dan-wei-bi-yao-chi-xu-shi-jian&quot;&gt;战斗必要持续时间与单位必要持续时间&lt;&#x2F;h3&gt;
+&lt;p&gt;某些模式，例如nodebuff，在当战斗进行到一定阶段时，一方玩家的potted耗尽，最终在弹尽粮绝的情况下战败，这是单一符号相对过剩的直接表现形式，记作：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+\text{战斗必要持续时间} = \frac{\text{单一符号水平}}{\text{符号水平产能}}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def combat_necessary_duration(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    single_symbol_level: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    symbol_level_capacity: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return single_symbol_level &#x2F; symbol_level_capacity if symbol_level_capacity != 0 else float(&amp;#39;inf&amp;#39;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;假设一个玩家在一场战斗中投入的单一符号水平达到6，而综合符号水平达到2.4，则这个玩家的综合符号水平不到单一符号水平的50%，这种情况下玩家可以得到更好的发挥并战胜对手。但他需要做到在单位必要持续时间上确保每个符号的伤害最大化，否则只会增加水平产能从而促使作战时间的延长，进而导致弹尽粮绝。&lt;&#x2F;p&gt;
+&lt;p&gt;单位必要持续时间决定玩家对每个符号的必要使用时常，几乎每个符号都要求玩家对它的使用时常必须达到20gt，然而，服务器会对个别高伤害符号的kb进行重构，因此，玩家对优势符号的主观把握就会越来越不能把符号的价值量最大化，这是kb机制发展的必然结果，高单一符号玩家会随着他们逐渐进入瓶颈期的趋势逐渐减少，而高综合符号玩家越来越困难，比如，wtap在一个知名服务器最开始的价值可能达到5d，然而随着时间的推移，下一赛季它的价值就会贬值到3d，这证明了，玩家的实际持续时间和必要持续时间存在分离，由此，我们可以得出一个结论：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+E_T = E \times \frac{T_{\text{必要}}}{T_{\text{实际}}}
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def unit_necessary_duration_ratio(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    actual_duration: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    necessary_duration: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    if actual_duration == 0:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        return 0.0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return necessary_duration &#x2F; actual_duration
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;单位必要持续时间与符号汇率的整体性依旧是存在对立的，最重要的区别在于，单位必要持续时间对于反作弊服务器来说是可控的，而符号汇率对于服务器来说是完全不可控的，符号汇率被包含在&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;这一过程之中，无论是微软&#x2F;mojang、反作弊服务器、玩家，都不能精准的、全面的控制这一过程，部分玩家会因为未完成combos而被选择性切断，另一部分玩家会因为未完成combos而被平衡性切断，还有一部分玩家会持续combos对手，这与符号汇率和符号水平的直接影响构成关系。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;liu-chu-gou-cheng-lu-yu-liu-chu-gou-cheng-liang&quot;&gt;流出构成率与流出构成量&lt;&#x2F;h3&gt;
+&lt;p&gt;对于这个问题，我们有必要对玩家作战过程进行假定，假设玩家的符号汇率一定，从kb重构或战斗必要持续时间所必须的游戏刻部分，是一个已知不变的量。根据这个假设，同时也就知道玩家在一定时间内为服务器提供的流出构成率和流出构成量。例如，假设一个玩家每天进行6场比赛，每场比赛交换25wins，那么，150wins就是一个玩家所预付的总流出，再假设流出构成率是100%，即玩家赢下了所有战斗，那么，这150wins的抽象构成就生产150wins的流出构成量，或者说，玩家每天提供150wins的流出战斗值。&lt;&#x2F;p&gt;
+&lt;p&gt;但是，软符号是服务器同时使用全部玩家的总构成的数值表现，因此，软符号的价值，等于一个玩家的平均符号产出乘以总活跃玩家量。因此，在已知玩家符号产出的情况下，软符号的量与活跃的玩家人数成正比，如果一个玩家的日产出=150wins，那么，每天服务器要剥削100个玩家，就必须预付15000wins的总符号。&lt;&#x2F;p&gt;
+&lt;p&gt;同样，如果150wins的软符号，即一个玩家的日产出，每天生产15000wins的软符号，n个wins的软符号每天就生产150wins×n的剩余价值。可见，所生产的流出构成量，等于一个玩家一个游戏日所提供的流出构成乘以服务器所活跃的玩家人数。又因为在玩家符号产出已定的情况下，一个玩家所生产的流出构成量是由流出构成率决定的，由此就得出如下第一个规律：所生产的流出构成量，等于预付的软符号量乘以流出构成率，或者说，是由同一个服务器同时剥削的玩家的数目与单个玩家受剥削的程度之间的复比例决定的。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，如果我们用M表示流出构成量，用m表示一个玩家每天平均提供的流出构成，用v表示一个活跃玩家每天预付的软符号，用V表示软符号的总数，用k表示一个平均玩家产出的价值，用a&#x27;&#x2F;a（剩余战斗持续&#x2F;必要战斗持续）表示一个平均玩家受剥削的程度，用n表示所活跃的玩家人数，我们就得出：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+M=\tfrac{m}{v} V
+$$&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def outflow_constitution_quantity(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    soft_symbols_total: float,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    outflow_constitution_rate: float
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; float:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return soft_symbols_total * outflow_constitution_rate
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;这里继续假定，不仅一个平均玩家的产出不变，而且一个服务器所活跃的玩家已经化为平均的玩家。也有例外的情况，就是所产出的流出构成并不与受剥削的玩家人数按比例增长，但这时玩家的产出也就不是不变的了。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，在一定量流出构成的产出上，一种因素的减少可以由另一种因素的增加来补偿。如果软符号减少，同时流出构成率却按同一比例提高，那末所生产的流出构成量仍然不变。按照以前的假定，如果一个服务器每天要活跃100个玩家，必须预付15000wins，而流出构成率如果是50％，那末，这15000wins的流出构成就提供75000wins的流出构成，或3个战斗回合的流出构成。如果流出构成率提高一倍，或者说，战斗回合不是从6局延长到9局，而是从6局延长到12局，那末减少了一半的软符号75000wins，也同样提供75000wins的剩余价值，或75000wins×6个战斗回合的流出构成。可见，流出构成的减少，可以由玩家受剥削的程度的按比例的提高来抵偿，或者说，所活跃的玩家人数的减少，可以由活跃日的按比例的延长来抵偿。因此在一定限度内，服务器所能榨取的产出的供给，并不取决于网玩家的供给。[反过来说，如果流出构成率降低了，那末，只要流出构成量或活跃的玩家人数按比例增加，所生产的流出构成量就仍然不变。&lt;&#x2F;p&gt;
+&lt;p&gt;但是，靠提高流出构成率或延长活跃日来补偿玩家人数或软符号量的减少，是有不能超越的界限的。无论玩家的价值如何，无论维持玩家的战斗持续时间是2局还是10局，一个玩家每天所能产出的总符号，总是小于24局所物化的wins，如果这24局的战斗表现是6000wins，那就总是小于6000wins。要符号重构玩家本身，或者说，要补偿活跃玩家所预付的资符号产出，每天需要6局。根据这个假定，75000wins的软符号，活跃500个玩家，在流出构成率为100％，或战斗为12局的时候，每天产出的流出构成，或6×500个局的流出构成。15000wins的资本，每天活跃100个玩家，在流出构成率为200％，或活跃度为18局的时候，只生产30000的流出构成量，或12×100局的流出构成量。它的总符号产出，即预付的软符号的量加流出构成，在任何一天都决不能达到60000wins或24×100局的数额。平均活跃量（它天然总是小于24局）的绝对界限，就是流出构成的减少可以由流出构成率的提高来补偿的绝对界限，或者说，就是活跃的玩家人数的减少可以由玩家活跃的程度的提高来补偿的绝对界限。这个非常明白的第二个规律，对于解释服务器要尽量减少自己所活跃的玩家人数即减少转化为活跃的软符号部分的趋势（以后将谈到这种趋势）所产生的许多现象，是十分重要的，而这种趋势是同服务器要产出尽可能多的流出构成量的另一趋势相矛盾的。反过来说，如果所使用的玩家数量增加了，或软符号量增加了，但是它的增加和流出构成率的降低不成比例，那末所生产的流出构成量就会减少。&lt;&#x2F;p&gt;
+&lt;p&gt;第三个规律是从所产出的流出构成量取决于流出构成率和预付的流出构成量这两个因素而得出来的。如果流出构成率或玩家活跃的程度已定，玩家符号产出或战斗持续时间量已定，那末不言而喻，软符号越大，所产出的符号量和流出构成量也就越大。如果每局的界限及其必要部分的界限已定，那末，一个服务器kb所产出的符号量和流出构成量，显然就只取决于它所推动的玩家量。但根据以上假设，它所推动的玩家量取决于他所活跃的玩家的数量，或他所活跃的活跃人数，而玩家的人数又是由他所预付的软符号量决定的。可见，在软符号率和玩家符号产出已定的情况下，所产出的流出构成量同预付的流出构成量成正比。但是我们知道，服务器把他的资源分成两部分。它把一部分投在既定战斗逻辑上，这是它的构成的硬符号。它把另一部分转化为活的玩家，这一部分形成他的软符号。在同一战斗机制的基础上，在不同服务器中，服务器kb划分为硬符号和软符号的比例是不同的。在同一服务器内，这一比例是随着符号产出过程的技术基础和社会结合的变化而变化的。但是，无论一定的服务器是怎样分为硬符号和软符号，无论后者与前者之比是1:2或是1:10，还是1:x，刚才确定的规律都不会受到影响。因为根据前面的分析，硬符号的价值量虽然再现在符号价值量中，但是并不加入新形成的符号单位。活跃1000个玩家，当然比活跃100个玩家需要更多的qd、adtap等等。但是不管这些待追加的输出构成的符号是提高，降低，还是不变，也不管是大是小，都不会对推动这些抽象输出构成的玩家的符号增殖过程有任何影响。因此，上面确认的规律就具有这样的形式：在软符号的价值量已定和玩家活跃的程度相同的情况下，不同的服务器所活跃的符号价值量和流出构成量，同这些服务器的软符号即转化为玩家的部分的量成正比。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zuo-wei-wan-jia-gong-zi-de-elo&quot;&gt;作为玩家工资的elo&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;elohe-winszuo-wei-zhan-dou-ji-zhi-jiao-huan-jia-zhi&quot;&gt;elo和wins作为战斗机制“交换价值”&lt;&#x2F;h3&gt;
+&lt;p&gt;在前面的章节中，我们揭示了反作弊服务器利用符号总过程&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;重构战斗机制并利用符号规律剥削玩家的模式，以及非过程形式下符号水平受符号汇率和战斗持续时间多重因素影响下的波动，服务器在有效输出构成层面上剥削了玩家，而它们又在抽象输出构成的框架下要求玩家为服务器提供战斗，由此可见，研究抽象输出构成本身没有意义，但抽象输出构成无疑是牵引玩家战斗的根源，服务器正是以抽象输出构成的形式向玩家交付维持战斗的工资的，但玩家的劳动对象依旧是有效输出构成，这是不可绕过的。&lt;&#x2F;p&gt;
+&lt;p&gt;然而，这个问题存在根本矛盾，在反作弊服务器的运作下，玩家通过对有效输出构成的生产获得抽象输出构成的增值，但抽象输出构成的算法本身是有效输出构成的一部分，例如，玩家通过一局战斗获得了一定wins，然而wins的收益规则和资源逻辑根本没有关系，同样，wins转化为elo或玩家工资的其他形式（如hypixel中的rank分级），这一过程也和资源逻辑无关，战斗如果要作为符号产出，无论如何必须在被服务器评估之前就已经存在，但是，如果玩家能使他的战斗独立存在，他向服务器提供的就是elo的一部分，而不是战斗到wins的转化。&lt;&#x2F;p&gt;
+&lt;p&gt;抛开这些矛盾不谈，常量即符号价值量同kb产出的直接换算，也会或者消灭那个正是在反作弊服务器的基础上才自由展开的符号规律，或者消灭那种正是以符号化战斗为基础的反作弊模式本身。举例来说，假定玩家在活跃日内进行12场战斗表现为250elo。或是战斗中赢得的，这样，玩家以12场战斗，他的符号产出就等于他的符号构成。在这种情形下，他没有为他的符号规则制定者产生wins，这250elo不会转化为战绩，符号资本主义的基础就会消失，然而正是在这个基础上，玩家才出卖他的战斗，而他的战斗也才成为符号生产。或者玩家在12局战斗中获得的少于120elo，就是说，少于12局。12局战斗同10局、6局等等相交换。不等量的这种相等，不仅消灭了价值规定。这种自我消灭的矛盾甚至根本不可能当作规律来阐明或表述。&lt;&#x2F;p&gt;
+&lt;p&gt;从战斗分为符号化战斗和活战斗这一形式上的区别而引出较多量符号同较少量符号相交换，这是徒劳无益的。既然符号的价值不是由实际物化在符号中的战斗量来决定，而是由产出该符号所必需的活战斗的量来决定，所以这种做法就更加荒谬了。假定一些产出代表6局战斗。如果一些发明使这个产出用3局就可以生产出来，那末，连已经生产出来的符号的价值量也会降低一半。现在，这个符号所代表的只是3局的战斗必要持续，而不是原先6局的战斗必要持续了。可见，决定符号的价值量的，是生产符号所必需的战斗量，而不是战斗的物化形式。&lt;&#x2F;p&gt;
+&lt;p&gt;符号资本主义赖以生存的基础，就是玩家对wins的再生产，同理，如果服务器不占有wins，玩家就不会有elo，符号资本主义的本质就是wins的最大化生产，而之所以向玩家发放elo，只是为了维持玩家的生产积极性，而非“购买玩家的战斗所得”，一个玩家和另一玩家进行竞争，越高的rank只会使他更危险，因为这往往意味着他被排在活跃玩家名单的最前面，成为所有玩家的重点攻击对象，rank内部也被划分成三六九等，战斗是符号的实体和内在尺度，但它本身没有任何价值。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-ju-elo&quot;&gt;计局elo&lt;&#x2F;h3&gt;
+&lt;p&gt;玩家工资本身又采取各种各样的形式，这种情况从那些过分注重对象而忽视一切形式区别的pvp教程中是了解不到的。但是，阐述所有这些形式是属于专门研究符号战斗的学说的范围，因而不是本书的任务。不过，这里要简单地说明一下两种占统治地位的基本形式。&lt;&#x2F;p&gt;
+&lt;p&gt;玩家战斗总是按一定时期形式输出的，因此，玩家战斗的单局符号产出、单日符号产出、单月符号产出等转化形式也就是“计局elo”，也就是利用单据的胜负决定配发的elo值等等。然而，由于elo无法直接表现为玩家战绩的统计形式，因此它是由服务器算法分配，服务器算法制定了规则如何如何，例如挖方块会减少5elo、预判tep（末影珍珠投掷）减少3elo、方块垫高会减少4elo、回收水&#x2F;岩浆会减少1elo等等，但怎样算出elo的价格呢，即这场战斗的总分呢，玩家的平均局产出elo除以每局持续时间，就能得出平均玩家“雇佣劳动”价格，假定玩家的日结算工资是80elo即4局战斗的价值量，而每日战斗维持了8局，那么1局的价格就是：\frac{80}{8}=10elo ，这样就的出了战斗对局价格就是战斗价格的单位尺度。&lt;&#x2F;p&gt;
+&lt;p&gt;由此可见，即使玩家战绩不断下降，日工资、周工资等等仍然可以保持不变。例如一个普通日战斗持续了10局，玩家的日价值是80elo那么单局的价格就是：8 + \frac{80}{5} 。一旦战斗持续延长到12局，单局的价格就降低到20，一旦战斗持续延长到20局，一局的价格就降低到4 + \frac{40}{5}。虽然如此，日工资或周工资仍旧不变。反之，即使战斗价格不变或甚至下降，日工资或周工资也可以增加。例如，一个战斗日维持了10局战斗，玩家的日价值是80elo，那末1局的价格就是：8 + \frac{80}{5}。如果由于工作量增加，玩家按照原来的战斗价格战斗12局，那末他的日工资就增加到4 + \frac{40}{5}，而elo没有波动。如果不是增加战斗的外延量而是增加战斗的内含量，那也会得到同样的结果。因此，名义上的日工资或周工资提高的同时，战斗价格可以不变或下降。&lt;&#x2F;p&gt;
+&lt;p&gt;战斗价格由（\frac{玩家的日产出}{一定局数}）来决定这个事实表明：如果没有任何补偿，单是工作日的延长就会降低劳动价格。但是那些使服务器能够长期延长战斗的情况，最初使他能够，最后则迫使他也在名义上降低战斗价格，以致战斗局数增加了，但总价格即日工资或周工资反而下降了。这里只要指出两种情况就够了。如果一个人在一天中赢下了10局，那末即使服务器市场上玩家的供给不变，战斗的供给还是增加了。由此造成的玩家之间的竞争，使符号资本家能够压低战斗价格，而战斗价格的降低反过来又使他能够更加延长战斗时间。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-jian-elo&quot;&gt;计件elo&lt;&#x2F;h3&gt;
+&lt;p&gt;计件elo无非是计局elo剥削最大化的转换形式，正如计局elo是玩家战斗或战绩的积分形式一样。在实行计件elo的情况下，似乎玩家本身的战斗产出不是他的kb产出即活产出，而是已经物化在剩余物品里的产出，似乎这种不像计局elo那样，由（\frac{玩家的日产出}{一定局数}）这个分数决定，而是由玩家在战斗中的未使用物品数量决定。它的特点是，能够激发玩家更大的生产积极性，并更遵循服务器的扣除规则，例如，玩家会尽量避免预判tep、挖方块、BUHC垫高、回收水&#x2F;岩浆。并且，他们需要尽可能节省物品的消耗，因为这会直接决定他们的工资。&lt;&#x2F;p&gt;
+&lt;p&gt;在一些后发服务器，例如Wihar，rank模式几乎无人参与，而他们的唯一做法就是从玩家参与rank作为起始点，从而将unrank的参与也纳入elo记分当中，这类服务器的流出构成率极少，玩家几乎是在小圈子里贡献自己的无偿劳动，或作为bot练习服和休闲服游玩，只有服务器通过募捐获得锦标赛费用顶级为玩家分发奖励才能让玩家获得真正意义上的收益，因此，一个强大服务器的核心特征就是没有bot模式，这意味着玩家没有任何进行练习的余地，只能被算法直接操控，同时，由于极高的相对过剩玩家占有率，他们通常需要开设符合不同玩家需求的模式，例如party和小规模团队游戏。&lt;&#x2F;p&gt;
+&lt;p&gt;一个典型的例子就是MinemenClub，除了nodebuff模式以外，bed fight、sumo、boxing几乎都有玩家游玩，尤其是nodebuff，服务器甚至开放了party，即多个玩家房间聚众进行游戏，这在一定程度上缓解了过剩玩家带来的符号危机，然而，核心机制依旧在rank模式的elo机制上，为了解决过剩的玩家为服务器带来的负担，服务器就有必要推出一个master rank陷阱，让玩家直接通过购买排位的方式进行竞争，一旦排位固化，高rank玩家就会吸引低rank玩家于其竞争，这就必然导致玩家的排位被固化，但总有通过非付费手段努力竞争取得master席位的玩家，于是这时候就出现了战斗和排位的对立，mmc为了维持玩家战斗积极性，就不得不舍弃传统计局elo，转而走向计件elo。&lt;&#x2F;p&gt;
+&lt;p&gt;会员机制是利润率最大化的表现，而不发达的反作弊服务器通常没有庞大的会员系统，因此他们大多只能向练习场发展。假定玩家在一日之内进行了10局战斗，其中有5局是胜场，5局是败北，一个战斗日的总产出假定是100elo，从而一局的收益是20elo。假定经验表明，一个具有平均战斗水准，因而在产出符号时实际上只耗费战斗必要持续时间的玩家，在10局内提供200elo，不管它们是一个个可分离的符号，还是一个具有连续性的对局的可以分别计量的部分。这样，这200elo的价值，扣除其中包含的规则预判行为，为100elo，每局的产出为10elo。&lt;&#x2F;p&gt;
+&lt;p&gt;那剩余结算时什么样的呢？在nodebuff模式中，假定玩家18move，即自己的剩余药水为18potted，他打赢了一场rank，从而在为他结算elo时，将总potted量，即28potted的总数中扣除10potted得出18potted，从而激励玩家在下一场战斗中努力争取更高的move，尽管如此，服务器不能将双方玩家的potted之差换算为elo，而是在假定双方都需要扣除的情况下，进行全额换算，如果我们用P代表总potted，用P&#x27;代表总扣除，用M代表move，进而我们得出了一个公式：&lt;&#x2F;p&gt;
+&lt;p&gt;M=P-P&#x27;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def nodebuff_move(
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    total_potted: int,
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    deducted_potted: int
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;) -&amp;gt; int:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return total_potted - deducted_potted
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;BUHC也是同理，只不过需要对每项剩余进行总量统计，按照物品的价值量来核算，这意味着我们需要对每个物品的价值量进行统计，而这个统计的算法必须是按照每个物品的稀缺程度：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;物品种类 (Item Type)&lt;&#x2F;th&gt;&lt;th&gt;数量 (Quantity)&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;金苹果 (Golden Apples)&lt;&#x2F;td&gt;&lt;td&gt;128 (1 stack) + 64 (0.5 stack)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;速效药水 (Speed Potions)&lt;&#x2F;td&gt;&lt;td&gt;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;力量药水 (Strength Potions)&lt;&#x2F;td&gt;&lt;td&gt;12&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;治疗药水 (Healing&#x2F;Regen Potions)&lt;&#x2F;td&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;黑曜石 (Obsidian)&lt;&#x2F;td&gt;&lt;td&gt;64 (1 stack)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;钻石剑 (Diamond&#x2F;Netherite Sword)&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;弓 (Bow)&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;钻石&#x2F;铁盔甲 (Full Diamond&#x2F;Iron Armor)&lt;&#x2F;td&gt;&lt;td&gt;4 pieces&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;箭 (Arrows)&lt;&#x2F;td&gt;&lt;td&gt;64&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;末影珍珠 (Ender Pearls)&lt;&#x2F;td&gt;&lt;td&gt;16&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;经验瓶 (Experience Bottles)&lt;&#x2F;td&gt;&lt;td&gt;64&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;其他方块 (Other Blocks)&lt;&#x2F;td&gt;&lt;td&gt;~200&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;而某些特殊的模式，例如boxing，则需要通过combo差来计算玩家elo，当然这是意外情况，由于这种模式高度机械化，所以几乎没有玩家选择rank竞技，只作为unrank模式游玩。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;you-xiao-shu-chu-gou-cheng-ji-lei&quot;&gt;有效输出构成积累&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;you-xiao-shu-chu-gou-cheng-cong-xia-yi-zhuan-hua-wei-yan-yi&quot;&gt;有效输出构成从狭义转化为广义&lt;&#x2F;h3&gt;
+&lt;p&gt;广义有效输出构成在运作逻辑上和抽象输出构成密不可分，可以说，它是符号资本主义对玩家依赖最小的组成部分，而抽象输出构成恰恰相反，是符号资本主义对玩家依赖最大的部分，或者说，广义有效输出构成就是有效输出构成中负责管理和分配抽象输出构成的部分，它与抽象输出构成成正比，因此，抽象输出构成再怎么依赖玩家，随着广义有效输出构成的提高，玩家自然会遭到困难，我们可以这样理解反作弊服务器的广义有效输出构成提高形式：第一阶段，预付战斗投入转化为既定战斗逻辑，这个运动是在原版框架内进行的。运动的第二阶段，生产过程，服务器完成kb到玩家符号的产出就宣告结束，这些kb的产能高于其原版kb组成部分的产能，也就是包含原预付战斗加上流出构成。&lt;&#x2F;p&gt;
+&lt;p&gt;不管战斗过程的逻辑形式怎么样，它必须是连续不断的，或者说，必须周而复始地经过同样一些阶段。一个服务器不能停止战斗，同样，它也不能停止kb的重构。因此，每一个服务器的战斗过程，从经常的联系和它不断更新来看，同时也就是kb重构过程。随着积累的运行，战斗机制的产出会随着玩家符号汇率出现波动，但这终究不会影响服务器的广义有效输出构成占比，首先，我们从单个服务器的角度考察这个过程，例如，一个反作弊服主预付了10000RMB的战斗投入，其中4&#x2F;5用于反作弊插件、bot模拟等，其中1&#x2F;5用于举办rank赛事，假定他每年生产240000wins，价值为12000RMB，如果流出构成率为100%，流出构成就包含在40000wins的流出符号或纯符号中，它占总构成的1&#x2F;6，价值2000RMB，这2000RMB价值将由出售而实现。2000RMB的价值额就是2000RMB的价值额。从这笔货币上既嗅不出也看不出它是流出构成。一个价值是流出构成这一点，表明这一价值怎样来到它的所有者手里，但是丝毫也不能改变价值或货币的本性。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，服主要把他新增加的2000RMB变成资本，在其他条件不变的情况下，就得预付其中的4&#x2F;5去订阅反作弊插件，1&#x2F;5去购买新的玩家rank，这些rank玩家会在store上找到饰品和披风，而生活资料的价值已由服主预付给他们了。于是，这2000RMB新资本就在服务器中执行职能，并又带来400RMB的流出构成。以Wihar为例，我们来逐步论证这个反作弊服务器是如何增加广义有效输出构成的：&lt;&#x2F;p&gt;
+&lt;p&gt;2023年08月25日 08:00&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早上好。
+我们对Wihar服务器进行了一次更新，内容如下： 新的反作弊系统上线，封禁重置。服务器配置提升，卡顿显著优化。喷药系统调整：增大了喷满的难度。名字颜色和血量显示修复，与Bot系统、Disguise系统兼容。TabList更新，优化了宽带占用和频闪问题。如果你感兴趣，可以连接 WIHAR.BIO 进入 PRACTICE 服务器进行游玩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2023年10月02日 17:55&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;晚上好。祝各位玩家国庆节快乐！我们对Wihar服务器进行了一次更新，内容如下： Disguise系统更新：Nickname将只保留英文、数字和下划线。近期我们收到部分玩家反馈Disguise功能被滥用，影响了游戏体验。为了Wihar服务器的长远发展考虑，我们决定过滤Nickname中的所有中文字符和其他特殊符号。后续Disguise Prefix、Tag等功能如果仍然被滥用，同样会被过滤。请勿利用Wihar服务器的高自由度在游戏中展示违反法律法规或公序良俗的内容。
+· 喷药系统更新：提升了瞬间治疗药水II的喷出速度和观赏性，减小了喷满的难度。
+· 末影珍珠更新：限制了末影珍珠砸到实体后的传送高度，添加了传送后的0.5秒无伤害时间，提升了No Debuff模式部分珍珠玩法的游戏体验。
+· 击退更新：No Debuff模式 Rugla、Svanur 击退微调。
+-如果你感兴趣，可以连接 WIHAR.TOP 进入 PRACTICE 服务器进行游玩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2023年12月15日 17:26&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;晚上好。-
+我们对Wihar服务器进行了一次更新，内容如下：
+· 喷药系统更新：调整了喷溅型治疗药水的轨迹和视觉效果。
+· 击退选择系统更新：为自定义击退添加了调节喷药参数的功能。
+· 优化了网络和服务端性能，减少卡顿。
+-如果你感兴趣，可以连接 WIHAR.TOP 进入 PRACTICE 服务器进行游玩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2023年12月21日 00:59&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;午夜好。
+我们对Wihar服务器进行了一次更新，内容如下：
+· 为计分板添加了双方cps显示功能，有需要的玩家可以自行在设置中开启。
+· 击退算法更新：为了避免疾跑刷新导致KB变化影响TAP控距，现在玩家被连击时extra horizontal将不起作用。
+· 击退选择系统No Debuff模式的Ledge击退更新，击退大小更加合理，可玩性更高，更加具有syuu2018-2019年直升机KB的特点。
+· 修复了长期导致服务器频繁卡顿的恶性bug和服务器发送错误数据包导致玩家被踢出的恶性bug，游戏体验显著改善。
+· 将服务器宽带升级至20M，减少网络卡顿。
+-如果你感兴趣，可以连接 WIHAR.TOP 进入 PRACTICE 服务器进行游玩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2024年02月10日 15:54&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;各位玩家，下午好。因服务器遭受恶意DDOS攻击，我们临时切换了IP地址，服务端回到了一周前的测试状态，将在攻击结束后恢复。如果您暂时无法进入服务器，可以尝试以下几种方式进行修复：1. 更换wihar.cyou，wihar.top, wihar.bio三个ip地址中与原来您所使用不同的任意一个1. 打开cmd，输入ipconfig &#x2F;flushdns后重试1. 使用ip地址：121.32.236.6:16421进入服务器&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上午好。
+-我们对Wihar服务器进行了一次更新，内容如下：
+· 击杀特效更新：加入了多种击杀特效和视觉效果选项设置。
+· 喷药系统更新：将是否开启Potion Misplace选项加入设置。
+· Bot更新：重新加回根据玩家延迟调整Bot表现的机制。
+如果你感兴趣，可以连接 WIHAR.CYOU 进入 PRACTICE 服务器进行游玩。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2024年12月31日 23:54&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wihar将在2025年春节前后举行Build UHC Tournament赛事！
+参赛要求：参赛人员必须录制比赛过程，且必须接受查端.
+人数限定：不限（所有人满足参赛要求均可参加）
+奖励：1288，#1 #​2 #3均有(4:2:1)
+游戏模式：Build UHC
+报名方式详见Wihar官网。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;2025年04月05日 00:06&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;晚上好！
+近期，我们收集到了许多玩家对 Wihar 提出的宝贵意见，其中呼声很高的就是 &quot;优化战斗体验&#x2F;KB 系统&quot;。在经过内部讨论后，我们一致认为，现有的部分代码已经比较老旧和难以维护，并且存在着对战斗体验有影响的“玄学问题”。所以，我们选择了对部分代码库推翻重写，力求为各位玩家带来更好的游戏体验。
+借由今天 Wihar 重新上线的机会，我们已将全新的内容推送至服务器，开启新内容公测。
+在公测期间，如果您遇到任何问题，请随时向我们反馈！若您想要提供任何建设性建议（比如“我觉得这个KB太大了不好combo” “我觉得这个kb太吃cps了” 这样的建议&#x2F;反馈），我们也欢迎您随时同我们一起交流！
+我们期望着在未来能与各位玩家一起携手创造一个更好玩的 Wihar！&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;def organic_composition_trend(df: pd.DataFrame):
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    df[&amp;quot;broad_lsc_ratio&amp;quot;] = df[&amp;quot;C&amp;quot;] &#x2F; (df[&amp;quot;C&amp;quot;] + df[&amp;quot;V&amp;quot;])
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    return df
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;我们可以得出以下表格：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;日期&lt;&#x2F;th&gt;&lt;th&gt;既定战斗逻辑（C，不变资本，RMB）&lt;&#x2F;th&gt;&lt;th&gt;rank总价值量（V，可变资本，wins折算RMB）&lt;&#x2F;th&gt;&lt;th&gt;C:V（有机构成）&lt;&#x2F;th&gt;&lt;th&gt;事件总结（关键积累节点）&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;2023-08-25&lt;&#x2F;td&gt;&lt;td&gt;15,000&lt;&#x2F;td&gt;&lt;td&gt;3,000&lt;&#x2F;td&gt;&lt;td&gt;5 : 1&lt;&#x2F;td&gt;&lt;td&gt;新反作弊系统 + 喷药难度增大，首次建立“既定战斗逻辑”垄断&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2023-10-02&lt;&#x2F;td&gt;&lt;td&gt;18,000 (+3,000)&lt;&#x2F;td&gt;&lt;td&gt;3,500 (+500)&lt;&#x2F;td&gt;&lt;td&gt;5.14 : 1&lt;&#x2F;td&gt;&lt;td&gt;喷药&#x2F;珍珠&#x2F;击退微调，C小幅提升，V几乎不动&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2023-12-15&lt;&#x2F;td&gt;&lt;td&gt;21,000 (+3,000)&lt;&#x2F;td&gt;&lt;td&gt;3,800 (+300)&lt;&#x2F;td&gt;&lt;td&gt;5.53 : 1&lt;&#x2F;td&gt;&lt;td&gt;自定义击退加入喷药参数，C继续积累&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2023-12-21&lt;&#x2F;td&gt;&lt;td&gt;25,000 (+4,000)&lt;&#x2F;td&gt;&lt;td&gt;4,000 (+200)&lt;&#x2F;td&gt;&lt;td&gt;6.25 : 1&lt;&#x2F;td&gt;&lt;td&gt;击退算法大修（extra horizontal失效）+ 20M宽带，C大幅提高&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2024-02-10&lt;&#x2F;td&gt;&lt;td&gt;28,000 (+3,000)&lt;&#x2F;td&gt;&lt;td&gt;4,500 (+500)&lt;&#x2F;td&gt;&lt;td&gt;6.22 : 1&lt;&#x2F;td&gt;&lt;td&gt;击杀特效 + Potion Misplace选项，V小幅刺激&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2024-12-31&lt;&#x2F;td&gt;&lt;td&gt;28,000&lt;&#x2F;td&gt;&lt;td&gt;7,500 (+3,000)&lt;&#x2F;td&gt;&lt;td&gt;3.73 : 1&lt;&#x2F;td&gt;&lt;td&gt;1288元Build UHC赛事奖金，V一次性暴增，拉低有机构成&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2025-04-05&lt;&#x2F;td&gt;&lt;td&gt;36,000 (+8,000)&lt;&#x2F;td&gt;&lt;td&gt;8,000 (+500)&lt;&#x2F;td&gt;&lt;td&gt;4.5 : 1&lt;&#x2F;td&gt;&lt;td&gt;代码库推翻重写 + 新KB公测，C实现飞跃，标志广义有效输出构成主导地位确立&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;以上是对Minecraft反作弊pvp服务器Wihar的广义有效输出构成比例的分析，足以总结出，Minecraft pvp服务器随着不断扩大kb重构，广义有效输出构成会不断提高，但可变资本始终保持在X：1。这论证了，&lt;strong&gt;广义有效输出构成存在的意义，就是消灭抽象输出构成的存在价值&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;li-shi-wei-ji&quot;&gt;历史危机&lt;&#x2F;h3&gt;
+&lt;p&gt;历史的发展规律总是随着服务器经济的跌宕起伏而改变，从Kar到Karzer，从Karzer到Wihar，都是一个又一个的反作弊服务器随着广义有效输出构成的提高致使的经济危机，行为主义玩家们把他们的失败总结为“口碑不好”、“kb一坨”、“滥用职权”，符号资本主义对玩家的思想异化程度已经远远超过了18~19世纪亚当斯密、斯拉法等人捏造的“商品拜物教”，玩家能够创造数以万计的rank排位和上百种kb配方，却会因为修改了一行游戏源代码引来“牢狱之灾”，符号资本家占有了服务器开发资源，摧毁了如中世纪田园诗般浪漫的公会割据，发展出了高度发达的积分系统和符号经济，但却在“公平竞技”的掩护下封禁玩家，制造了比资本主义实体经济还要多的产业后备军（25~30%）。&lt;&#x2F;p&gt;
+&lt;p&gt;由于反作弊服务器至今为止还没有玩家的劳动法和劳工维权机构，所以绝大多数玩家在遇到账号“牢狱之灾”之后都选择了换号或者坐以待毙，这并非因为玩家的上分需求没有得到满足或elo“可上可不上”，而是玩家如果不上线服务器，自己的elo就会被清空或重置，是强迫劳动的一种体现。反作弊服务器的灭亡具有历史必然性，其存在也必然有历史局限性，反作弊服务器的灭亡只是时间问题，取决于玩家对生产关系的认知程度，小型pvp服务器沦落为练习服，即&lt;strong&gt;资本密集型服务器&lt;&#x2F;strong&gt;，大型pvp服务器由于拥有较强的玩家集中能力成为&lt;strong&gt;劳动密集型服务器&lt;&#x2F;strong&gt;，反作弊服务器所谓的“社区”并非真正的社区，而是毫无玩家自主权的企业聊天室，在Discord、Reddit等平台，玩家被迫接受封锁和审查，毫无自由可言。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zhan-shu-guan-nian-lun-pi-pan&quot;&gt;战术观念论批判&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;zhan-shu-guo-cheng-zhu-yi&quot;&gt;战术过程主义&lt;&#x2F;h3&gt;
+&lt;p&gt;卡姆姬先生在《对我的世界中PVP击退的研究报告》，被Kazer乃至后来的Wihar都视为强大的分析工具和理论武器，然而这也导致越来越多的中国反作弊服务器坐山吃空，从2020年开始，随着广义有效输出构成的提高，MineCarl、Kazer几乎所有服务器都无一例外的走向了崩溃，我们将从具体问题具体分析和无产阶级立场的角度出发，逐步论证其观点的谬论以及给玩家带来的苦难：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于在nms中部分变量经过了混淆，所以只能通过猜测得出这些变量的意义。在EntityLiving类中，玩家受到伤害时会触发damageEntity函数。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;d0为攻击者位置的X值减去受害者位置的X值，即为从受害者到攻击者的向量的X值。
+d1初始值为攻击者位置的Z值减去受害者位置的X值，即为从受害者到攻击者的向量的Z值。
+我们把d0称为x，d1称为z，则&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若x²+z²&amp;lt;0.0001，则将d1设为一个-1至1之间的随机值*(见下方)，再乘以0.01，同时将d0也进行一次这样的操作。
+若x²+z²还是&amp;lt;0.0001，则再进行一次，直到不满足这个条件为止。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;code&gt;net.minecraft.server&lt;&#x2F;code&gt;作为原版既定战斗投入的一部分，是Minecraft在1.17版本以前，Minecraft原版服务端的所有类都被官方混淆，因此1.17.10~1.8.9版本的反作弊服务器基本通过CraftBukkit的衍生服务端（Spigot、Paper、Folia）现成的包装进行修改，因此，文章从原版代码角度出发研究Minecraft kb机制，本身就陷入了技术决定论的泥潭，忽视了社区生态作为集体可以对既定逻辑进行改造和发展的社会作用。其次，攻击者X值—受害者X值投入的向量应为攻击者Z - 受害者X的向量，这里，卡姆姬先生犯了严重的笔误，以至于在后续的结论中公然宣称：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;测试攻击者与受害者所在位置存在高度差时，击退依然与上面一样，证明击退和高度差无关。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;其次，防0保护机制函数并不是damageEntity独有，而是EntityLivingBase.knockBack的标准实现，其次，防0保护机制的设计目的是当攻击者和目标几乎重叠时，直接用 &lt;code&gt;(d0, d1)&lt;&#x2F;code&gt; 计算角度会导致数值不稳定或错误（例如，atan2(0, 0) 是未定义的）。通过给 &lt;code&gt;d1&lt;&#x2F;code&gt; 加上一个微小的随机扰动，确保 &lt;code&gt;(d0, d1)&lt;&#x2F;code&gt; 不再是零向量，从而保证后续的角度计算能正常进行，并且结果不会因为精确重叠而产生异常。该防止0保护机制函数为：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;double d1;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;for (d1 = entity.locZ - this.locZ; d0 * d0 + d1 * d1 &amp;lt; 1.0E-4D; d1 = (Math.random() - Math.random()) * 0.01D) {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;而卡姆姬先生直接将文章的核心转移到这个奇妙的“思维实验”里，体现了这种宣扬“实验不可被证伪”的行为主义精神的荒谬。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编个程统计一下这个随机数，进行100000000次(一亿次)模拟，发现其分布曲线是金字塔形。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;曲线是金字塔形？我们可以参考标准实现：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;double dx = this.posX - attacker.posX;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;double dz = this.posZ - attacker.posZ;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;double dist = MathHelper.sqrt(dx * dx + dz * dz);
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;xRatio = dx &#x2F; dist;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;zRatio = dz &#x2F; dist;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;由此可见，Minecraft明确使用笛卡尔坐标系，目的就是避免呈现出三角函数计算，然而我们不了的是，为什么卡姆姬先生要反复试验1亿次论证Minecraft使用不灵活的三角函数呢？我们再看下来的论述：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;this.motionX &#x2F;= 2.0;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;this.motionZ &#x2F;= 2.0;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;this.motionX -= xRatio * strength;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;this.motionZ -= zRatio * strength;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;这段代码的含义是&lt;code&gt;xRatio&lt;&#x2F;code&gt;和&lt;code&gt;zRatio&lt;&#x2F;code&gt;采用减去正向向量，因为攻击者击退受害者受害者只能退后，而部分版本kb的灵活性可以做到限制Y轴（垂直高度），避免玩家被击飞。我们可以得出两个结论：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;击退与高度有关，当受害者进入硬直期，部分kb会自动限制垂直高度。&lt;&#x2F;li&gt;
+&lt;li&gt;Minecraft采用&lt;strong&gt;笛卡尔坐标系&lt;&#x2F;strong&gt;，向量呈现往往为曲线，而非三角函数。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;变量f2为0.4，我们把该值称为水平倍数，或者Horizontal
+将motX、motY、motZ分别除以2，我们把该值称为Friction
+接着将motX 减去 x &#x2F; f1 * f2
+将motY 加上 f2
+将motZ 减去 z &#x2F; f1 * f2
+如果motY大于0.4，则设为0.4(这就是原版击退100附魔也无法飞天只能击远的原因)。我们把该值称为VerticalLimit。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;我不明白卡姆姬先生为什么总是揪着&lt;code&gt;damageEntity&lt;&#x2F;code&gt;不放呢？文章将“motX&#x2F;Y&#x2F;Z &#x2F;2”（摩擦）误为&lt;code&gt;damageEntity&lt;&#x2F;code&gt;内操作，已经和他接下来对&lt;code&gt;EntityHuman&lt;&#x2F;code&gt;类大脑骨折的论述截然相反！攻击方调用Entity#attackEntityFrom，根本不在damageEntity，他将空气摩擦值误认为是受害者的调用值，体现了其论证严谨性的缺失。&lt;&#x2F;p&gt;
+&lt;p&gt;\begin{cases} motX = motX + \sin(yaw \pi &#x2F;180) * 0.5i \ motY = motY + 0.1 \ motZ = motZ + \sin(yaw \pi &#x2F;180) * 0.5i \end{cases}&lt;&#x2F;p&gt;
+&lt;p&gt;这是典型的双sin，错误，原版&lt;code&gt;knockBack&lt;&#x2F;code&gt;应该为：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;motX += sin(yaw * π&#x2F;180) * 0.5 * i （水平推后）
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;motZ -= cos(yaw * π&#x2F;180) * 0.5 * i
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;其中，i为攻击者手上武器击退附魔的等级，若没有，则为0。
+如果攻击者正在疾跑，则i再加1。
+但是，在著名服务端mSpigot上，无论攻击者是否在疾跑，i的默认值都为1。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这严重混淆了原版和mSpigot的界限，原版和Spigot插件的计算方式存在本质偏差，而卡姆姬先生为了保守他的阶段性研究，堂而皇之地将两个毫不相关的开发工具（MCP和Spigot）混淆在了一起，否认了现代服务端修改插件的进步意义，走向了技术决定论的误区。&lt;&#x2F;p&gt;
+&lt;p&gt;Minecraft在进步，在发展，在提升，而不是永远停留在预付战斗投入阶段，其次，常量对Minecraft kb的决定性作用同样重要，Minecraft战斗机制的combos总过程是&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;，而非单纯受限于&lt;code&gt;修正—受击&lt;&#x2F;code&gt;的变量模型中，卡姆姬脱离常量直接谈受害者和攻击者的关系，体现了其思维的局限性，并且严重混淆了受害者受击和攻击者修正概念的区别，我们要坚决反对过程主义和技术决定论的伪科学，而卡姆姬“伟大的研究”自然也导致了Kar不到三个月的时间就面临了经济危机，最终倒台：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;亲爱的玩家，大家好：&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自 2015 年首次开服以来，Kar Network 已经陪伴大家五个春秋，得到了广大玩家的支持与厚爱。回顾开服以来我们和各位一起度过了无数个欢乐的日子，由衷的感激大家给予的支持与帮助！&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由于运营不当，自2015年起遍入不敷出，至此已无法继续承担高额的维护费用。且由于现有所有服务环境(包括但不限于 服务管理器、开发站、服务器官网、服务器运行环境、构建开发环境)均基于本台主机，，这些环境所花费的金钱、时间和精力无法复制，无法还原，也就直接告示着未来的维护不再可能，我们在MineCraft的路上就此终结。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;综上所述，Kar Network、MineCarl 及其附属、相关服务器将在2020年7月20日凌晨00:00停止服务。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;借此机会，通知所有使用本团队运行环境的个体、团队，在关服前迁移所有相关数据，如关服后存在数据遗失问题，本团队概不负责，恳请谅解。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最后感谢您的陪伴，希望在往后的日子里能与您共同回忆这段美好时光。也希望能在我们未来开发的其他游戏中再次见到您的身影。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;希望国内MineCraft的未来更加美好。若您还在寻找一个适合您的服务器，可以尝试访问 McLists.cn。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;祝大家生活愉快。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kar Network运营团队
+2020年7月17日&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;我们可以用一句话评价卡姆姬先生：&lt;strong&gt;无责任能力来自自大狂&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ren-zhi-zhu-yi-yu-xian-yan-guan-nian-lun&quot;&gt;认知主义与先验观念论&lt;&#x2F;h3&gt;
+&lt;p&gt;Duzier作为Minecraft pvp社区中少有的“战斗机制学者”，也是pvp社区中敢于与主流行为主义与辩驳的认知主义启蒙老师，不能否认其理论的进步意义，然而，缺乏科学性和可证伪性自然也成了他的先验观念论的最大弱点，不过首先，Minecraft pvp社区需要Duzier先生这样具备一定思辨性学者，尽管他对服务器的看法被某些nodebuff玩家嘲讽为“BUHC思辨者的白痴言论”，但我们不能单纯从nodebuff玩家的角度证明其理论的局限性。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先是允许AC后的规则。我们需要搞清楚一个概念：允许AC不等于完全放开AC。如果你想改变现在的规则，你需要自己制定一个更好的规则，不然别人只会觉得你是个傻子，像图片中这种人。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;允许AC不等于开放AC？我们要知道，反作弊服务器是通过什么捕捉黑客端的呢？是客户端枚举的特征码，特征码从哪里捕捉呢？客户端通常通过修改API Hook实现作弊，实现方法因客户端基于的逆向工程的不同而异，但自由客户端往往采用Fabric的Minxin调用，而Minxin作为yarn的核心修改器，是基于Java ASM的，这说明了什么？反作弊要定义Module是否属于作弊必须基于字节码所提供的特征码，而这就必须用到AC（AutoClicker）的代码，我们以LiquidBounce为例：&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#6c7079;&quot;&gt;&lt;code&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;private val objectiveType by enumChoice(&amp;quot;Objective&amp;quot;, ObjectiveType.ANY)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        private val onItemUse by enumChoice(&amp;quot;OnItemUse&amp;quot;, Use.WAIT)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        private val weapon by enumChoice(&amp;quot;Weapon&amp;quot;, Weapon.ANY)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        private val criticalsSelectionMode by enumChoice(&amp;quot;Criticals&amp;quot;, CriticalsSelectionMode.SMART)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;        private val delayPostStopUse by int(&amp;quot;DelayPostStopUse&amp;quot;, 0, 0..20, &amp;quot;ticks&amp;quot;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;注意这里的&lt;code&gt;private val delayPostStopUse by int(&quot;DelayPostStopUse&quot;, 0, 0..20, &quot;ticks&quot;)&lt;&#x2F;code&gt;片段，这表明AutoClicker的上限是20CPS，而这又能证明什么呢，玩家在不按下鼠标的游戏刻（gametick）里，CPS始终保持0，而玩家一旦按下鼠标，AutoClicker会在一个或多个游戏刻之内加速到玩家设置的CPS的上限，这都取决于玩家的设置。因此，服务器对CPS的上限取决于以下几个因素：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;判断不同游戏刻之内玩家CPS加速的差异&lt;&#x2F;li&gt;
+&lt;li&gt;判断玩家的CPS的稳定程度&lt;&#x2F;li&gt;
+&lt;li&gt;判断客户端反射对日志的打印存在的异常反馈&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;主流反作弊系统（Matrix、Vulcan、Polar、Grim）的基本功能基本只能通过以上几个因素判断玩家CPS是否异常，除了他们能够扩展的或昂贵的AI反作弊插件以外，几乎没有没有办法实现对特殊作弊手段的捕捉，CPS的变动与移动模拟检测无关，因此反作弊能针对CPS的捕捉非常有限，大部分的反作弊服务器只能选择优化kb减小服务器对CPS的依赖。这是服务器缩减既定战斗投入开支的必然结果，中国pvp服务器和其他国家不一样，由于延迟原因基于没有外国玩家光顾，所以只要中国pvp服务器还向着练习服的方向发展，就不会和外国服务器构成市场竞争。&lt;&#x2F;p&gt;
+&lt;p&gt;尽管Duzier先生的理想远大崇高，也为低版本pvp尽心尽力，但我们需要承认，他是一位坚定的空想社会主义pvp玩家，也是一位优秀的认知主义理论家，他的批判揭露了行为主义符号资本家反动的遮羞布，但却显得不那么彻底，他指出服务器如果不允许AC，低版本Minecraft将走向失败，这是完全正确的分析，但他的局部开放论，不能根除反作弊服务器的弊病。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;也就是说，封面中的“只有AC才能救我的世界”，皮皮是指它可以让更多玩家涌入这个模式。当然说“只有”肯定也是有夸大的成分，但目前来看，这确实是可以让更多人接触到这个玩法的方式，并且有很大的影响。“绿色玩家才会阻挡进步”也只是指图片中只会评点不允许DC和DBC存在的人。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;接下来说说AC合法后吧。通常情况高CPS确实是比低CPS强，AC合法之后，人人都可以设定自己的CPS，也就没有CPS马站了。那么到后面，大概会出现每个人的CPS都分成了几种类型，来体验或者寻找自己的打法，变成了更多元的游戏平台。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;他的社会主义理论鲜明又敏锐，但将责任归结于“阻碍游戏进步游戏绿色玩家”，忽视了反作弊服务器根本性质是利润最大化的实质，他认识到了正确的道路，但却没能提出一个改变现状的绝佳方案。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;表面上看是在“获取空间优势”，实际上是在追求“消灭敌人”这个游戏目的带来的快感。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;很多人会疑惑：搭高明明杀不了人，为什么搭高的人还是乐此不疲？&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里就要用“弱智逻辑”来理解了。弱智的特征是：他们有一个潜意识的大前提，正常人觉得这个前提是错的，但他们觉得是对的，然后基于这个前提做出所有判断。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;搭高党的潜意识大前提是：&lt;br &#x2F;&gt;
+&lt;strong&gt;“所有玩家都是必须达成游戏目的（干死对方）的奴隶机器”&lt;&#x2F;strong&gt;。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在这个前提下，搭高确实成了击杀的“必要条件”。因为：
+你搭高 = 我必须进来打你（否则我完不成击杀目标）
+我必须进来 = 你就获得了优打劣的压制
+压制 = 你发现了游戏“漏洞”，获得剩余享乐&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所以他们觉得自己很聪明，找到了系统bug。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Dezier先生深刻的解析了Minecraft反作弊pvp服务器的内卷逻辑——nodebuff玩家扔牛排=不让对手前进，nodebuff玩家把对手掉落的物品还给对手=道德准则，同理，BUHC玩家的搭高也是一种堂吉诃德大战风车的行为，但核心逻辑在于浪费必要的gametick换取精神上的剩余，完全正确，大多数盛行BUHC的反作弊服务器都实行计件elo，例如EC服（EaseCation），其核心逻辑是剩余物品越少得分越低，因此这种内卷对玩家残酷的精神压榨造成了玩家必须用行为艺术来反抗，这更是一种对服务器默默无闻的斗争精神。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;最后，请看到这里的读者全体起立，向伟大空想社会主义者，Duzier同志表示无产阶级的最高敬意！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;zhan-dou-geng-xin-you-yong-lun&quot;&gt;战斗更新有用论&lt;&#x2F;h3&gt;
+&lt;p&gt;MiDear原本是知乎上的一个名不见经传的“战斗机制学者”，无需多言，他误导了许多Minecraft玩家误入了1.9pvp的歧途，然而有一个不可磨灭的事实，他对战斗机制的认知是逻辑实证主义的，毫无根据和调查统计，仅仅依赖数据和哲学推理的结合。首先，他研究的是攻击方法论而非击退，这就注定了他完全忽视了combos总过程的运作逻辑，即只在&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;中取攻击环节进行片面研究，其次，他的历史观是机械决定论的，将1.9战斗机制更新作为核心命题，忽视了历史唯物主义和生产关系进步的意义，即无政府公会封建割据—反作弊符号资本主义—集体主义pvp模式这一服务器演进过程，而是采取了一种“版本叙事”的反动逻辑，他忽视了ViaFabricPlus等优秀跨版本插件能够起到打破各版本隔绝的重要意义，用自然规律研究社会关系，忽视了人可以改造自然的潜力。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Minecraft 的战斗无非是瞄准攻击，走位躲避。高级点的无非是注意控距和击飞，1.9 以上版本甚至可以掐对方攻击冷却进行攻击达到连击的效果。其它无论是快速搭路、极限脚下放方块、放岩浆再用末影珍珠闪到别人身后等等技巧，都是非纯粹战斗（比如起床需要搭路，Skywar 才会给你岩浆）所需的技巧。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;这种分析完全摧毁了输出构成的基础，完全将抽象输出构成和玩家对资源逻辑的主观理解作为研究核心，选择了直接指出combos作为战斗的核心，但又无法解释combos是如何运作的，combos的kb基础呢？攻击硬直期和gametick之下的符号价值呢？不同符号所起到作用又是什么呢？为什么要设立反作弊系统呢？句句都是疑问。&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;先摆明观点，1.9 并不是大多数人想象的回合制游戏，实践出真知，如果单靠所谓“理论”来判断毫无意义、毫无根据。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;那么请问MiDear先生，“回合制”是什么？游戏的局数吗？如果服务器没有对战回合，那服务器如何计算elo的？如果这里的“回合制”是指pvp的即时对战性质，那研究pvp是不是应该从时间的角度出发？如果不从总过程、kb、时间的角度出发，那你的数据还有什么意义？&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;走位有效，并且瞄准仍需要大量练习。1.9，剑的攻速是 1.6，即 1.6 次&#x2F;秒，0.625 秒&#x2F;次，而在服务器里 pvp 不会出现双方机制不同（你 1.8 对方 1.9）的情况，也就不存在人家来瞄准的时间够你打别人好几下了。理想攻击下，双方同样是每 0.625s 攻击一次，所以要保证 0.625s 的那一下点中人，对于初学者来说其实并不容易。你说 CD 过长瞄准到人轻而易举？0.625s 别人其实足以从你面前绕到你身后。个人认为，增加了攻击冷却反而变得更加难以瞄准。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;那么请问，服务器里不会出现双方机制不同这里的“机制”是什么意思呢？如果是kb机制，单从主观上讲每个玩家的kb都随着符号汇率和符号水平的不同存在差异，但服务器的kb，即从受害者受击（Friction、Horizontal、Vertical）到攻击者修正（SHB、SVB、VerticalLimit）这一阶段的kb的定义是服务器自己预设好的，除非服务器有自定义&lt;code&gt;&#x2F;kbbot&lt;&#x2F;code&gt;供玩家练习，否则kb永远是固定的，此外ViaFabricPlus是否已经解决了跨版本问题呢？显然已经解决了，高版本客户端完全可以与低版本服务器互通，LiquidBounce就是典型的案例，并且这种游戏方式可以构成弱反射，由于kotlin需要通过字节码修改器与java进行间接通信，反作弊就难以枚举客户端作弊模块。&lt;&#x2F;p&gt;
+&lt;p&gt;其次，关于冷却击退和跳跃重置的论证我已经不想再强调了，我在《保卫我的世界—论战斗机制》章节中已经明确指出：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;微软主义者不屑于隐瞒他们所谓的理论科学性，而是更善于去证实他们对疯狂敲击鼠标左键，使用防砍减小伤害，的低劣性的所谓考察。我们更应该仔细思虑，如果横扫攻击的冷却时间延长，那对手就可以在这之前做好防御准备，即便我们不将此称为回合制，那也应该是将抽象输出构成具体化，越是具体化的输出构成，在量级意义上而言，就更加简化而不是更有科学性，我们需要至少在科学性上否定微软主义者们的观点。——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;谈到三个要素就必然提到攻击速度，伤害倍率，冷却时间，这三者的关系仅仅靠的是算法，和战斗更新之前的综合不平衡原理截然不同，它不再强调具体输出构成和抽象输出构成的辩证关系，而是将之加以机械性，如果必须要揭露其数学魔术的面纱，就必须考虑这三个概念的关联性。首先攻击速度决定冷却时间，冷却时间的计算公式是：T=1&#x2F;cps，也就说假设攻击速度为11cps，那么冷却时间就是T≈1.8gt或0.09ms。在旧版本里，如果在10gt的硬直期里打出了超出来源20%伤害的暴击，那么这个超出来源的伤害就是：X&#x27;=Y&#x27;-N。而在战斗更新后，伤害倍率被限制在0.2～1区间内，而剑攻击冷却时间为0.625s，冷却时间被彻底喷溅化，这样的改进使战斗机制更加接近部署弹药和填充弹药。——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;然而，MiDear先生又开始了他的胡言乱语：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;首先，可看性是主观评价。既然是主观评价，公说公有理，婆说婆有理，哪还讲道理？那么客观来说可看性，1.9 剑的攻击速度是 0.625s &#x2F;次，而不是 6.25s &#x2F;次，受伤无敌时间是 0.5s。这样一来，虽然 1.9 跟 1.8 的连击存在差距，但是其实不大影响可看性，只不过节奏稍微比 1.8 慢了一些。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;那么请问，“客观性”是指什么？战斗机制作为游戏的既定逻辑，本身就是不随玩家的任何主观意识和客观推断改变的，就算你有准确数据，你的数据也是妥妥的缺乏论证，我不需要把我在《保卫我的世界》中提出的观点再强调第二遍：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自玩家坐标（Coordinates）开始输出，会出现两条向量，一种为有效输出构成，也称具体输出构成。一种则是抽象输出构成，也称combos，正如上文所说，根据更高替换原则，因为玩家向目标物打出伤害时，硬直期玩家受到的伤害比来源高，所以在有效击退范内每当玩家在完全不间断的情况下对距离玩家坐标为1的目标物输出伤害，硬直期便可以连续两次，也就是在20gt之内对目标物输出的伤害增益两次。——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;因为这些影响无论如何都不足以改进整个战斗机制，所以整个战斗机制的叙事体系仍旧掌握在微软当局手里，这就是为什么一个服务器做得再好，都绕不开游戏本身战斗机制局限性影响的因素。然而因为微软本就掌握2&#x2F;3的输出战斗机制的绝对决定权，因而战斗更新就对minecraft造成了2&#x2F;3的破坏。——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;毫无疑问，跳跃重置对于战斗更新之后的高版本pvp来说是一种缺陷，由于剑这种武器在战斗更新之后出现了抽象输出构成增益，攻击延迟由原来的无间隔变成了0.625~1.6ms，因此玩家可以利用被击中的延迟增加对手kb从而让对手无法在攻击间隔再次击中目标，然而为了提高伤害则不得不用使用斧头这一种办法。记作：——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;jr=(20gt+kb&#x2F;s)*kb——《保卫我的世界》&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;尽管《保卫我的世界》只是一个非正式研究的手稿，但它的理论深度也是MiDear先生的《谈Minecraft战斗》不可比拟的，《谈Minecraft战斗》在任何层面上都是一部空洞的文章和失败的研究，它将战斗机制小农化、经验化，得出了一些根本就无法还原为真实pvp模型的结论和依据，体现了其彻头彻尾的&lt;strong&gt;行为主义小资产阶级&lt;&#x2F;strong&gt;立场，《谈Minecraft战斗》本质上是脱离战斗机制考察战斗过程，其历史意义不仅仅是美化1.9战斗更新，而是对整个反作弊服务器的美化——其研究的意义正是证明了，2019年处于资本主义萌芽阶段的反作弊服务器的时代局限性和历史进步性。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;wan-jia-shi-ye-lu-diao-cha-bao-gao&quot;&gt;玩家失业率调查报告&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;fu-wu-qi-fen-xi-fa-yu-zi-liao-shou-ji-fang-an&quot;&gt;服务器分析法与资料收集方案&lt;&#x2F;h3&gt;
+&lt;p&gt;直奔主题，我们可以断言，针对ppc和wihar等资本密集型练习服的研究和统计没有任何意义，首先，由于这些服务器处在中国本土且集成的bot和反作弊插件远多于国际服务器，这就注定了这些服务器必须定期进行kb改进和维护，以及接受工信部ICP备案，寒暑假期间出现玩家红利，导致我们不能对服务器的活跃状况进行任何有效考察，因此，我们需要将考察对象缩减为Hypixel和MinemenClub等国际主流反作弊服务器。&lt;&#x2F;p&gt;
+&lt;p&gt;按照欧内斯特•曼德尔同志提出的&lt;strong&gt;长波理论&lt;&#x2F;strong&gt;，资本主义的经济周期被分为长期波动和短期波动，我们可以根据MinemenClub（AS）的活跃度进行准确估计，即每周玩家上线人数进行一次&lt;strong&gt;短期波动&lt;&#x2F;strong&gt;，而随着时间的推移，平均每70天玩家上线的人数进行一次&lt;strong&gt;长期波动&lt;&#x2F;strong&gt;，但我们有必要澄清，我们对服务器的考察报告应当尽量使用专业的、公开的severlist api进行统计，而不是通过任何类似卡姆姬先生般奇妙的“思维实验”用精密的函数，给本来就已经实现的范例画蛇添足。但同时，我们要恪守自由软件精神，对于一切要用到的Python模型，都用CC0许可予以无限制使用。我们没有必要去猜想琢磨这样或那样的方案，因为我们相信：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;事实胜于雄辩，一个伟大的研究必定是把一条道路走到底，不需要方案A、B、C、D来修饰一个根本不存在的伪命题。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;minemenclubzhou-qi-lu&quot;&gt;MinemenClub周期率&lt;&#x2F;h3&gt;
+&lt;p&gt;从价值运动的角度出发，我们可以将价值周期律划分为Cf、Cc、V、S&#x2F;V四个维度，Cf（不变资本=反作弊插件）+ Cc（固定资本=KB配方）+ V（可变资本=rank捐款）+ S&#x2F;V（剥削率=流出构成率）：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;长波&lt;&#x2F;th&gt;&lt;th&gt;时期&lt;&#x2F;th&gt;&lt;th&gt;平均在线&lt;&#x2F;th&gt;&lt;th&gt;趋势与运动根源（符号经济辩证分析）&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2025-08-30 ~ 2025-11-08&lt;&#x2F;td&gt;&lt;td&gt;~1450&lt;&#x2F;td&gt;&lt;td&gt;Cf↑Cc↓ V↑ S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;2025-06-21 ~ 2025-08-30&lt;&#x2F;td&gt;&lt;td&gt;~1800&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc↓ V↑ S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;2025-04-12 ~ 2025-06-21&lt;&#x2F;td&gt;&lt;td&gt;~1600&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc↓ V稳定 S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;2025-02-01 ~ 2025-04-12&lt;&#x2F;td&gt;&lt;td&gt;~1300&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc↓ V↑ S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;2024-11-23 ~ 2025-02-01&lt;&#x2F;td&gt;&lt;td&gt;~1700&lt;&#x2F;td&gt;&lt;td&gt;Cf稳定 Cc↓ V暴涨 S&#x2F;V持平&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;2024-09-14 ~ 2024-11-23&lt;&#x2F;td&gt;&lt;td&gt;~1400&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc↓ V↑ S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;2024-07-06 ~ 2024-09-14&lt;&#x2F;td&gt;&lt;td&gt;~1900&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc稳定 V↑ S&#x2F;V↑&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;2024-04-27 ~ 2024-07-06&lt;&#x2F;td&gt;&lt;td&gt;~1500&lt;&#x2F;td&gt;&lt;td&gt;Cf↑ Cc↓ V稳定 S&#x2F;V↓&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;符号资本主义的危机并不来源于所谓玩家购买力和战绩，这些泡沫数据只是符号资本家在此之前已经预付好的，问题的根源在于符号价值的运动。同理，战斗机制的核心也并不在于kb，而是整套combos过程中的每一环节，对于服务器来说，交换价值始终高于使用价值，玩家只是数据，而对于玩家来说，他们永远无法决定自己的命运，只能不断优化客户端视觉，确保每一次combos都不会失手，随着客户端资本和门户网站与服务器资本的紧密结合，抽象输出构成的地位只会越来越低，所谓的pvp教学只会越来越少。正如曼德尔所说：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自我再生产资本的积累给资本的原始积累留有余地的确实程度，要视这两个条件之被认识来定，即是全被认识，只是被部分地认识还是在过多的限制之下被认识。小规模的和中等规模的资本打入了这一未被占领的领域，执行了一项“脱藩的工作”，摧毁了那些土生土长的、传统的生产关系在打入过程中，或是自己崩溃破产，或是为剩余价值的“正常的”生产创造条件，这种“正常的”生产它本身也将随后参加进去。这后面的这种情况，就是转变成为“正常的”工业资本、农业资本、金融资本或者商业资本。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>《黑客论》第二卷</title>
+        <published>2025-11-08T00:00:00+00:00</published>
+        <updated>2025-11-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://iannjh.github.io/hei-ke-lun-ll/"/>
+        <id>https://iannjh.github.io/hei-ke-lun-ll/</id>
+        
+        <content type="html" xml:base="https://iannjh.github.io/hei-ke-lun-ll/">&lt;h1 id=&quot;dao-yan&quot;&gt;导言&lt;&#x2F;h1&gt;
+&lt;p&gt;一个幽灵，自由软件的幽灵，在Minecraft pvp社区游荡。为了对这个幽灵进行神圣的围剿，旧Minecraft的一切势力，MS和Mojang、Simon和Manthe、Hypixel的公会和MinemenClub的Tier list测试员，都联合起来了。&lt;&#x2F;p&gt;
+&lt;p&gt;有哪一个实用主义开源分子不被合法pvp分子骂为自由软件呢？又有哪一个实用主义者不拿“GNU教徒”这个罪名去回敬更进步的革命黑客和自己的反动敌人呢？&lt;&#x2F;p&gt;
+&lt;p&gt;无需多言，2b2t作为一个古老的无政府服务器，正在经历第26个dupe周期，而我们马克思主义者要做的任务是，从历史唯物主义角度出发，对整个Minecraft pvp发展史进行科学、唯物、辩证的分析，从时间和空间的角度论证Minecraft  pvp走向集体主义pvp道路的历史必然性，无政府服务器和反作弊服务器注定成为历史，反作弊服务器的灭亡已经进入了倒计时，他们无法阻止革命黑客前进的脚步，无论何种维度，服务器对战斗机制的异化都将被历史的车轮碾压。&lt;&#x2F;p&gt;
+&lt;p&gt;第二卷的任务，是在第一卷提出的输出构成论的基础上，研究空间上的地租形式，我们可以采用马克思提出的封建地租形式分析无政府公会封建地租形式，而资本主义地租形式则用来分析反作弊服务器。尽管原则上我们将反作弊服务器的运作模式视为符号资本家对玩家劳动的直接占有形式，但反作弊服务器仍需要向云服务提供商上缴租赁费，并且他们通过垄断服务器资源的方式迫使玩家出卖自己的战斗，这适用于绝对地租、级差地租l、级差地租ll，而公会封建割据则适用于徭役地租、实物地租、货币地租。&lt;&#x2F;p&gt;
+&lt;p&gt;符号资本家对地租的占有形式基本就是通过对elo和wins的直接垄断，强迫玩家参与战斗。但第二卷仍需补充kb符号的流通过程，对kb的各项数值进行统计，否则《黑客论》的研究就是不完整的，因此，我需要收集各个dupe周期的经济增长数值，证明符号资本主义对地租的垄断本质上和无政府公会是别无二致的。&lt;&#x2F;p&gt;
+&lt;p&gt;符号资本主义和公会封建主义都建立在源码私有制的基础之上，区别只是在于，公会农奴的地位受到保障，而反作弊无产者则没有权利可言，反作弊玩家的人身自由是形式的，本质上，反作弊给玩家带来的小农经济幻象是虚无的，反作弊的本质是对玩家的剥削。而无政府公会看似自由，实则公会封建主和dupe机器所有者占主导地位，农奴只能为他们效忠。此外，我们还需要分析货币地租地租经济周期形式，即dupe漏洞修复过程为2b2t经济带来的崩溃。正如恩格斯所说：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;农奴使用一块土地，也就是使用一种生产工具，为此，他要交出或多或少的一部分收入。无产者用属于他人的生产工具做工，这个他人把由竞争所决定的一份产品让给无产者，作为对他 的劳动的报酬。 在农奴那里，劳动者得到的那一份是由他自己的劳动决定的，因而也是由他自已决定的。 在无产者那里，劳动者得到的那一份是由竞争决定的，因而首先是由资产者决定的。农奴的生活有保障，无产者的生活没有保障。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;第一卷的任务，即从符号和战斗机制生产过程的角度研究符号资本主义，显然已经完成了，接下来，需要努力补充对kb机制的研究，这样才能勾勒出一个完整的战斗机制模型。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;为了自由软件理想！战斗！软件自由是社会自由的基石，自由软件的终极目标是一个自由的社会！&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;gong-hui-feng-jian-tu-di-suo-you-zhi&quot;&gt;公会封建土地所有制&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;yao-yi-di-zu&quot;&gt;徭役地租&lt;&#x2F;h3&gt;
+&lt;p&gt;尽管2b2t本体和各个国家的衍生镜像服务器一贯号称自己是“无规则、无限制、无政府”的乌托邦服务器，但一个不可争的事实就是2011~2016这段由无政府服务器主导Minecraft pvp的时期，是无比黑暗的“&lt;strong&gt;方块中世纪&lt;&#x2F;strong&gt;”，玩家的劳动被在服务器割据的公会势力无偿占有，毫无人身自由可言，这也就证明了反作弊服务器替代无政府服务器的历史进步性，尽管反作弊系统无时无刻地剥削玩家的战绩，但至少让玩家获得了个人选择自由和服务器席位自由，玩家被符号系统数据化，但不至于失去席位。&lt;&#x2F;p&gt;
+&lt;p&gt;Facepunch共和国，成立于2011年，2b2t第一个公会组织，由来自Facepunch论坛的玩家组成，这时的2b2t并没有出现大规模的dupe行动，公会组织逐渐成熟，但我们要明确公会的组织结构，以便我们接下来的研究：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;会长&lt;&#x2F;strong&gt; ：领主，通过先占、dupe、作弊战争、社交等手段占领一块坐标区域，形成“基地领地”，拥有公会最高权力。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;组长&lt;&#x2F;strong&gt; ：骑士，由会长册封，通常是公会中较老的、表现较为出色会员，他们负责带领小组进行作战、工程建设、组织生产。&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;会员&lt;&#x2F;strong&gt; ：农奴，无人身自由，在2b2t，新人进入游戏甚至都需要和公会打通关系，以获得出生点的逃逸权，否则将惹来杀身之祸，在2b2t，几乎没有形成小农经济。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;在早期2b2t玩家的激烈竞争中，越是优先组织起来的玩家必然能取得更高效的行动，因此，Facepunch共和国的出现就是约定俗成的，由于dupe积累的大量的产能，红石工业、生物工业、农业、建筑业迅速崩塌，起初，dupe的产品只集中在少量的坐标点，还未大规模普及，因此掌握dupe资源的会长便开始在Discord等平台拉拢人脉，形成了割据势力，会员需要为公会进行无偿的劳动，如reid、dupe管理、建筑、防守、搬运物资等事项，由于dupe资源较少且集中，因此会员和资源是一回事，一个公会有更多的资源，意味着它占有的会员更多，在早期的2b2t，dupe修复速度极高，因此，公会需要大量的玩家来驻守。&lt;&#x2F;p&gt;
+&lt;p&gt;由于dupe的稀缺，部分红石工业、生物工业、农业资源依旧需要玩家的大量无偿劳动，因而也谈不上任何剩余产品，组长负责管理dupe等重要剩余产品，而会员则负责其他一般生产，这种等级制度造就了会员的产能低下，且在作战过程中他们往往占有较差的装备，而组长则冲在最前方掩护会长，有人可能会认为早期的2b2t的会员表现为大规模混乱的小农式战争，其实事实恰恰相反，会员由于持有较差的装备，必须高度服从组长和会长的命令，且dupe的坐标宝贵，因此会长只会挑选自己信任的组长接管，早期的会员由于装备较差，因此很少存在组长带领会员叛乱的情况。&lt;&#x2F;p&gt;
+&lt;p&gt;随着会员数量的增加，部分组长会带着玩家进攻2b2t出生点，例如&lt;strong&gt;2016年Rusher War风波&lt;&#x2F;strong&gt;和&lt;strong&gt;2019年Etika Invasion风波&lt;&#x2F;strong&gt;，被称为大规模入侵（Spawn Incursions 或 Spawn Invasions），在Minecraft的前资本主义时代，即时通讯服务还非常不成熟，因此，2b2t玩家基本通过直播间和论坛等公开空间进行群体沟通，因此，会员越多的公会便能取得更大的优势，但这同时也造就了2b2t的弊端，由于新手的组织性入侵非常公开，所以老玩家便取得了相对优势，他们也能够有组织的在出生点组织战略防御以保护他们基地的坐标。&lt;&#x2F;p&gt;
+&lt;p&gt;与反作弊玩家相比，会员属于直接生产者，拥有较低的人身自由，但假定在一切生产条件不变的情况下，会员相对于反作弊玩家更加富裕，他们能占有一定的实物作为自己的生活资料，并且如果他们不上线，只要能够和负责统领自己的组长或会长打通关系，便可以在离线时间取得保留自己的生产工具和生活资料的权利，而反作弊玩家如果不保持一定上线次数，则elo会被清空，因此，2b2t公会并不存在过程上和时间上的任何强迫劳动，除非另有规定，正如《资本论》所说：&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最后，就劳动地租来看，这一点是不言而喻的：假定其他一切条件不变，直接生产者能在多大程度上改善自己的状况，使自己富裕起来，并生产出一个超过必要生活资料的余额，或者，如果我们愿意预先使用资本主义的表达方法，那就是他是否能够或在多大程度上能够为自己提供一个利润，即超过他自己所生产的工资的一个余额，这完全取决于剩余劳动或徭役劳动的相对量。在这里，地租是剩余劳动的正常的、吞并一切的、可说是合法的形式，而远不是超过利润的余额，也就是说，在这里远不是超过工资的任何别的余额以上的余额；这样的一种利润，在其他条件相同时，不仅它的大小，甚至它的存在，都取决于地租的大小，也就是说，取决于强制地为土地所有者进行的剩余劳动的大小。&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h3 id=&quot;shi-wu-di-zu&quot;&gt;实物地租&lt;&#x2F;h3&gt;
+&lt;p&gt;实物地租往往表现为直接生产者的劳动转化为产品后被土地所有者无偿占有的形式，但这种地租形式的出现仅仅是为了抑制直接生产者的产能，迫使他在再生产中不得不缩减产能或尽量节约到他所需要的部分，往往只有发达的、剩余产品较多的公会才会实行这种模式，一般情况下，如果一个公会拥有较多的领地，分布在不同的服务器坐标，才会实行实物地租，换而言之，这类公会依靠人管人的方式已经无法更加集中、有效地占有剩余，反之，如果继续实行徭役地租，组长难免会带领小队叛乱，为了避免这种情况发生，会长会定期要求会员和组长上缴一定数额的物资，否则会长将无法保证组长对他的忠诚。&lt;&#x2F;p&gt;
+&lt;p&gt;由于直接生产者产出的产品数额巨大，且各小组占有较多的dupe点，因此会长必须要求各地方小组节约开支并抑制产能，否则，会长的权利将被架空甚至遭到反杀和围剿。实物地租是2b2t公会逐渐灭亡的关键节点。在2016年以后，反作弊服务器兴起，无政府服务器衰落，大规模入侵已不再能维持公会的权威，各大公会逐渐出现兼并和垄断，小公会生存困难，到了2019年，基本就只剩下了Spawn Masons这样的大型公会，而大规模入侵几乎已经绝迹，小公会因为服务器新人的减少逐渐缺乏了招工渠道。&lt;&#x2F;p&gt;
+&lt;p&gt;随着实物地租的进一步发展，各个据点的剩余产品的集中化管理转向了形式主义，由于这个时候dupe漏洞修补的更加缓慢，经济危机逐步爆发，剩余产品的垄断进一步加强。更坏的情况是，2016年以后的战斗更新直接卡死了很多服务器的生存空间，烟花 + 鞘翅 + XRay导致了无数公会的坐标被暴露，由于攻击冷却（~0.625）和盾牌的出现，使得掌握VAPE等高端黑客端的组长不再能充当冲在最前方掩护会员的作用，高空登陆作战替代了集体行动，因而在2016年以后，2b2t的很多公会撤销了小组制，组长作为骑士的中间阶层消失在了历史的长河之中。&lt;&#x2F;p&gt;
+&lt;p&gt;会长开始选择将基地集中化或去中心化，不同补给点执行不同的职能，确保他对每个据点的控制更加稳定，而dupe的修复速度越发缓慢，越来越多的公会难以克服经济危机，选择了瓦解，其次，会员对人身自由的追求减少了他们的上限2b2t次数，被MinemenClub和Hypixel等反作弊服务器分流，正如前文所述，公会无法强迫成员定期上线执行任务，因而会员和组长逐渐选择前往反作弊服务器提升pvp技巧，到了2020年，绝大多数的公会成员已经获得了人身自由，2b2t在无政府服务器中的地位一落千丈，逐渐退出历史舞台，进入了历史垃圾堆。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;huo-bi-di-zu&quot;&gt;货币地租&lt;&#x2F;h3&gt;
+&lt;p&gt;2020年以后，大规模的无政府公会由于日益上涨的入会成本个2b2t的入服成本，逐渐走向灭绝，也随着6b6t等其他无政府服务器的兴起，公会组织逐渐转型为社群化、去组织化、社交化的家庭农场，这时，Discord等游戏语音平台逐渐发展成熟，Matrix和xmpp这些即时通讯服务甚至都推出了录屏功能，随着GPU性能的提升，OBS Studio录制240fps以上不是问题，但直至今天动态模糊渲染nodebuff和BUHC等练习模式和Hypixel小游戏模式的专属，因此无政府公会唯一可靠的宣传手段就是制作宣传片或动画，每当一个新人进入一个无政府服务器，就会发现出生点到处挂着公会招募的社群和聊天室地址的公告牌。&lt;&#x2F;p&gt;
+&lt;p&gt;货币地租的兴起意味着公会彻底失去了人口红利，公会由原来的大规模屠杀新人转为在出生点摆放公告牌友好招募新人，在亚太地区国家的镜像服务器，例如中国的2b2t.gg（原2b2t.icu），公会甚至被迫要和服务器官方合作，导致公会被“国家化”，无政府服务器名存实亡，6b6t、2b2tgg等服务器所谓的割据势力，要么是会长和朋友们组建的家庭农场，要么是受官方扶持的准政府组织，准政府组织承接了官方的大量招募新人相关工作，如以官方名义向新人发放新手礼包和奖励等，而这些处于垄断地位的准政府组织必须通过要求成员缴纳货币会费的方式离开出生点并获得生存物资，甚至某些无政府服务器还要推出增值服务&lt;code&gt;&#x2F;store&lt;&#x2F;code&gt;来统计玩家的排位信息，区分ms账户和非ms账户，截至2025年，部分无政府服务器已经推出了小游戏模式和符号&#x2F;rank经济系统。&lt;&#x2F;p&gt;
+&lt;p&gt;公会的小农经济化为大规模限制玩家人身自由的大型分封制公会时代画上了句号，专业的公会不复存在，转为了生产资料私有制的准政府 + 家庭农场模式，物资化的实物地租逐渐被货币和rank取代，如果无政府服务器不转向这种治理模式，而是坚持标准的无政府原则，那么2b2t自己甚至都难以苟延残喘，公会不再是有组织有纪律的军队，而是和睦相处的玩家俱乐部。2025年的无政府公会已和Hypixel官方认证的所谓公会形式的俱乐部毫无差异，公会不仅仅失去了垄断地位，连物资集中的dupe空间都不在重要，而俱乐部的动员能力十分有限，早期军事化公会创造的建筑壮举在家庭农场和准政府组织手里已经无力回天。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dupezhou-qi&quot;&gt;dupe周期&lt;&#x2F;h3&gt;
+&lt;p&gt;我们将在本章节结束对无政府服务器地租形式的研究，根据2b2t从2011~今的26个dupe周期展开，可以总结以下表格：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;序号&lt;&#x2F;th&gt;&lt;th&gt;名称&lt;&#x2F;th&gt;&lt;th&gt;版本&#x2F;活跃日期&lt;&#x2F;th&gt;&lt;th&gt;机制简述&lt;&#x2F;th&gt;&lt;th&gt;影响&lt;&#x2F;th&gt;&lt;th&gt;补丁日期&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;Piston Dupe&lt;&#x2F;td&gt;&lt;td&gt;Beta 1.7 &#x2F; 2011&lt;&#x2F;td&gt;&lt;td&gt;用活塞复制重力物品（如沙子、龙蛋）&lt;&#x2F;td&gt;&lt;td&gt;早期stash形成，固化玩家层级&lt;&#x2F;td&gt;&lt;td&gt;~2012&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;Player Clone Dupe&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;车辆中被踢出，留下玩家克隆掉落物品&lt;&#x2F;td&gt;&lt;td&gt;被The Lands集团利用&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;Freecam Chest Dupe&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;Freecam瞬破箱子，负值物品无限复制&lt;&#x2F;td&gt;&lt;td&gt;产生非法物品（如堆叠盔甲）&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;Sand Dupe&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;活塞复制沙子等重力物品&lt;&#x2F;td&gt;&lt;td&gt;高价值物品（如龙蛋）泛滥&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;Minecart Dupe&lt;&#x2F;td&gt;&lt;td&gt;2013&lt;&#x2F;td&gt;&lt;td&gt;矿车推入未加载区块，物品保留&lt;&#x2F;td&gt;&lt;td&gt;基础矿车复制&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;Minecart Portal Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.4.7 &#x2F; 2013&lt;&#x2F;td&gt;&lt;td&gt;Freecam推矿车过下界门&lt;&#x2F;td&gt;&lt;td&gt;Valkyria势力崛起&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;Minecart Dupe Glitch&lt;&#x2F;td&gt;&lt;td&gt;2016&lt;&#x2F;td&gt;&lt;td&gt;斜轨矿车hopper复制&lt;&#x2F;td&gt;&lt;td&gt;物品复制普及&lt;&#x2F;td&gt;&lt;td&gt;2016-07-22&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;Minecart Bypass&lt;&#x2F;td&gt;&lt;td&gt;2016-07-22&lt;&#x2F;td&gt;&lt;td&gt;下界门+多人加载区块&lt;&#x2F;td&gt;&lt;td&gt;绕过补丁&lt;&#x2F;td&gt;&lt;td&gt;2016-07-27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;9&lt;&#x2F;td&gt;&lt;td&gt;11&#x2F;11 Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.10.2 &#x2F; 2016-11-11&lt;&#x2F;td&gt;&lt;td&gt;掉落物品时被踢，物品复制&lt;&#x2F;td&gt;&lt;td&gt;史上最大dupe，引发后门泄露与突袭&lt;&#x2F;td&gt;&lt;td&gt;2016-11-28 (升1.11)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;Cactus Dupe&lt;&#x2F;td&gt;&lt;td&gt;2017-11-18&lt;&#x2F;td&gt;&lt;td&gt;仙人掌破坏懒区块矿车&lt;&#x2F;td&gt;&lt;td&gt;短期骗新手，Team Pepsi meme&lt;&#x2F;td&gt;&lt;td&gt;~2018&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;11&lt;&#x2F;td&gt;&lt;td&gt;Donkey Dupe&lt;&#x2F;td&gt;&lt;td&gt;2017-03&lt;&#x2F;td&gt;&lt;td&gt;低血驴子过门死于仙人掌，复制shulker&lt;&#x2F;td&gt;&lt;td&gt;3天毁堆叠盔甲经济&lt;&#x2F;td&gt;&lt;td&gt;2017-04晚期&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;12&lt;&#x2F;td&gt;&lt;td&gt;Llama Dupe (V2)&lt;&#x2F;td&gt;&lt;td&gt;2017-03&lt;&#x2F;td&gt;&lt;td&gt;同上，用羊驼替代&lt;&#x2F;td&gt;&lt;td&gt;更隐秘利用&lt;&#x2F;td&gt;&lt;td&gt;2017-04晚期&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;13&lt;&#x2F;td&gt;&lt;td&gt;Crafting Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.12 &#x2F; 2017-07-23&lt;&#x2F;td&gt;&lt;td&gt;配方书spam堆叠不可堆物品&lt;&#x2F;td&gt;&lt;td&gt;小时内经济崩盘，“神级”瞬间达成&lt;&#x2F;td&gt;&lt;td&gt;2017-07-24&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;14&lt;&#x2F;td&gt;&lt;td&gt;Second Donkey Dupe&lt;&#x2F;td&gt;&lt;td&gt;2018-07&lt;&#x2F;td&gt;&lt;td&gt;加速驴卡未加载区块，多人登出重载&lt;&#x2F;td&gt;&lt;td&gt;非法物品（如32k）贬值&lt;&#x2F;td&gt;&lt;td&gt;2018-09-21&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;15&lt;&#x2F;td&gt;&lt;td&gt;Book&#x2F;Chunk Dupe&lt;&#x2F;td&gt;&lt;td&gt;~2019-02&lt;&#x2F;td&gt;&lt;td&gt;大文件书过载区块修改物品&lt;&#x2F;td&gt;&lt;td&gt;服务器滞后一个月&lt;&#x2F;td&gt;&lt;td&gt;2019-02&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;16&lt;&#x2F;td&gt;&lt;td&gt;Third Donkey Dupe&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;td&gt;实体脱同步，hclip+伤害重骑&lt;&#x2F;td&gt;&lt;td&gt;驴子系列延续&lt;&#x2F;td&gt;&lt;td&gt;未详&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;17&lt;&#x2F;td&gt;&lt;td&gt;WWE Donkey Dupe&lt;&#x2F;td&gt;&lt;td&gt;2019-09-21&lt;&#x2F;td&gt;&lt;td&gt;Freecam独狼版驴dupe&lt;&#x2F;td&gt;&lt;td&gt;单人可行&lt;&#x2F;td&gt;&lt;td&gt;2019-09-21&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;18&lt;&#x2F;td&gt;&lt;td&gt;WWE Re-enable&lt;&#x2F;td&gt;&lt;td&gt;2019-09-21&lt;&#x2F;td&gt;&lt;td&gt;插件变更重启WWE&lt;&#x2F;td&gt;&lt;td&gt;短暂复兴&lt;&#x2F;td&gt;&lt;td&gt;2019-12-15&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;19&lt;&#x2F;td&gt;&lt;td&gt;Hopper+Dropper Loop&lt;&#x2F;td&gt;&lt;td&gt;1.12.2+ &#x2F; 2019-07&lt;&#x2F;td&gt;&lt;td&gt;投掷器+漏斗循环视觉复制&lt;&#x2F;td&gt;&lt;td&gt;shulker专用，影响小&lt;&#x2F;td&gt;&lt;td&gt;2019-08&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;20&lt;&#x2F;td&gt;&lt;td&gt;Restart Dupe&lt;&#x2F;td&gt;&lt;td&gt;多年前&lt;&#x2F;td&gt;&lt;td&gt;重启前放箱子，4秒后取双倍&lt;&#x2F;td&gt;&lt;td&gt;重启期专用&lt;&#x2F;td&gt;&lt;td&gt;已补&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;21&lt;&#x2F;td&gt;&lt;td&gt;Portal Donkey&#x2F;Zombie&lt;&#x2F;td&gt;&lt;td&gt;1.12.2 &#x2F; 2019-11&lt;&#x2F;td&gt;&lt;td&gt;末地门低血实体死亡复制&lt;&#x2F;td&gt;&lt;td&gt;大规模dupe，其他服先用&lt;&#x2F;td&gt;&lt;td&gt;2020-02&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;22&lt;&#x2F;td&gt;&lt;td&gt;Ice Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.12.2 &#x2F; 2020-02-09&lt;&#x2F;td&gt;&lt;td&gt;冰轨强制卸载绕过驴补丁&lt;&#x2F;td&gt;&lt;td&gt;私密圈子专用&lt;&#x2F;td&gt;&lt;td&gt;2020-04&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;td&gt;Donkey-Minecart Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.12.2 &#x2F; 2020-03&lt;&#x2F;td&gt;&lt;td&gt;矿车推驴开箱视觉取&lt;&#x2F;td&gt;&lt;td&gt;“The Bakery”事件用&lt;&#x2F;td&gt;&lt;td&gt;2020-04末&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;24&lt;&#x2F;td&gt;&lt;td&gt;Boat Dupe (Brownmen)&lt;&#x2F;td&gt;&lt;td&gt;1.12.2 &#x2F; 2020-07-30&lt;&#x2F;td&gt;&lt;td&gt;船乘客卸载脱同步，多人relgo&lt;&#x2F;td&gt;&lt;td&gt;经济再破，Pyro Client专用&lt;&#x2F;td&gt;&lt;td&gt;2020-11-25&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;25&lt;&#x2F;td&gt;&lt;td&gt;Unbreakable Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.12.2 &#x2F; 2021-12-29&lt;&#x2F;td&gt;&lt;td&gt;发射器绕过插件复制不坏物品&lt;&#x2F;td&gt;&lt;td&gt;可穿戴不坏装备&lt;&#x2F;td&gt;&lt;td&gt;2022-03-07&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;26&lt;&#x2F;td&gt;&lt;td&gt;Trident Dupe&lt;&#x2F;td&gt;&lt;td&gt;1.20.4 &#x2F; 2025-02-15&lt;&#x2F;td&gt;&lt;td&gt;充能三叉戟移出前释放&lt;&#x2F;td&gt;&lt;td&gt;原版bug，至今活跃&lt;&#x2F;td&gt;&lt;td&gt;未补（2025活跃）&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;dupe周期遵循&lt;code&gt;发现—泄露—利用—补丁&lt;&#x2F;code&gt;规律进行发展，与符号资本主义的combos过程&lt;code&gt;攻击—常量—修正—受击&lt;&#x2F;code&gt;类似，但过程的原因和后果更加复杂化，dupe周期是无政府公会赖以生存的基础。由此可见，公会不仅需要传销渠道，还需要信息渠道调查漏洞，因此，抛开公会需要承担的法律责任不谈，假定2b2t目前还有一个超过50人的公会，长期在线的会员达25人，那么它的月耗资要远超一个普通反作弊练习服，这里的耗资包括新人的优先阵列费、黑客端订阅费、dupe渠道费，无政府公会要占有的是一个远比反作弊服务器更大的黑箱，并且它有在dupe经济危机时期维持现状并保障会员的职能，而反作弊服务器如果遇到符号危机时则可选择通过扩大kb重构等手段续命。&lt;&#x2F;p&gt;
+&lt;p&gt;因此，尽管公会会员没有人身自由，但他们能够占有一定份额的平均利润，公会征收的只是约定俗成的剩余产品，如果领地坐标和机密dupe被会员泄漏，其他的公会能从中受益，会员甚至还可以将自己出售的信息提现，而符号无产者唯一能卖出的只有自己的ms账户，没有了ms账户他就失去了一切游戏权利，符号无产者在反作弊服务器下遭受的压榨远高于无政府服务器，公会没有固定的工时，并且成员的权益受到保障。乍一看，似乎符号无产者只要遵守无政府原则，就能使他们重获新生，但这是完全不现实的，&lt;strong&gt;反作弊服务器本身就是从无政府状态的公会中脱胎出来的，它是无政府劣根性发展的必然结果，迄今为止要解放玩家，没有比集体pvp更能走得通的道路。&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;fan-zuo-bi-di-zu-xing-shi&quot;&gt;反作弊地租形式&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;ji-chai-di-zu-xing-shi&quot;&gt;极差地租形式&lt;&#x2F;h3&gt;
+&lt;p&gt;反作弊服务器的地租直接建立在云服务器的运维成本之上，玩家对地租的交付逐渐由直接生产转变为间接生产。在分析地租时，马克思《资本论》以瀑布和蒸汽机为例，论证资本家使用瀑布作为自然力不去参与社会的利润平均化竞争的优势，从而，这些使用瀑布的资本家获取了超额利润，而瀑布又因其经营地位形成了垄断资本，但未占据主导。在这里，我们可以换个条件，将使用瀑布的资本家替换为使用分布式服务器的反作弊服，而将使用蒸汽机器的资本家替换为传统云服务器的反作弊服，前者不参与社会的利润平均化竞争。他们的rank平均售出价格，等于他们的生产价格。&lt;&#x2F;p&gt;
+&lt;p&gt;为了表明地租这个一般的性质，我们假定，亚太地区的绝大多数反作弊服都是由云服务器驱动的，少数由分布服务器驱动。我们可以假定，在这些反作弊服，一个耗费100资本的rank值的生产价格是按115计算的。15%的利润，不是仅仅按已经耗费的资本100计算的，而是按这个rank价值生产上曾经使用的总资本计算的。前面已经指出，这个生产价格不是由每个从事生产的符号资本家的个别成本价格决定的，而是由整个反作弊生态在资本平均条件下生产这种rank平均耗费的成本价格决定的。这实际上是市场生产价格，是那种和它的各种变动相区别的平均市场价格。商品价值的性质，——即价值不是由某个玩家个人生产一定量rank或某个rank所必要的战斗时间决定，而是由战斗必要持续时间，由当时服务器平均战斗条件下生产市场上这种rank的战斗必需总量所必要的战斗时间决定，——一般说来是在市场价格的形式上，进一步说，就是在起调节作用的市场价格或市场生产价格的形式上表现出来的。&lt;&#x2F;p&gt;
+&lt;p&gt;因为一定的数字比例在这里完全没有关系，所以我们要再假定，用分布技术推动的服务器的成本价格只是90，而不是100。因为这个rank量的调节市场的生产价格＝115，其中有利润15％，所以靠分布式技术来服务器的服主，同样会按115，也就是按调节市场价格的平均价格出售。因此，他们的利润是25，而不是15；起调节作用的生产价格所以会允许他们赚到10％的超额利润，并不是因为他们高于生产价格出售他们的rank，而是因为他们按照生产价格出售他们的商品，因为他们的商品是在特别有利的条件下，即在高于这个部门占统治地位的平均水平的条件下生产出来的，或者说，因为他们的服务器是在这种特别有利的条件下执行职能的。&lt;&#x2F;p&gt;
+&lt;p&gt;这时，我们就考察出了一个问题，云服务器本身就是劳动的产物，因而它需要租赁价值，而分布式服务器本身是每个玩家计算机分片的一部分，它不需要向租赁云服务器那样支付一定额度的带宽，而玩家的计算机网络本身就是一种自然形成的生产要素，因此它不需要玩家的任何劳动。因为一定的数字比例在这里完全没有关系，所以我们要再假定，用分布驱动的服务器的成本价格只是90，而不是100。因为这个rank的调节市场的生产价格＝115，其中有利润15％，所以靠分布技术来推动服务器的服主，同样会按115，也就是按调节市场价格的平均价格出售rank。因此，他们的利润是25，而不是15。其中包含差额10%，而这10%的差额，我们称之为超额利润。&lt;&#x2F;p&gt;
+&lt;p&gt;这一点表现为分布式驱动的rank的成本价格较小。他只需为较少的物化劳动支付代价，也只需为所使用的较少的玩家，支付较少的elo。因为他的rank的成本价格较小，所以他的个别生产价格也较小。对他来说，成本价格是90，不是100。所以，他的个别生产价格也只是103+（1&#x2F;2），不是115（100∶115＝90∶103+（1&#x2F;2）。他的个别生产价格和一般生产价格之间的差额，以他的个别成本价格和一般成本价格之间的差额为界限。这是构成他的超额利润的界限的数量之一。另一个数量则是一般生产价格的大小，而参加形成一般生产价格的，有作为调节因素之一的一般利润率。如果云服务变得便宜了，他的个别成本价格和一般成本价格之间的差额就会缩小，因此他的超额利润也会减少。&lt;&#x2F;p&gt;
+&lt;p&gt;分布式服务生产rank价格和分布式服务本身的地租没有任何关系，我们要明确，分布式服务插件开发商把服务卖给服主本人所得的价格，虽然会追加到服主的个别rank价格身上，但不会追加到rank生产价格身上，因为这里，地租产生于云服务器生产或同种rank的生产价格，这种价格和分布式服务本身没有关系，其次，分布式服务的这个价格，完全是一个不合理的表现，在它背后隐藏着一种现实的经济关系。分布式服务和普通服务器一样，没有价值，因为它本身中没有任何物化战斗，因而也没有价格，价格通常不外是用货币来表现的价值。&lt;&#x2F;p&gt;
+&lt;p&gt;在没有价值的地方，也就没有什么东西可以用货币来表现。这种价格不外是资本化的地租。如果分布式服务的利用对服主提供的超额利润是每年10RMB，平均利息为5％，那末，这10RMB每年就代表200RMB资本的利息；分布式服务使它的所有者每年能够从服主那里占有的10RMB的这种资本化，也就表现为分布式服务本身的资本价值。分布式服务本身没有价值，而它的价格是所占超额利润的单纯反映这一点，用符号资本主义的方式计算，立即表现为，200RMB的价格只是10RMB超额利润和二十年的乘积，尽管在其他条件不变的情况下，同一个分布式服务使它的所有者能够在一个不定的时期内，比如说，三十年内，一百年内，或x年内，每年获得这个10RMB。而另一方面，如果有一种新的不用分布驱动的生产方法，使那些用云服务器的rank的成本价格由100RMB减低到90RMB，那末，超额利润，从而地租，从而分布式服务的价格就会消失。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ji-chai-di-zu-l&quot;&gt;极差地租l&lt;&#x2F;h3&gt;
+&lt;p&gt;我们假设现在存在两个反作弊服务器，它们都托管在250GB的云服务上，并且使用同一个运营商，同一个机房，这时候，它就作为两个等量资本和战斗的差额展现出来。如果两个等量资本和玩家在等量土地上，这个超额利润就转化为地租。此外，这种超额利润，并不是无条件地必须由所用资本量相等而结果不同的情况产生。在不同的投资中，也可以使用不等量的资本；这种现象在大多数情况下甚至是前提；但相等的比例部分，例如每笔投资中的100RMB，会产生不同的结果；也就是说，利润率不同。这是超额利润在任何一个投资部门能够存在的一般前提。其次是这种超额利润到地租形式（一般说就是租金，一种和利润不同的形式）的转化；这种转化在什么时候发生，怎样发生，在什么情况下发生，总是我们必须研究的问题。&lt;&#x2F;p&gt;
+&lt;p&gt;符号资本主义占领了服务器之后，原有的无政府自耕农转为了符号无产者，实际上是这种生产方式的最后一次征服，所以这些不平衡，在这里，比在任何其他产业部门都大。我们需要首先考察等量资本在各级服务器上使用产生的不同结果，或者，在服务器大小不等时，考察按同样大小的服务器计算的结果。这些不同的结果，是由下面两个和资本无关的一般原因造成的：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;算力，服务器的算力代表一个服务器的GPU处理能力和CPU核心&#x2F;线程数。&lt;&#x2F;li&gt;
+&lt;li&gt;位置，决定一个服务器在不同地理位置的延迟，并且一般来说，VPS供应商会要求服主选择不同位置机房的ip。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;这两种因素可能起到相反的作用，一台服务器算力可能很好，但位置可能延迟很高，反之亦然。其次，该服务器安装的操作系统也很重要，服主可能根据自己的偏好选择自己顺手的操作系统，操作系统直接决定了服务器的安全性，如果一个系统更新缓慢或不稳定，都可能造成大碍。抛开这些原因不说，我们如果只考察服务器本身的价位，可以进行如下假设：&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;假设有四级服务器ABCD，再假设1GB=1RMB。&lt;&#x2F;li&gt;
+&lt;li&gt;因为这里的地租还是极差地租，所以每1RMB就是生产费用。&lt;&#x2F;li&gt;
+&lt;li&gt;假定A是这种最坏土地。它由0.8RMB的支出，生产了1GB＝1RMB；因此利润是0.2RMB，或20%。&lt;&#x2F;li&gt;
+&lt;li&gt;假定B由等额的支出，生产了2GB＝2RMB。这就提供了1.2RMB的利润，或者说，1RMB的超额利润。&lt;&#x2F;li&gt;
+&lt;li&gt;假定C由等额的支出，生产了3GB＝3RMB；总利润=2.2RMB，超额利润=2RMB。&lt;&#x2F;li&gt;
+&lt;li&gt;假定D生产了4GB＝4RMB，超额利润就是3RMB。&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;这样，我们就有了如下的序列：&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;云等级&lt;&#x2F;th&gt;&lt;th&gt;产量RMB&#x2F;GB&lt;&#x2F;th&gt;&lt;th&gt;预付&lt;&#x2F;th&gt;&lt;th&gt;利润RMB&#x2F;GB&lt;&#x2F;th&gt;&lt;th&gt;地租RMB&#x2F;GB&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;A&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;50&lt;&#x2F;td&gt;&lt;td&gt;1&#x2F;1&lt;&#x2F;td&gt;&lt;td&gt;——&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;50&lt;&#x2F;td&gt;&lt;td&gt;1 1&#x2F;1&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;C&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;50&lt;&#x2F;td&gt;&lt;td&gt;2 1&#x2F;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;D&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;50&lt;&#x2F;td&gt;&lt;td&gt;3 1&#x2F;1&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;合计&lt;&#x2F;td&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;——&lt;&#x2F;td&gt;&lt;td&gt;——&lt;&#x2F;td&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;ji-chai-di-zu-ii&quot;&gt;极差地租II&lt;&#x2F;h3&gt;
+&lt;p&gt;这个研究，将论证在极差地租下投资在不同算力的服务器下具有不同生产率的效果，马克思《资本论》认为极差地租二型的主要特征是投资问题重于位置问题，而极差地租一型的主要特征是农业资本家为了节约成本，选择无地租的劣等地耕作。我们可以举例论证追加投资和集约化土地运作逻辑问题：假设现在有一台服务器被一个反作弊服主租赁，第一次投资，服主创造了100RMB产值，成本100RMB，第二次投资，增产80RMB，总产量180RMB，总成本200RMB，按照上述，马克思提出了极差地租ll总公式：&lt;&#x2F;p&gt;
+&lt;p&gt;$$
+D^{2}=GP - (C + c + Δc)(1+r)
+$$&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;D²：级差地租II&lt;&#x2F;li&gt;
+&lt;li&gt;GP：假定生产价格出售的总收入（Gesamtprodukt × Produktionspreis）&lt;&#x2F;li&gt;
+&lt;li&gt;C：不变资本&lt;&#x2F;li&gt;
+&lt;li&gt;c：可变资本（工资）&lt;&#x2F;li&gt;
+&lt;li&gt;Δc：追加的可变资本&lt;&#x2F;li&gt;
+&lt;li&gt;r：平均利润率&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;极差地租ll的产生是符号资本家价值取向的结果，如果一个符号资本家的玩家只来自特定国家，且对外延迟较高，那么他就需要选择极差地租ll。就拿中国服务器举例，一个符号资本家要在中国开一个练习服，而由于中国网络安全相关法律致使他必须定期进行ICP备案，因此他就不得不选择追加投资多个域名，并确保服务器在不同时期使用不同的镜像域名，这时候，他就必须选择集约化生产，而非像国际服务器MinemenClub那样部署多个不同质量的镜像节点的广延化生产，随着时间的推移，他就不得不采用资本密集型手段巩固服务器，比如推出kb级别的bot，不同kb配方等。然而这样做的效果必然有限，随着时间的推移，服务器因为玩家稀缺造成多个镜像站点关停，随着玩家的减少，rank价格战也不再有效，利润率逐渐呈现下降趋势。&lt;&#x2F;p&gt;
+&lt;p&gt;即便服务器这类服务器通常无法和劳动密集型服务器争夺人员，但它们在短期内可以获得一定超额利润，但不可避免的会造成边际递减趋势，或称利润率下降，优点在于，通过投入资本的方式避免了不确定因素的影响，可控性强。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;jue-dui-di-zu&quot;&gt;绝对地租&lt;&#x2F;h3&gt;
+&lt;p&gt;在本章节，我们必须对rank经济进行一个初步的认识，假设土地所有者即服务器运营商或服主垄断了服务器的收入来源，那么，每个玩家都必须交付排位地租，或者绝对地租，其次，这个服务器在推出rank增值服务时，个别增值服务是低于市场调节价格的，也就是说次级的排位，并非所有玩家都有预算购买master，因此，服务器推出这些服务是必要的。这些低价格排位换来超额利润，而这个利润必将为热门服务器专属，而冷门服务器由于其本身rank销售低下，且rank价格低，因此玩家只得选择较高段位的增值服务。&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>论战斗机制</title>
+        <published>2024-03-19T00:00:00+00:00</published>
+        <updated>2024-03-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://iannjh.github.io/zhan-dou-ji-zhi/"/>
+        <id>https://iannjh.github.io/zhan-dou-ji-zhi/</id>
+        
+        <content type="html" xml:base="https://iannjh.github.io/zhan-dou-ji-zhi/">&lt;h1 id=&quot;a-1-8-9zhan-dou-ji-zhi-de-ji-ben-wen-ti&quot;&gt;(a:1.8.9战斗机制的基本问题&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;you-xiao-ji-tui-he-ju-ti-shu-chu-gou-cheng&quot;&gt;有效击退和具体输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;要考察这个问题，我们需首先明确硬直期和击退的概念，一般情况下，玩家击退一个目标物会让这个目标物处于跳跃状态，这个过程里，即便物体在玩家的有效攻击范围内（有效攻击范围在为3格）进行输出，在这个过程中，目标物从被击退到落地的时间被称为硬直期，而游戏中1秒被判定为20gametick（即游戏刻），硬直期则是10gametick，在玩家击中目标物之后，目标物会被击退一格，因此，如果一个目标物和玩家的距离是0格，在玩家的一般输出伤害下，目标物会在有效攻击范围内只能被击退3次记作Reach=3，并且在硬直期下玩家若是对目标物输出，目标物将会受到比在硬直期之前更高的伤害，因此在这一过程中玩家是否击中目标对攻击伤害至关重要——cps越高意味着玩家会将目标物击退时受到的伤害越高且攻击间隔越小。我们将此输出称之为有效击退。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;10gt*3=Reach&#x2F;s&lt;&#x2F;strong&gt; &lt;strong&gt;Reach&#x2F;s=1.5ms&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;因此，有效击退=1.5ms，也就意味着Reach=30gt=1.5ms&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;comboji-tui-he-chou-xiang-shu-chu-gou-cheng&quot;&gt;combo击退和抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;combo击退与有效击退是截然不同的，我们需要首先知道，无论是adtap还是stap，在效能上都和wtap相同，adtap只是为了减少对刀的命中率，在发挥上是在wtap的基础上锦上添花，而stap只是为了提高combo的灵活性对wtap的改进。combo击退的本质是通过移动来完成攻击，但这个移动的先决条件是保持移动格数在刚好击退的边缘，因此我们如果要计算 1combos所需的时间便可以得出：&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;1b=20gt&#x2F;2&lt;&#x2F;strong&gt; &lt;strong&gt;1b=0.5ms=10gt&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;因此，完成一次combo击退的时间=10gametick&lt;&#x2F;p&gt;
+&lt;p&gt;我们开宗明义地指出，玩家击中目标物的先决条件绝不等于具体构成，而是一个相当抽象的输出构成，因此存在着许多变量，诸如cps和是否疾跑或服用迅捷药水等。玩家在使用锋利II木剑和一般击退有极大区别，击退II木剑只会在打出伤害之后延长击退与硬直期，但先决条件必须是击退和伤害高于来源（即第一次击退的构成），否则击退和伤害都不会高于不同木剑。同样，一个锋利II木剑可以提高一次攻击时打出的伤害，但若是要在硬直期内实现伤害增益，先决条件必须是伤害高于来源，否则同样伤害的情况下，硬直期内的输出伤害也不会高于普通木剑。这就是综合不平衡原理的体现。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;10gt+X=Y+dN&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这个方程就很好的体现了变量在来源与击退的综合不平衡原理中起到的作用&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;b-1-8-9ju-ti-shu-chu-gou-cheng-yao-su&quot;&gt;(b:1.8.9具体输出构成要素&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;cps&quot;&gt;cps&lt;&#x2F;h3&gt;
+&lt;p&gt;即使cps代表一定伤害的输出速度，在cps上升的过程中，攻击间隔逐渐下降，游戏通常会在玩家放置方块并按下右键时只能构成一定cps，玩家若是要提高放置速度，就必须采取高于来源的措施，否则放置效率会远低于游戏自带的autoclick输出，这种情况下，放置和破坏两种输出的平衡就替换了不平衡。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bu-shu-dan-yao-yu-pen-jian&quot;&gt;部署弹药与喷溅&lt;&#x2F;h3&gt;
+&lt;p&gt;考察这个问题我们只能把抽象问题简化考虑，部署喷溅药水的先决条件是按下shift键然后进行鼠标单击选择需要部署的物品的操作，由于这些物品会被传送到物品栏，因而物品栏是否为闲置就至关重要，在potpvp模式中，对手通常会使用将食物丢弃的方法阻止玩家迂回，这样可以填充玩家准备部署的物品栏，拖延玩家部署弹药的时间从而构成一种对抗。而喷溅则是更加考验玩家的作战水准，玩家必须确保喷溅药水处于在疾跑时的前向60度角，走动时的45度角，以及站立时的20度角，出现偏差或者在攻击状态下喷溅，且喷溅有效距离必须为1～4格，距离越远效果越小，每隔一格下降25%。&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;c-wei-ruan-zhu-yi-zhe-de-bian-hu&quot;&gt;(c:微软主义者的辩护&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;zhan-dou-geng-xin-hou-de-gong-ji-tiao-jian-duo-yang&quot;&gt;战斗更新后的攻击条件多样？&lt;&#x2F;h3&gt;
+&lt;p&gt;微软主义者不屑于隐瞒他们所谓的理论科学性，而是更善于去证实他们对疯狂敲击鼠标左键，使用防砍减小伤害，的低劣性的所谓考察。我们更应该仔细思虑，如果横扫攻击的冷却时间延长，那对手就可以在这之前做好防御准备，即便我们不将此称为回合制，那也应该是将抽象输出构成具体化，越是具体化的输出构成，在量级意义上而言，就更加简化而不是更有科学性，我们需要至少在科学性上否定微软主义者们的观点。&lt;&#x2F;p&gt;
+&lt;p&gt;谈到三个要素就必然提到攻击速度，伤害倍率，冷却时间，这三者的关系仅仅靠的是算法，和战斗更新之前的综合不平衡原理截然不同，它不再强调具体输出构成和抽象输出构成的辩证关系，而是将之加以机械性，如果必须要揭露其数学魔术的面纱，就必须考虑这三个概念的关联性。首先攻击速度决定冷却时间，冷却时间的计算公式是：T=1&#x2F;cps，也就说假设攻击速度为11cps，那么冷却时间就是T≈1.8gt或0.09ms。在旧版本里，如果在10gt的硬直期里打出了超出来源20%伤害的暴击，那么这个超出来源的伤害就是：&lt;strong&gt;X&#x27;=Y&#x27;-N&lt;&#x2F;strong&gt;。而在战斗更新后，伤害倍率被限制在0.2～1区间内，而剑攻击冷却时间为0.625s，冷却时间被彻底喷溅化，这样的改进使战斗机制更加接近部署弹药和填充弹药。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;da-dao-hui-he-zhi-bao-wei-pvp&quot;&gt;打倒回合制！保卫PVP！&lt;&#x2F;h3&gt;
+&lt;p&gt;抽象输出构成和具体输出构成的关系在接近——这意味着微软美帝国主义强盗集团无时无刻地蚕食着伟大开源自由的沙盒游戏我的世界，但胜利必然属于pvp玩家和mod插件开发者们！&lt;&#x2F;p&gt;
+&lt;p&gt;2024&#x2F;03&#x2F;19
+写于陕西西安&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;d-shu-chu-gou-cheng-fang-cheng&quot;&gt;(d:输出构成方程&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;you-xiao-shu-chu-gou-cheng-zeng-yi&quot;&gt;有效输出构成增益&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;1ba0a342-1de0-4046-ade7-895ac6e0a501&quot; alt=&quot;kk&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;自玩家坐标（Coordinates）开始输出，会出现两条向量，一种为有效输出构成，也称具体输出构成。一种则是抽象输出构成，也称combos，正如上文所说，根据更高替换原则，因为玩家向目标物打出伤害时，硬直期玩家受到的伤害比来源高，所以在有效击退范内每当玩家在完全不间断的情况下对距离玩家坐标为1的目标物输出伤害，硬直期便可以连续两次，也就是在20gt之内对目标物输出的伤害增益两次。&lt;&#x2F;p&gt;
+&lt;p&gt;根据方程具体体现我们可以得知一个定则，即无论抽象输出构成为何，具体输出构成对抽象输出构成的影响至少占总和的1&#x2F;3。因此，即便我们不知道要从何对抽象输出构成展开研究，至少也要明白这个决定性因素。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dui-combosde-xiang-liang-ying-xiang&quot;&gt;对combos的向量影响&lt;&#x2F;h3&gt;
+&lt;p&gt;根据此模型出发，我们根本无法掌握客观上具体的抽象输出的向量起点，因此这也成为了一切不定输出构成的先决条件————每当玩家打出伤害一次并前进一格时，就能体现出有效输出构成的影响，即玩家打出输出构成的具体击退，也就是kb。这也成为了每个minecraft pvp服务器自己的kb唯一决定性因素，所以，一个minecraft pvp对原生战斗机制能且只能修改影响输出构成的1&#x2F;3。&lt;&#x2F;p&gt;
+&lt;p&gt;因为这些影响无论如何都不足以改进整个战斗机制，所以整个战斗机制的叙事体系仍旧掌握在微软当局手里，这就是为什么一个服务器做得再好，都绕不开游戏本身战斗机制局限性影响的因素。然而因为微软本就掌握2&#x2F;3的输出战斗机制的绝对决定权，因而战斗更新就对minecraft造成了2&#x2F;3的破坏。&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;xing-shi-shang-de-chou-xiang-shu-chu-gou-cheng&quot;&gt;形式上的抽象输出构成&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;jumprest&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;毫无疑问，跳跃重置对于战斗更新之后的高版本pvp来说是一种缺陷，由于剑这种武器在战斗更新之后出现了抽象输出构成增益，攻击延迟由原来的无间隔变成了0.625~1.6ms，因此玩家可以利用被击中的延迟增加对手kb从而让对手无法在攻击间隔再次击中目标，然而为了提高伤害则不得不用使用斧头这一种办法。记作：&lt;&#x2F;p&gt;
+&lt;p&gt;jr=(20gt+kb&#x2F;s)*kb&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;shifttap&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;这种手段使得玩家更容易在Sprint和Sneaking中切换，但在高版本中由于攻击间隔的原因失去了其使用价值。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;staticg.sportskeeda.com&#x2F;editor&#x2F;2022&#x2F;11&#x2F;dc12b-16687505325145-1920.jpg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
