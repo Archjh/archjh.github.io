@@ -1,6 +1,6 @@
 base_url = "https://iannjh.github.io"
 compile_sass = true
-title = "Archjh Blog's"
+title = "iannjh Blog's"
 description = "A robust, elegant dark theme"
 generate_feeds = true
 
